@@ -1,7 +1,7 @@
 {
  "formatVersion": 1,
  "name": "Aero Arcana",
- "version": "2026.11.19-2123",
+ "version": "2026.11.19-2125",
  "minecraft": "1.21.1",
  "neoforge": "21.1.266",
  "server": {
@@ -4005,8 +4005,8 @@
  ],
  "fixes": [],
  "launcher": {
-  "version": "1.0.2",
-  "sha256": "4ac9d687647d4ece6b3fe34c5d7db54f737f7aeb86959328ffa11d1ca5b706a1",
-  "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/v1.0.2/AeroArcana.exe"
+  "version": "1.0.3",
+  "sha256": "4549a90f45498bc7ecc9dbf86ed1fd7fb844a270b448532920702256f477b75b",
+  "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/v1.0.3/AeroArcana.exe"
  }
 }

@@ -111,7 +111,7 @@ class Api:
 
     def _emit(self, event, payload):
         if self._window:
-            self._window.evaluate_js(f"window.onLauncher({json.dumps(event)}, {json.dumps(payload, ensure_ascii=False)})")
+            self._window.evaluate_js(f"window.onLauncher({json.dumps(event)}, {json.dumps(payload, ensure_ascii=True)})")
 
     def _progress(self, stage, frac, text):
         self._emit("progress", {"stage": stage, "frac": frac, "text": text})
