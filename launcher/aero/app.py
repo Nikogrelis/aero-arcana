@@ -66,6 +66,15 @@ class Api:
     def status(self):
         return core.server_status("51.75.74.159", 25501)
 
+    def save_settings(self, nick, ram, join):
+        """Called on every change in the form, so the nick survives even without pressing Play."""
+        nick = (nick or "").strip()[:16]
+        if nick and not NICK_RE.match(nick):
+            nick = self._state.settings.get("nick", "")   # keep the last valid nick
+        self._state.settings.update({"nick": nick, "ram": int(ram), "join": bool(join)})
+        self._state.save()
+        return True
+
     def open_folder(self, which="game"):
         path = core.GAME if which == "game" else core.ROOT / "logs"
         path.mkdir(parents=True, exist_ok=True)

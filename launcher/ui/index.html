@@ -196,6 +196,11 @@ window.addEventListener('pywebviewready', async () => {
 });
 
 $('ram').addEventListener('input', e => $('ramV').textContent = e.target.value + ' ГБ');
+let saveT;
+const saveSettings = () => { clearTimeout(saveT); saveT = setTimeout(() => api().save_settings($('nick').value.trim(), +$('ram').value, $('join').checked), 400); };
+['input', 'change'].forEach(ev => ['nick', 'ram', 'join'].forEach(id => $(id).addEventListener(ev, saveSettings)));
+$('nick').addEventListener('blur', saveSettings);
+window.addEventListener('beforeunload', () => api().save_settings($('nick').value.trim(), +$('ram').value, $('join').checked));
 $('nick').addEventListener('keydown', e => { if (e.key === 'Enter') $('play').click(); });
 $('reinst').addEventListener('click', async () => { await api().reinstall(); $('reinst').textContent = 'Проверю при запуске ✓'; });
 $('play').addEventListener('click', async () => {
