@@ -108,6 +108,13 @@ class Api:
                 os._exit(0)
         except Exception as e:
             core.log.warning("self-update check failed: %s", e)
+        try:
+            r = crash.report_pending(self._state)
+            if r:
+                self._emit("error", {"text": "Прошлая игра вылетела. " + r["hint"] + ("
+Отчёт отправлен владельцу." if r["sent"] else "")})
+        except Exception as e:
+            core.log.warning("pending crash report failed: %s", e)
 
     def _emit(self, event, payload):
         if self._window:
@@ -130,6 +137,8 @@ class Api:
                 if self._window:
                     self._window.minimize()
             t0 = time.time()
+            self._state.data["last_game_start"] = t0
+            self._state.save()
             code = core.start_game(idx, nick, ram, self._progress, started, join)
             core.log.info("game exited with %s", code)
             if self._window:
@@ -138,6 +147,8 @@ class Api:
             if crash.is_crash(code, t0):
                 self._progress("report", None, "Игра вылетела — отправляю отчёт…")
                 r = crash.report(nick, code, t0, idx["version"])
+                self._state.data["last_game_reported"] = t0
+                self._state.save()
                 info.update({"crash": True, "hint": r["hint"], "sent": r["sent"]})
             self._emit("exited", info)
         except Exception as e:

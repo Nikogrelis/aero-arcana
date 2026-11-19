@@ -1,1 +1,5 @@
-[]
+[
+ {"id": "atmospherics-wave-render-off-2026-11-19",
+  "comment": "Create Atmospherics 2.0.0 OceanWaveRenderer.updateCoarse crashes the GL driver (EXCEPTION_ACCESS_VIOLATION in glTexSubImage2D, AMD Radeon 760M). Turn the visual waves off; players may turn them back on in the mod config.",
+  "op": "set", "path": "config/aeronauticswinds-client.toml", "values": {"waterWaves": false}}
+]

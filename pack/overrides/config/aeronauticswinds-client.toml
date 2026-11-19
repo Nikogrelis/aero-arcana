@@ -64,7 +64,7 @@
 
 [ocean]
 	#Draw the waves on the water itself, shader packs included.
-	waterWaves = true
+	waterWaves = false
 	#How much of the wave height a shader pack's water gets, in percent. Lower it if the pack's own waves pile up on ours; 0 leaves the pack's water flat.
 	# Default: 100
 	# Range: 0 ~ 100

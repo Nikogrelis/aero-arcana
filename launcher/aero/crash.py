@@ -20,6 +20,8 @@ USER_RE = re.compile(r"(?i)([A-Z]:[\\/]+Users[\\/]+)([^\\/\s\"']+)")
 
 # Known causes -> short Russian hint for the player and the owner.
 HINTS = [
+    (re.compile(r"OceanWaveRenderer", re.I),
+     "Вылет рендера волн Create: Atmospherics. Волны отключены исправлением сборки — просто запустите игру снова."),
     (re.compile(r"Creating pipeline for dimension|iris.*shader|ShaderCompile|glsl", re.I),
      "Похоже на шейдеры (Iris). Выключите шейдеры: Настройки → Графика → Пакеты шейдеров."),
     (re.compile(r"OutOfMemoryError|Java heap space|Could not reserve enough space", re.I),
@@ -107,6 +109,20 @@ def report(nick: str, code: int, started_at: float, pack_version: str, error: st
         summary["sent"] = False
     (core.ROOT / "logs" / "last-crash.json").write_text(json.dumps(summary, ensure_ascii=False, indent=1), encoding="utf-8")
     return summary
+
+
+def report_pending(st: "core.State") -> dict | None:
+    """Report a crash that happened while the launcher was closed (player closed it during the game)."""
+    started = st.data.get("last_game_start")
+    if not started or st.data.get("last_game_reported") == started:
+        return None
+    files = collect(started)
+    if "crash-report" not in files and "jvm-crash" not in files:
+        return None
+    r = report(st.settings.get("nick", "?"), -2, started, st.data.get("pack_version", "?"))
+    st.data["last_game_reported"] = started
+    st.save()
+    return r
 
 
 def gpu_info() -> str:

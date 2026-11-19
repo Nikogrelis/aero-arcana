@@ -1,7 +1,7 @@
 {
  "formatVersion": 1,
  "name": "Aero Arcana",
- "version": "2026.11.19-2125",
+ "version": "2026.11.19-2206",
  "minecraft": "1.21.1",
  "neoforge": "21.1.266",
  "server": {
@@ -1701,8 +1701,8 @@
   {
    "path": "config/aeronauticswinds-client.toml",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeronauticswinds-client.toml",
-   "sha1": "e3da40bbaa65daee25c18886b6fb72c774575794",
-   "size": 10984,
+   "sha1": "2538dc6bb303a96e3433efacce6a197dba39f2fb",
+   "size": 10736,
    "kind": "config",
    "policy": "keep-modified"
   },
@@ -4003,10 +4003,20 @@
    "policy": "keep-modified"
   }
  ],
- "fixes": [],
+ "fixes": [
+  {
+   "id": "atmospherics-wave-render-off-2026-11-19",
+   "comment": "Create Atmospherics 2.0.0 OceanWaveRenderer.updateCoarse crashes the GL driver (EXCEPTION_ACCESS_VIOLATION in glTexSubImage2D, AMD Radeon 760M). Turn the visual waves off; players may turn them back on in the mod config.",
+   "op": "set",
+   "path": "config/aeronauticswinds-client.toml",
+   "values": {
+    "waterWaves": false
+   }
+  }
+ ],
  "launcher": {
-  "version": "1.0.3",
-  "sha256": "4549a90f45498bc7ecc9dbf86ed1fd7fb844a270b448532920702256f477b75b",
-  "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/v1.0.3/AeroArcana.exe"
+  "version": "1.0.4",
+  "sha256": "276d6aee2277b40dbcd614d1bfbe30afbcf4178f1b959c070234489baa68bce3",
+  "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/v1.0.4/AeroArcana.exe"
  }
 }
