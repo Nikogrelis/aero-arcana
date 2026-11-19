@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Aero Arcana</title>
+<style>
+  @font-face { font-family: "Philosopher"; src: url("assets/Philosopher-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Philosopher"; src: url("assets/Philosopher-Bold.ttf"); font-weight: 700; }
+  :root {
+    --bg: #0b0d16;
+    --panel: rgba(16, 13, 34, 0.72);
+    --line: rgba(227, 169, 75, 0.28);
+    --gold: #e7b05a;
+    --gold-2: #ffd58e;
+    --brass: #b8792f;
+    --arcane: #8fb4ff;
+    --violet: #9a7bff;
+    --text: #f1eadb;
+    --muted: #b9b0c9;
+    --ok: #7be0a0;
+    --bad: #ff8a7a;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: var(--bg); color: var(--text);
+    font-family: "Segoe UI", system-ui, sans-serif; user-select: none; }
+  .scene { position: fixed; inset: 0; background: url("assets/bg.jpg") center right / cover no-repeat; }
+  .scene::after { content: ""; position: absolute; inset: 0;
+    background: linear-gradient(90deg, rgba(9,8,20,.92) 0%, rgba(9,8,20,.75) 30%, rgba(9,8,20,.15) 55%, rgba(9,8,20,0) 70%),
+                linear-gradient(0deg, rgba(9,8,20,.75) 0%, rgba(9,8,20,0) 30%); }
+  .sparks { position: fixed; inset: 0; pointer-events: none; }
+
+  .panel { position: absolute; left: 44px; top: 40px; bottom: 40px; width: 380px; display: flex; flex-direction: column; gap: 18px; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .brand img { width: 74px; height: 74px; filter: drop-shadow(0 0 18px rgba(154,123,255,.55)); animation: spin 40s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .brand h1 { font-family: "Philosopher", serif; font-weight: 700; font-size: 38px; letter-spacing: .14em; margin: 0; line-height: 1;
+    background: linear-gradient(180deg, var(--gold-2), var(--gold) 55%, var(--brass)); -webkit-background-clip: text; color: transparent;
+    text-shadow: 0 2px 18px rgba(231,176,90,.25); }
+  .brand small { display: block; font-family: "Philosopher", serif; color: var(--muted); letter-spacing: .3em; font-size: 12px; margin-top: 6px; }
+
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px;
+    backdrop-filter: blur(10px); box-shadow: 0 10px 40px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.04); }
+  .server { display: flex; align-items: center; gap: 12px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #666; box-shadow: 0 0 0 4px rgba(255,255,255,.04); }
+  .dot.on { background: var(--ok); box-shadow: 0 0 12px var(--ok); }
+  .dot.off { background: var(--bad); }
+  .server .t { font-size: 14px; } .server .s { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+  label.f { display: block; font-size: 12px; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin: 2px 0 6px; }
+  input[type=text] { width: 100%; padding: 12px 14px; border-radius: 10px; border: 1px solid rgba(143,180,255,.25);
+    background: rgba(8,8,20,.65); color: var(--text); font-size: 16px; outline: none; transition: border .2s, box-shadow .2s; user-select: text; }
+  input[type=text]:focus { border-color: var(--arcane); box-shadow: 0 0 0 3px rgba(143,180,255,.15); }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
+  input[type=range] { flex: 1; accent-color: var(--gold); }
+  .ram { font-variant-numeric: tabular-nums; min-width: 52px; text-align: right; color: var(--gold-2); }
+  .check { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--text); margin-top: 14px; cursor: pointer; }
+  .check input { accent-color: var(--gold); width: 16px; height: 16px; }
+
+  .play { position: relative; width: 100%; height: 64px; border: 0; border-radius: 14px; cursor: pointer; overflow: hidden;
+    font-family: "Philosopher", serif; font-weight: 700; font-size: 24px; letter-spacing: .2em; color: #2a1606;
+    background: linear-gradient(180deg, #ffe0a3, var(--gold) 45%, var(--brass)); box-shadow: 0 8px 30px rgba(231,176,90,.35), inset 0 1px 0 rgba(255,255,255,.6);
+    transition: transform .08s, filter .2s; }
+  .play:hover { filter: brightness(1.07); } .play:active { transform: translateY(1px); }
+  .play::after { content: ""; position: absolute; top: 0; left: -60%; width: 40%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.5), transparent); transform: skewX(-20deg); animation: shine 4.5s ease-in-out infinite; }
+  @keyframes shine { 0%, 70% { left: -60%; } 100% { left: 130%; } }
+  .play[disabled] { cursor: default; filter: saturate(.4) brightness(.8); }
+  .play[disabled]::after { display: none; }
+
+  .progress { display: none; }
+  .progress.show { display: block; }
+  .bar { height: 8px; border-radius: 99px; background: rgba(255,255,255,.08); overflow: hidden; }
+  .bar i { display: block; height: 100%; width: 0; border-radius: 99px; transition: width .25s;
+    background: linear-gradient(90deg, var(--violet), var(--arcane)); box-shadow: 0 0 14px rgba(143,180,255,.7); }
+  .bar.indef i { width: 35% !important; animation: indef 1.3s ease-in-out infinite; }
+  @keyframes indef { from { margin-left: -35%; } to { margin-left: 100%; } }
+  .ptext { font-size: 13px; color: var(--muted); margin-top: 8px; min-height: 18px; }
+  .error { display: none; color: var(--bad); font-size: 13px; white-space: pre-wrap; margin-top: 8px; user-select: text; }
+
+  .foot { margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; font-size: 12px; color: var(--muted); }
+  .link { background: none; border: 1px solid rgba(255,255,255,.12); color: var(--muted); border-radius: 8px; padding: 6px 10px;
+    cursor: pointer; font-size: 12px; transition: color .2s, border-color .2s; }
+  .link:hover { color: var(--text); border-color: var(--line); }
+  .ver { margin-left: auto; opacity: .7; }
+
+  .news { position: absolute; right: 36px; bottom: 36px; width: 360px; max-height: 46%; overflow: auto; }
+  .news h3 { font-family: "Philosopher", serif; margin: 0 0 8px; color: var(--gold-2); letter-spacing: .08em; font-size: 18px; }
+  .news .body { font-size: 13px; line-height: 1.5; color: var(--text); user-select: text; }
+  .news .body h4 { margin: 12px 0 4px; color: var(--arcane); font-size: 13px; letter-spacing: .05em; }
+  .news .body ul { margin: 4px 0; padding-left: 18px; }
+  .news::-webkit-scrollbar { width: 6px; } .news::-webkit-scrollbar-thumb { background: var(--line); border-radius: 6px; }
+</style>
+</head>
+<body>
+<div class="scene"></div>
+<canvas class="sparks" id="sparks"></canvas>
+
+<div class="panel">
+  <div class="brand">
+    <img src="assets/emblem.png" alt="">
+    <div><h1>AERO&nbsp;ARCANA</h1><small>MINECRAFT 1.21.1 · NEOFORGE</small></div>
+  </div>
+
+  <div class="card server">
+    <div class="dot" id="dot"></div>
+    <div><div class="t" id="srvT">Сервер Aero Arcana</div><div class="s" id="srvS">проверка…</div></div>
+  </div>
+
+  <div class="card">
+    <label class="f" for="nick">Ник в игре</label>
+    <input type="text" id="nick" maxlength="16" placeholder="Например, Hidan" spellcheck="false" autocomplete="off">
+    <div class="row">
+      <label class="f" style="margin:0">Память</label>
+      <input type="range" id="ram" min="4" max="16" step="1">
+      <span class="ram" id="ramV">8 ГБ</span>
+    </div>
+    <label class="check"><input type="checkbox" id="join"> Сразу зайти на сервер</label>
+  </div>
+
+  <div>
+    <button class="play" id="play">ИГРАТЬ</button>
+    <div class="progress" id="prog"><div style="height:12px"></div><div class="bar" id="bar"><i id="barI"></i></div><div class="ptext" id="ptext"></div></div>
+    <div class="error" id="err"></div>
+  </div>
+
+  <div class="foot">
+    <button class="link" onclick="api().open_folder('game')">Папка игры</button>
+    <button class="link" onclick="api().open_folder('logs')">Логи</button>
+    <button class="link" id="reinst" title="Заново сверить все файлы сборки при следующем запуске">Проверить файлы</button>
+    <span class="ver" id="ver"></span>
+  </div>
+</div>
+
+<div class="card news" id="news" style="display:none"><h3>Новости сборки</h3><div class="body" id="newsBody"></div></div>
+
+<script>
+const $ = id => document.getElementById(id);
+const api = () => window.pywebview.api;
+
+function md(text) {          // tiny markdown: ## headers, - lists, **bold**
+  const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  let html = '', inList = false;
+  for (const raw of text.split(/\r?\n/)) {
+    const l = esc(raw).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+    if (/^#{1,3}\s/.test(raw)) { if (inList) { html += '</ul>'; inList = false; } if (!/^#\s/.test(raw)) html += `<h4>${l.replace(/^#+\s/, '')}</h4>`; }
+    else if (/^\s*-\s/.test(raw)) { if (!inList) { html += '<ul>'; inList = true; } html += `<li>${l.replace(/^\s*-\s/, '')}</li>`; }
+    else if (raw.trim()) { if (inList) { html += '</ul>'; inList = false; } html += `<p>${l}</p>`; }
+  }
+  return html + (inList ? '</ul>' : '');
+}
+
+function setBusy(b) { $('play').disabled = b; $('nick').disabled = b; $('ram').disabled = b; $('prog').classList.toggle('show', b); }
+
+window.onLauncher = (ev, p) => {
+  if (ev === 'progress') {
+    $('ptext').textContent = p.text;
+    const indef = p.frac === null || p.frac === undefined;
+    $('bar').classList.toggle('indef', indef);
+    if (!indef) $('barI').style.width = (p.frac * 100).toFixed(1) + '%';
+  } else if (ev === 'pack') {
+    $('ver').dataset.pack = p.version; renderVer();
+  } else if (ev === 'started') {
+    $('ptext').textContent = 'Игра запущена. Приятной игры!'; $('bar').classList.remove('indef'); $('barI').style.width = '100%';
+    $('play').textContent = 'В ИГРЕ';
+  } else if (ev === 'exited') {
+    setBusy(false); $('play').textContent = 'ИГРАТЬ';
+    $('prog').classList.remove('show');
+    if (p.crash) {
+      $('err').style.display = 'block';
+      $('err').textContent = `Игра вылетела. ${p.hint}\n` + (p.sent ? 'Отчёт уже отправлен владельцу сервера.' : `Отчёт не отправился — пришлите владельцу файл ${p.log}`);
+    } else if (p.code !== 0) { $('err').style.display = 'block'; $('err').textContent = `Игра закрылась с ошибкой (код ${p.code}). Лог: ${p.log}`; }
+  } else if (ev === 'error') {
+    setBusy(false); $('play').textContent = 'ИГРАТЬ'; $('err').style.display = 'block'; $('err').textContent = p.text;
+  }
+};
+
+function renderVer() { const d = $('ver').dataset; $('ver').textContent = `лаунчер ${d.l} · сборка ${d.pack}`; }
+
+async function refreshServer() {
+  const s = await api().status();
+  $('dot').className = 'dot ' + (s.online ? 'on' : 'off');
+  $('srvS').textContent = s.online ? `онлайн · ${s.players}/${s.max} игроков${s.names && s.names.length ? ' — ' + s.names.join(', ') : ''} · ${s.ping} мс`
+                                   : 'сервер недоступен';
+}
+
+window.addEventListener('pywebviewready', async () => {
+  const c = await api().init();
+  $('nick').value = c.nick; $('ram').max = Math.min(16, c.ramMax); $('ram').value = c.ram; $('ramV').textContent = c.ram + ' ГБ';
+  $('join').checked = c.join; $('ver').dataset.l = c.version; $('ver').dataset.pack = c.pack; renderVer();
+  if (!c.nick) $('nick').focus();
+  refreshServer(); setInterval(refreshServer, 30000);
+  const n = await api().news(); if (n.trim()) { $('newsBody').innerHTML = md(n); $('news').style.display = 'block'; }
+  const u = await api().update_info();
+  if (u) { const b = document.createElement('button'); b.className = 'link'; b.style.borderColor = 'var(--gold)'; b.style.color = 'var(--gold-2)';
+    b.textContent = `Новый лаунчер ${u.version} — скачать`; b.onclick = () => api().open_url(u.url); $('ver').before(b); }
+});
+
+$('ram').addEventListener('input', e => $('ramV').textContent = e.target.value + ' ГБ');
+$('nick').addEventListener('keydown', e => { if (e.key === 'Enter') $('play').click(); });
+$('reinst').addEventListener('click', async () => { await api().reinstall(); $('reinst').textContent = 'Проверю при запуске ✓'; });
+$('play').addEventListener('click', async () => {
+  $('err').style.display = 'none';
+  const r = await api().play($('nick').value.trim(), +$('ram').value, $('join').checked);
+  if (!r.ok) { $('err').style.display = 'block'; $('err').textContent = r.error; return; }
+  setBusy(true); $('play').textContent = 'ЗАПУСК…'; $('ptext').textContent = 'Подготовка…'; $('bar').classList.add('indef');
+});
+
+// floating arcane sparks
+(() => {
+  const cv = $('sparks'), cx = cv.getContext('2d'); let W, H, P = [];
+  const rs = () => { W = cv.width = innerWidth; H = cv.height = innerHeight; }; rs(); addEventListener('resize', rs);
+  for (let i = 0; i < 46; i++) P.push({ x: Math.random(), y: Math.random(), r: Math.random() * 1.8 + .4, v: Math.random() * .00035 + .0001, h: Math.random() < .5 ? 220 : 40 });
+  (function f() {
+    cx.clearRect(0, 0, W, H);
+    for (const p of P) { p.y -= p.v; if (p.y < -.02) { p.y = 1.02; p.x = Math.random(); }
+      const g = cx.createRadialGradient(p.x * W, p.y * H, 0, p.x * W, p.y * H, p.r * 5);
+      g.addColorStop(0, `hsla(${p.h},100%,75%,.9)`); g.addColorStop(1, `hsla(${p.h},100%,60%,0)`);
+      cx.fillStyle = g; cx.beginPath(); cx.arc(p.x * W, p.y * H, p.r * 5, 0, 7); cx.fill(); }
+    requestAnimationFrame(f);
+  })();
+})();
+</script>
+</body>
+</html>

@@ -5,3 +5,5 @@ launcher/dist/
 launcher/.venv/
 *.spec
 *.log
+launcher/aero/report_channel.py
+launcher/vendor/
