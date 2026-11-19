@@ -83,7 +83,7 @@ def diagnose(texts: list[str]) -> str:
     return "Причина пока не ясна — отчёт отправлен владельцу сервера."
 
 
-def report(nick: str, code: int, started_at: float, pack_version: str) -> dict:
+def report(nick: str, code: int, started_at: float, pack_version: str, error: str = "") -> dict:
     files = collect(started_at)
     links, texts = {}, []
     for key in ("crash-report", "jvm-crash", "latest.log", "debug.log", "portablemc.log", "launcher.log"):
@@ -95,10 +95,10 @@ def report(nick: str, code: int, started_at: float, pack_version: str) -> dict:
             links[key] = upload(t)
         except Exception as e:
             core.log.warning("upload %s failed: %s", key, e)
-    hint = diagnose(texts)
+    hint = diagnose(texts) if not error else "Ошибка лаунчера: " + error[:300]
     summary = {"nick": nick, "exit_code": code, "pack": pack_version, "launcher": core.LAUNCHER_VERSION,
                "time": time.strftime("%Y-%m-%d %H:%M:%S"), "hint": hint, "links": links,
-               "ram_gb": core.State().settings.get("ram"), "windows": os.environ.get("OS", "")}
+               "ram_gb": core.State().settings.get("ram"), "gpu": gpu_info(), "error": error}
     try:
         notify(summary)
         summary["sent"] = True
@@ -107,6 +107,15 @@ def report(nick: str, code: int, started_at: float, pack_version: str) -> dict:
         summary["sent"] = False
     (core.ROOT / "logs" / "last-crash.json").write_text(json.dumps(summary, ensure_ascii=False, indent=1), encoding="utf-8")
     return summary
+
+
+def gpu_info() -> str:
+    p = core.GAME / "logs" / "latest.log"
+    try:
+        m = re.search(r"Found graphics adapter: AdapterInfo\{vendor=(\w+), description='([^']+)'", p.read_text(encoding="utf-8", errors="replace")[:200000])
+        return f"{m.group(1)} {m.group(2)}" if m else ""
+    except Exception:
+        return ""
 
 
 def notify(summary: dict) -> None:

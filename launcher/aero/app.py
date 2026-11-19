@@ -12,7 +12,7 @@ import traceback
 
 import webview
 
-from . import core, crash
+from . import core, crash, remote
 
 NICK_RE = re.compile(r"^[A-Za-z0-9_]{3,16}$")
 
@@ -25,6 +25,8 @@ class Api:
 
     # ---- called from JS
     def init(self):
+        remote.cleanup_old()
+        threading.Thread(target=self._check_update, daemon=True).start()
         s = self.state.settings
         return {
             "nick": s.get("nick", ""),
@@ -72,6 +74,17 @@ class Api:
         return {"ok": True}
 
     # ---- worker
+    def _check_update(self):
+        try:
+            idx = core.fetch_index(self.state)
+            if remote.self_update(idx, self._progress):
+                self._emit("restarting", {})
+                if self.window:
+                    self.window.destroy()
+                os._exit(0)
+        except Exception as e:
+            core.log.warning("self-update check failed: %s", e)
+
     def _emit(self, event, payload):
         if self.window:
             self.window.evaluate_js(f"window.onLauncher({json.dumps(event)}, {json.dumps(payload, ensure_ascii=False)})")
@@ -82,6 +95,10 @@ class Api:
     def _run(self, nick, ram, join):
         try:
             idx = core.sync_pack(self.state, self._progress)
+            fixed = remote.apply_fixes(idx, self.state, nick)
+            if fixed:
+                self._progress("sync", 1.0, f"Применены исправления: {len(fixed)}")
+            ram = int(self.state.settings.get("ram", ram))
             self._emit("pack", {"version": idx["version"]})
 
             def started():
@@ -101,7 +118,12 @@ class Api:
             self._emit("exited", info)
         except Exception as e:
             core.log.error("launch failed: %s\n%s", e, traceback.format_exc())
-            self._emit("error", {"text": str(e)})
+            sent = False
+            try:   # launcher-side failures (downloads, install) are reported too
+                sent = crash.report(nick, -1, time.time() - 3600, self.state.data.get("pack_version", "?"), error=str(e))["sent"]
+            except Exception as e2:
+                core.log.warning("error report failed: %s", e2)
+            self._emit("error", {"text": str(e) + ("\n\nОтчёт отправлен владельцу." if sent else "")})
         finally:
             self.busy = False
 

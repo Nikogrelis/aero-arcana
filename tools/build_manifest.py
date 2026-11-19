@@ -8,7 +8,7 @@ Every jar is taken from the reference client archive and hashed, so the manifest
 
 Usage: python -I tools/build_manifest.py <reference client zip>
 """
-import datetime, hashlib, json, pathlib, sys, zipfile
+import datetime, hashlib, json, pathlib, re, sys, zipfile
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT.parent / "pack-src"
@@ -84,7 +84,13 @@ def main(ref_zip):
         "neoforge": "21.1.266",
         "server": {"name": "Aero Arcana", "host": "51.75.74.159", "port": 25501},
         "files": files,
+        "fixes": json.loads((ROOT / "pack" / "fixes.json").read_text(encoding="utf-8")),
     }
+    exe = ROOT / "launcher" / "dist" / "AeroArcana.exe"
+    ver = re.search(r'LAUNCHER_VERSION = "([^"]+)"', (ROOT / "launcher" / "aero" / "core.py").read_text(encoding="utf-8")).group(1)
+    if exe.exists():
+        index["launcher"] = {"version": ver, "sha256": hashlib.sha256(exe.read_bytes()).hexdigest(),
+                             "url": f"https://github.com/{REPO}/releases/download/v{ver}/AeroArcana.exe"}
     (ROOT / "pack" / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(files)} files ({sum(f['kind'] == 'mod' for f in files)} mods), version {index['version']}")
     print("release assets needed:", own)
