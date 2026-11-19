@@ -1,0 +1,1187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industry"
+	group: "2E619C564BDB7D08"
+	icon: {
+		id: "createnuclear:reactor_core"
+	}
+	id: "699C814D701B4600"
+	images: [{
+		alpha: 235
+		height: 54.0d
+		id: "30A610357B452575"
+		image: "aeroarcana:textures/quests/bg_industry.png"
+		order: -100
+		rotation: 0.0d
+		width: 96.0d
+		x: 8.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["362167849F41F38A"]
+			icon: {
+				id: "create:brass_casing"
+			}
+			id: "1CD713A560C27625"
+			rewards: [
+				{
+					count: 8
+					id: "3F0D3DFCF4E028B1"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "3B4227AC4999AF81"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3BD2F6B68E6F0AA0"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "60BC1A4A09EDD228"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CD713A560C27625"]
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "402E28F0561F51C2"
+			optional: true
+			rewards: [
+				{
+					id: "30B938026951401F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5EDA9024472DE212"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					advancement: "brassworksmissions:root"
+					criterion: ""
+					id: "4CBAA15B06C5C78F"
+					type: "advancement"
+				}
+				{
+					advancement: "brassworksmissions:missions_10"
+					criterion: ""
+					id: "27AC8CAD20E14F1B"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CD713A560C27625"]
+			icon: {
+				id: "createmetalwork:molten_iron_bucket"
+			}
+			id: "602CCEDD17B3B153"
+			optional: true
+			rewards: [{
+				id: "566FA29662B9F62A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6C8417D9C1DB88BF"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CD713A560C27625"]
+			icon: {
+				id: "create_more_automation:flux_catalyst"
+			}
+			id: "680731B53D270D83"
+			optional: true
+			rewards: [{
+				id: "29AB2E36E30C1F20"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "11C6055FC77B6CDE"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CD713A560C27625"]
+			icon: {
+				id: "create_power_loader:andesite_chunk_loader"
+			}
+			id: "19A6BC3ECEAAD6E2"
+			rewards: [{
+				id: "509C406D06425F21"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76E3D7C0445E65F3"
+				item: { count: 1, id: "create_power_loader:andesite_chunk_loader" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["19A6BC3ECEAAD6E2"]
+			icon: {
+				id: "create_power_loader:brass_chunk_loader"
+			}
+			id: "4860F60CE1D90F6D"
+			rewards: [
+				{
+					id: "474887F8918AAE9D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "75B65A1054C4FDDB"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21395912C1CFA12F"
+				item: { count: 1, id: "create_power_loader:brass_chunk_loader" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4860F60CE1D90F6D"]
+			icon: {
+				id: "create_mechanical_spawner:mechanical_spawner"
+			}
+			id: "1E8F8C1628C20642"
+			optional: true
+			rewards: [{
+				id: "6276E7AF7B0AA20A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "2E487A0AC1A84642"
+					item: { count: 1, id: "create_mechanical_spawner:mechanical_spawner" }
+					type: "item"
+				}
+				{
+					id: "24E3959793788095"
+					item: { count: 1, id: "create_mechanical_spawner:loot_collector" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1CD713A560C27625"]
+			icon: {
+				id: "create_enchantment_industry:mechanical_grindstone"
+			}
+			id: "484CE9C70C2BC299"
+			rewards: [
+				{
+					count: 2
+					id: "23F70377AD130DDD"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "7FF4D183561FFD56"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3BBDDEE4B65A5505"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:gone_with_the_foil"
+					criterion: ""
+					id: "56A1F5A197EE72F9"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["484CE9C70C2BC299"]
+			icon: {
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			id: "26D8D643E08DC53C"
+			rewards: [
+				{
+					id: "48D273EE91AAF584"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "725CB0477A923407"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "create_enchantment_industry:blaze_enchantery"
+					criterion: ""
+					id: "308BBEBEB02EF664"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:blazing_enchantment"
+					criterion: ""
+					id: "5C50295390BB0F8A"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["26D8D643E08DC53C"]
+			icon: {
+				id: "create_enchantment_industry:blaze_forger"
+			}
+			id: "6DED8FE2B1C76F53"
+			optional: true
+			rewards: [{
+				id: "31DF191BA064724B"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [
+				{
+					advancement: "create_enchantment_industry:born_talent_of_fire"
+					criterion: ""
+					id: "59AB60B3479480FE"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:blazing_fusion"
+					criterion: ""
+					id: "79DF3370120ED529"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CD713A560C27625"]
+			icon: {
+				id: "createoreexcavation:vein_finder"
+			}
+			id: "4E6A1E2A409E0C7E"
+			rewards: [
+				{
+					id: "5C710448AED86BCB"
+					item: {
+						count: 1
+						id: "createoreexcavation:vein_atlas"
+					}
+					type: "item"
+				}
+				{
+					id: "0AB797A73733A6F4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					advancement: "create_ore_excavation_plus:vein_finder"
+					criterion: ""
+					id: "163CBC2860176605"
+					type: "advancement"
+				}
+				{
+					id: "317359C92B57F582"
+					item: { count: 1, id: "createoreexcavation:vein_finder" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E6A1E2A409E0C7E"]
+			icon: {
+				id: "createoreexcavation:drilling_machine"
+			}
+			id: "104FE87C765414DD"
+			rewards: [
+				{
+					id: "3DE6AA4D9A653D6B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "33C9CE77F58BB58F"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "create_ore_excavation_plus:drilling_machine"
+					criterion: ""
+					id: "395420859FAB03E9"
+					type: "advancement"
+				}
+				{
+					id: "64EC6D249FCF6040"
+					item: { count: 1, id: "createoreexcavation:drill" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["104FE87C765414DD"]
+			icon: {
+				id: "createoreexcavation:diamond_drill"
+			}
+			id: "0BFC388794F096EF"
+			optional: true
+			rewards: [{
+				id: "6292B8256795731F"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "create_ore_excavation_plus:diamond_drill"
+				criterion: ""
+				id: "688D524811ACF690"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CD713A560C27625"]
+			icon: {
+				id: "tfmg:coal_coke"
+			}
+			id: "5908796751225CA3"
+			rewards: [
+				{
+					count: 4
+					id: "567531C7E32DC2E9"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "7E9C21425E4A2497"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "789188EEF514955C"
+					item: { count: 1, id: "tfmg:coke_oven" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6F4865954C780584"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5908796751225CA3"]
+			icon: {
+				id: "tfmg:steel_ingot"
+			}
+			id: "2EF627083C9F0B10"
+			rewards: [
+				{
+					count: 32
+					id: "1EA9A5EA09DE509D"
+					item: {
+						count: 1
+						id: "tfmg:coal_coke"
+					}
+					type: "item"
+				}
+				{
+					id: "7DDBF83815128C86"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "32FB4A1775D03549"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "0C2DF513EF0EA1A1"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "61752A9A96A42969"
+					item: { count: 1, id: "tfmg:blast_furnace_output" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EF627083C9F0B10"]
+			icon: {
+				id: "tfmg:steel_mechanism"
+			}
+			id: "50FB4E14E6F8A140"
+			rewards: [{
+				id: "5772E967A27A635E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "431721E131512DC3"
+				item: { count: 1, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50FB4E14E6F8A140"]
+			icon: {
+				id: "createnuclear:raw_uranium"
+			}
+			id: "64F3131289255869"
+			rewards: [{
+				id: "50EFD9A3AF3AD381"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					advancement: "createnuclear:raw_uranium"
+					criterion: ""
+					id: "43BB58F3047A76BC"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:uranium_powder"
+					criterion: ""
+					id: "73EE88A7220C8201"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64F3131289255869"]
+			icon: {
+				id: "createnuclear:default_anti_radiation_chestplate"
+			}
+			id: "4CAA90737704F0D7"
+			rewards: [{
+				id: "2CFA4FC61FE5BDAE"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "heart"
+			tasks: [
+				{
+					advancement: "createnuclear:lead_ingot"
+					criterion: ""
+					id: "6D5A33DA394EF4DA"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:avoiding_cancer"
+					criterion: ""
+					id: "6AC8D7368C3E66E3"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64F3131289255869"]
+			icon: {
+				id: "createnuclear:enriched_yellowcake"
+			}
+			id: "20084E5D9E64395C"
+			rewards: [{
+				id: "32DDB8DD7B082801"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					advancement: "createnuclear:yellowcake"
+					criterion: ""
+					id: "5F7D7256C3BF1A7F"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:enriched_yellowcake"
+					criterion: ""
+					id: "1DB756EABFA5CD25"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20084E5D9E64395C"]
+			icon: {
+				id: "createnuclear:nitrogen_bucket"
+			}
+			id: "48A1ABCD0D07B705"
+			optional: true
+			rewards: [{
+				id: "45A0F1D1D149653C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "createnuclear:absolute_zero"
+				criterion: ""
+				id: "3CCF6E6EC60AC4AA"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"20084E5D9E64395C"
+				"57E7C1117226D9B4"
+			]
+			icon: {
+				id: "createnuclear:uranium_rod"
+			}
+			id: "7D2CD2179AA7A10B"
+			rewards: [
+				{
+					id: "46EABB2624818B41"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "6034877B1CD07CFF"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "createnuclear:uranium_rod"
+					criterion: ""
+					id: "701EB936C5CE9145"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:graphite_rod"
+					criterion: ""
+					id: "75C347772B1463FE"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D2CD2179AA7A10B"]
+			icon: {
+				id: "createnuclear:reactor_controller"
+			}
+			id: "5C517B9621561D3D"
+			rewards: [{
+				id: "0A4F40610225063D"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "square"
+			tasks: [
+				{
+					advancement: "createnuclear:reactor_casing"
+					criterion: ""
+					id: "4DE5B63E9EF31321"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:reactor_frame"
+					criterion: ""
+					id: "5DC63569F7DF021A"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:reactor_controller"
+					criterion: ""
+					id: "04F053E891D6534C"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:reactor_blueprint"
+					criterion: ""
+					id: "6066D3CAEF028001"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D2CD2179AA7A10B"]
+			icon: {
+				id: "createnuclear:reactor_core"
+			}
+			id: "5F001531B9D7E83F"
+			rewards: [{
+				id: "65282D5A95C0621C"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "square"
+			tasks: [
+				{
+					advancement: "createnuclear:reactor_core"
+					criterion: ""
+					id: "6E51096100B0C7B9"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:feeding_the_reactor"
+					criterion: ""
+					id: "5FE46615206EEB3B"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:fueling_the_reactor"
+					criterion: ""
+					id: "162CFF5A345D89E9"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:reactor_cooler"
+					criterion: ""
+					id: "0ADAFD8E0443E54C"
+					type: "advancement"
+				}
+				{
+					advancement: "createnuclear:unlimited_power"
+					criterion: ""
+					id: "2E53251DC089B3B6"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5C517B9621561D3D"
+				"5F001531B9D7E83F"
+			]
+			icon: {
+				id: "createnuclear:reactor_casing"
+			}
+			id: "2E3600F547295CD7"
+			rewards: [
+				{
+					id: "2FE2CBD84633BDD1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "51C42058D34A68A4"
+					table_id: 3848313944286140496L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "createnuclear:t1"
+				criterion: ""
+				id: "43C50CE67BD49A1B"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E3600F547295CD7"]
+			icon: {
+				id: "createnuclear:reactor_core"
+			}
+			id: "1FF561A15774945A"
+			rewards: [
+				{
+					count: 8
+					id: "5481D9062178F478"
+					item: {
+						count: 1
+						id: "createnuclear:steel_block"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4FE203E783C53AFF"
+					item: {
+						count: 1
+						id: "createnuclear:lead_block"
+					}
+					type: "item"
+				}
+				{
+					id: "352E907CDDF0AE5D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0790D71F225BD6CA"
+					table_id: 3848313944286140496L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				advancement: "createnuclear:t3"
+				criterion: ""
+				id: "6AC2B2EDED8B1463"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EF627083C9F0B10"]
+			icon: {
+				id: "tfmg:pumpjack_hammer"
+			}
+			id: "6531D3BD5992C3D8"
+			rewards: [
+				{
+					count: 16
+					id: "2A2E38E2824E3F3E"
+					item: {
+						count: 1
+						id: "tfmg:industrial_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "3C9EDD51B67AE922"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "760A422D3DBEBD54"
+					item: { count: 1, id: "tfmg:surface_scanner" }
+					type: "item"
+				}
+				{
+					id: "7B6946B0105EFA0B"
+					item: { count: 1, id: "tfmg:pumpjack_base" }
+					type: "item"
+				}
+				{
+					id: "11E2A25A718DAF11"
+					item: { count: 1, id: "tfmg:steel_distillation_controller" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6531D3BD5992C3D8"
+				"50FB4E14E6F8A140"
+			]
+			icon: {
+				id: "tfmg:regular_engine"
+			}
+			id: "6444F0B03ECF26CA"
+			rewards: [
+				{
+					id: "7EA2D1260EE97E30"
+					item: {
+						count: 1
+						id: "tfmg:oil_can"
+					}
+					type: "item"
+				}
+				{
+					id: "6AC9725A343462E1"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "0B932A75E6BADAF1"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "68BA3078CCFE3E10"
+				item: { count: 1, id: "tfmg:regular_engine" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1CD713A560C27625"]
+			icon: {
+				id: "createdieselgenerators:oil_scanner"
+			}
+			id: "6855D4BFC5EEA351"
+			rewards: [{
+				id: "6AB66CD69C19B1A9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4FA78049524FE771"
+				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6855D4BFC5EEA351"]
+			icon: {
+				id: "createdieselgenerators:pumpjack_bearing"
+			}
+			id: "0B6EFE67BB943FFE"
+			rewards: [
+				{
+					count: 32
+					id: "3341012F36847F3F"
+					item: {
+						count: 1
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "4398E4AEE1C32698"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "663F4289E7D6C214"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "45DEC44B1CE4B774"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
+					type: "item"
+				}
+				{
+					id: "0C4D8B2F0BD0C08B"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B6EFE67BB943FFE"]
+			icon: {
+				id: "createdieselgenerators:distillation_controller"
+			}
+			id: "6A246F18C142F326"
+			rewards: [{
+				id: "17A3A9C04DFDAC47"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "306BC32AC3FE53B1"
+					item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+					type: "item"
+				}
+				{
+					id: "2B6CE2807283A032"
+					item: { count: 1, id: "createdieselgenerators:diesel_bucket" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6A246F18C142F326"]
+			icon: {
+				id: "createdieselgenerators:diesel_engine"
+			}
+			id: "6A96908EA7B1C0C8"
+			rewards: [
+				{
+					id: "10EB885F1286E5D7"
+					item: {
+						count: 1
+						id: "createdieselgenerators:engine_turbocharger"
+					}
+					type: "item"
+				}
+				{
+					id: "53798BC1A9415B7C"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "1C893B9D8C46C2E9"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "00D828E5C3F84EA5"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1CD713A560C27625"]
+			icon: {
+				id: "electroenergetics:copper_wire_spool"
+			}
+			id: "0FA49663C217FEE0"
+			rewards: [
+				{
+					count: 4
+					id: "1050F6D2D5A134AA"
+					item: {
+						count: 1
+						id: "electroenergetics:connector"
+					}
+					type: "item"
+				}
+				{
+					id: "77FC11398F95D6AE"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "7FF8A11429419E5D"
+					item: { count: 1, id: "electroenergetics:copper_wire_spool" }
+					type: "item"
+				}
+				{
+					advancement: "electroenergetics:connect_wires"
+					criterion: ""
+					id: "3CA30E2E5EB4DE1A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0FA49663C217FEE0"]
+			icon: {
+				id: "electroenergetics:alternator_rotor"
+			}
+			id: "724FE167FED1A581"
+			rewards: [
+				{
+					count: 4
+					id: "51C27667D44A5AAA"
+					item: {
+						count: 1
+						id: "electroenergetics:fuse"
+					}
+					type: "item"
+				}
+				{
+					id: "675BEDF3A95C4094"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "29D19BA5FA5CFBEC"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A8AE77DB5133988"
+					item: { count: 1, id: "electroenergetics:stator" }
+					type: "item"
+				}
+				{
+					id: "71B2CC52CC16B0E0"
+					item: { count: 1, id: "electroenergetics:alternator_rotor" }
+					type: "item"
+				}
+				{
+					id: "62C28BCE492BE22D"
+					item: { count: 1, id: "electroenergetics:alternator_brushes" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4D2A6B699540CA48"
+					item: { count: 1, id: "electroenergetics:fuse" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["724FE167FED1A581"]
+			icon: {
+				id: "electroenergetics:transformer_core"
+			}
+			id: "00CC798A47FEE3D2"
+			rewards: [{
+				id: "5B308BF728C8FB29"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "electroenergetics:transformer"
+				criterion: ""
+				id: "0CC954F2E8E7729E"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"00CC798A47FEE3D2"
+				"56149F07E98A0EEB"
+			]
+			icon: {
+				id: "electroenergetics:pantograph"
+			}
+			id: "203C23345E109228"
+			optional: true
+			rewards: [
+				{
+					id: "3F174B7B7620CC54"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "429B907487CABDE3"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "48031E4C81D3AAFD"
+					item: { count: 1, id: "electroenergetics:pantograph" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "566A96BB061CA5DD"
+					item: { count: 1, id: "pantographsandwires:lattice_mast" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+	]
+}

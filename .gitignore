@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+launcher/build/
+launcher/dist/
+launcher/.venv/
+*.spec
+*.log

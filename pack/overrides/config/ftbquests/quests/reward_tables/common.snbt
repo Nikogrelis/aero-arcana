@@ -1,0 +1,120 @@
+{
+	id: "49C7DF202045A4C4"
+	loot_crate: {
+		color: 10395294
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "aeroarcana_common"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "0AE10AA88993F6C6"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 24
+			id: "2E23D2BFBCAD1A1E"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "6962FF17E446A9E8"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+		}
+		{
+			count: 12
+			id: "71BE9DB6B2006D9C"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 32
+			id: "686FE508A0B21718"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 32
+			id: "16EE7D171E1D39FE"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{
+			count: 32
+			id: "637C858D6F83DB31"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+		}
+		{
+			count: 8
+			id: "75AEE64EF23C5634"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 32
+			id: "0CB73A27C1CBF435"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 24
+			id: "1B0D063077FD47C7"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 16
+			id: "21CBAD87367C35E4"
+			item: {
+				count: 1
+				id: "farmersdelight:rope"
+			}
+		}
+		{
+			count: 8
+			id: "458AB77618A4082B"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+		}
+		{
+			count: 8
+			id: "4D120185ECEF6FFD"
+			item: {
+				count: 1
+				id: "irons_spellbooks:arcane_essence"
+			}
+		}
+	]
+}

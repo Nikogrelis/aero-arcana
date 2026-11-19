@@ -1,0 +1,27 @@
+// Much More Dungeons. Changes apply after a restart and only to chunks generated afterwards.
+// Spacing, separation and biomes are datapack data: see the README on GitHub.
+{
+  // Spawn each dungeon's named guardian when the dungeon generates.
+  "guardians": true,
+
+  // Per dungeon: "enabled" turns it off entirely (it can then not be located either), "chance"
+  // (0 to 1) is the share of valid spots that get one; 0.5 halves how many generate.
+  "dungeons": {
+    "outdoor_villa": {
+      "enabled": true,
+      "chance": 1.0
+    },
+    "tower_dungeon": {
+      "enabled": true,
+      "chance": 1.0
+    },
+    "dungeon_t2": {
+      "enabled": true,
+      "chance": 1.0
+    },
+    "soulfire_crypt": {
+      "enabled": true,
+      "chance": 1.0
+    }
+  }
+}

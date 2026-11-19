@@ -1,0 +1,68 @@
+{
+	id: "3567F524A15B9850"
+	loot_crate: {
+		color: 11141290
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "aeroarcana_epic"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 2
+			id: "5BD2334AAA37EC91"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+		}
+		{
+			count: 3
+			id: "74B7FD7BEB5CAB3C"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+		}
+		{
+			count: 2
+			id: "47889D03220B1A8C"
+			item: {
+				count: 1
+				id: "irons_spellbooks:epic_ink"
+			}
+		}
+		{ id: "1DC25FCCFDF4291B", item: { count: 1, id: "irons_spellbooks:legendary_ink" } }
+		{
+			count: 2
+			id: "7B98EB087D6540BC"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+		}
+		{ id: "6138498AE61CDB6D", item: { count: 1, id: "minecraft:elytra" } }
+		{ id: "4B4811A4F0DF6D54", item: { count: 1, id: "minecraft:nether_star" } }
+		{
+			count: 4
+			id: "0FC14981F0468B81"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+		}
+		{
+			count: 64
+			id: "684694378544568B"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+	]
+}

@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="aero_creeper_guard"
+version="1.0.0"
+displayName="Aero Arcana Creeper Guard"
+description="Creeper explosions hurt players and mobs but do not break blocks, item frames, paintings, armour stands or items."
+[[dependencies.aero_creeper_guard]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.aero_creeper_guard]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"

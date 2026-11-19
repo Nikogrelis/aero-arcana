@@ -1,0 +1,84 @@
+{
+	id: "6572D16C77C9CEC3"
+	loot_crate: {
+		color: 5592575
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "aeroarcana_rare"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 8
+			id: "56612026B03A913D"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 2
+			id: "0D3B4D337E050DB7"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+		}
+		{ id: "1E287AEDD0B1C8E4", item: { count: 1, id: "minecraft:totem_of_undying" } }
+		{
+			count: 3
+			id: "3441304B69201E74"
+			item: {
+				count: 1
+				id: "irons_spellbooks:rare_ink"
+			}
+		}
+		{
+			count: 6
+			id: "53F9FB27654824C4"
+			item: {
+				count: 1
+				id: "irons_spellbooks:uncommon_ink"
+			}
+		}
+		{ id: "3653F67850E04426", item: { count: 1, id: "minecraft:enchanted_golden_apple" } }
+		{
+			count: 48
+			id: "524392C152EE0EEE"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 4
+			id: "580B2185C463C44B"
+			item: {
+				count: 1
+				id: "create:brass_block"
+			}
+		}
+		{
+			count: 2
+			id: "1175097F3D8E6D2E"
+			item: {
+				count: 1
+				id: "minecraft:shulker_shell"
+			}
+		}
+		{
+			count: 2
+			id: "7ADD36DA0BA16C1C"
+			item: {
+				count: 1
+				id: "minecraft:ancient_debris"
+			}
+		}
+		{ id: "39E5378B063A74B4", item: { count: 1, id: "minecraft:diamond_block" } }
+	]
+}

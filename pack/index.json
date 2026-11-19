@@ -1,0 +1,4006 @@
+{
+ "formatVersion": 1,
+ "name": "Aero Arcana",
+ "version": "2026.11.19-2029",
+ "minecraft": "1.21.1",
+ "neoforge": "21.1.266",
+ "server": {
+  "name": "Aero Arcana",
+  "host": "51.75.74.159",
+  "port": 25501
+ },
+ "files": [
+  {
+   "path": "mods/AeroEngine-1.3.0.jar",
+   "url": "https://cdn.modrinth.com/data/CRh10iJF/versions/eqi1VZul/AeroEngine-1.3.0.jar",
+   "sha1": "071a030a04ee45ccd611f719e7095341ddaf30af",
+   "size": 1589690,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/AeroPropBlur-1.21.1-1.0a.jar",
+   "url": "https://cdn.modrinth.com/data/uKFK3MBp/versions/27nROiTP/AeroPropBlur-1.21.1-1.0a.jar",
+   "sha1": "5081bcd2b2d32b239983d0bfaa83c2e3669b1a5a",
+   "size": 22812,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/Chunky-NeoForge-1.4.23.jar",
+   "url": "https://cdn.modrinth.com/data/fALzjamp/versions/LuFhm4eU/Chunky-NeoForge-1.4.23.jar",
+   "sha1": "ab0c74743a653020fe2dfc4986b43e893947f3e9",
+   "size": 340572,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+   "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/jo7lDoK4/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+   "sha1": "fa2576297c7bd12b28aa7070e8141792bd66da4c",
+   "size": 18382,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/ColdSweat-2.4.5.jar",
+   "url": "https://cdn.modrinth.com/data/uXhSmPjd/versions/LTu4f6QB/ColdSweat-2.4.5.jar",
+   "sha1": "4e598de6bb2d792ac3855bee445081c9456b613b",
+   "size": 2749625,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/Controlling-neoforge-1.21.1-19.0.5.jar",
+   "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar",
+   "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
+   "size": 77555,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/CreateDragonsPlus-1.11.9.jar",
+   "url": "https://cdn.modrinth.com/data/dzb1a5WV/versions/b0u9vk8C/CreateDragonsPlus-1.11.9.jar",
+   "sha1": "67ffcb61207a7dbc6b1e70f0473ddbacb19d44eb",
+   "size": 1085674,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/Design-n-Decor-1.21.1-2.2b.jar",
+   "url": "https://cdn.modrinth.com/data/x49wilh8/versions/uQsIRky8/Design-n-Decor-1.21.1-2.2b.jar",
+   "sha1": "ff5f0411a3d82e15d69b65617128f6d54e818e1b",
+   "size": 6329899,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/DiagonalFences-v21.1.1-1.21.1-NeoForge.jar",
+   "url": "https://cdn.modrinth.com/data/IKARgflD/versions/bgR1e0O5/DiagonalFences-v21.1.1-1.21.1-NeoForge.jar",
+   "sha1": "d77da342ec4fcdea694911cba068e310a0230621",
+   "size": 171557,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/DungeonCrawl-NeoForge-1.21-2.3.17.jar",
+   "url": "https://cdn.modrinth.com/data/q0rRg4lH/versions/D7lKpb69/DungeonCrawl-NeoForge-1.21-2.3.17.jar",
+   "sha1": "3abb84c4fcf1229fced0cc5e88fa6e9baa0aa4a7",
+   "size": 738480,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/FarmersDelight-1.21.1-1.3.4.jar",
+   "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/XTVZDOol/FarmersDelight-1.21.1-1.3.4.jar",
+   "sha1": "27675ddfcb8cc37e6ea1ab6c15051c7949d94657",
+   "size": 3160490,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/FastFurnace-1.21.1-9.0.1.jar",
+   "url": "https://cdn.modrinth.com/data/9X0318ev/versions/pqj92Yco/FastFurnace-1.21.1-9.0.1.jar",
+   "sha1": "cb77b3bc40bb598cfc50773d491c9e1af06d3833",
+   "size": 4622,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/FastWorkbench-1.21.1-9.1.3.jar",
+   "url": "https://cdn.modrinth.com/data/5NYPwQRn/versions/IwciHwPN/FastWorkbench-1.21.1-9.1.3.jar",
+   "sha1": "cfe55dc815979028d2a2211e26115dbd02273f87",
+   "size": 28636,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/FramedBlocks-10.6.3.jar",
+   "url": "https://cdn.modrinth.com/data/wbgfS34j/versions/5g0Yxvfb/FramedBlocks-10.6.3.jar",
+   "sha1": "4e3d28804fdc2c0be4d71d444f18b85d2c863b01",
+   "size": 4306766,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/EJzmEPZV/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar",
+   "sha1": "f991166f7c82b493481c876e3c83c9fac4159671",
+   "size": 368896,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
+   "url": "https://cdn.modrinth.com/data/O7RBXm3n/versions/vjuNnHLv/InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
+   "sha1": "b09d7c0820c233ea34af54d0a3ab7ed510b32dcc",
+   "size": 1295466,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
+   "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/eYz2YBGT/Jade-1.21.1-NeoForge-15.10.6.jar",
+   "sha1": "88ee316e68900080b017f60c12162e2731924cf8",
+   "size": 726853,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/Ksyxis-1.4.6.jar",
+   "url": "https://cdn.modrinth.com/data/2ecVyZ49/versions/kzLBJQLn/Ksyxis-1.4.6.jar",
+   "sha1": "6de6271329e0c83e3ccc0512a0d3cfcc3e790d3f",
+   "size": 23873,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/L_Ender's Cataclysm 1.21.1-3.33.jar",
+   "url": "https://cdn.modrinth.com/data/46KJle7n/versions/PsPYpoCC/L_Ender%27s%20Cataclysm%201.21.1-3.33.jar",
+   "sha1": "f0310277167c82fd16a5c2bab220b5c5c262f133",
+   "size": 73375667,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/MoogsOceanStructures-universal-1.21-1.1.1.jar",
+   "url": "https://cdn.modrinth.com/data/ZKBkklMv/versions/QfMITqh9/MoogsOceanStructures-universal-1.21-1.1.1.jar",
+   "sha1": "e272a06fee7e4b0a4c2efe8c1d338f7e250a0bd9",
+   "size": 1590700,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/MoogsStructureLib-neoforge-1.21.1-3.4.2.jar",
+   "url": "https://cdn.modrinth.com/data/1oUDhxuy/versions/wcg4mE4e/MoogsStructureLib-neoforge-1.21.1-3.4.2.jar",
+   "sha1": "c379b8d5dc1a4b1e8987da1052d6b4de81354d72",
+   "size": 1094979,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+   "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+   "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+   "size": 73938,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
+   "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/BIogJv2D/Patchouli-1.21.1-93-NEOFORGE.jar",
+   "sha1": "5413bb9b8fc35ebe46b06b48bf9afafbd8471140",
+   "size": 646777,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/Placebo-1.21.1-9.9.4.jar",
+   "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/B5zbSVlT/Placebo-1.21.1-9.9.4.jar",
+   "sha1": "007d52a42020a331d5272495f6d676e0ad1a2c13",
+   "size": 326063,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/Searchables-neoforge-1.21.1-1.0.2.jar",
+   "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar",
+   "sha1": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
+   "size": 77326,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+   "url": "https://cdn.modrinth.com/data/kkmrDlKT/versions/6e8GCrLb/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+   "sha1": "744394d979b422be560babf9df7a6800ede9ac5b",
+   "size": 120365,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/TravelersTitles-1.21.1-NeoForge-5.1.3.jar",
+   "url": "https://cdn.modrinth.com/data/JtifUr64/versions/2y01mBUy/TravelersTitles-1.21.1-NeoForge-5.1.3.jar",
+   "sha1": "166cba4d367c6dd103d1d5dcab7a31174bec799e",
+   "size": 235345,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/YungsApi-1.21.1-NeoForge-5.1.9.jar",
+   "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/2prKITKh/YungsApi-1.21.1-NeoForge-5.1.9.jar",
+   "sha1": "2c4b740c8ad27bbcb2a21b85b64f011b809aed91",
+   "size": 413763,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/aces_spell_utils-1.2.7.5-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/7Jy4rK9m/versions/TqHb6wO4/aces_spell_utils-1.2.7.5-1.21.1.jar",
+   "sha1": "1890b948a0e4456b8d4df6c501170be03130759a",
+   "size": 401499,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/acolyte-1.0.3.jar",
+   "url": "https://cdn.modrinth.com/data/S1u5j9dB/versions/r0BSsxdc/acolyte-1.0.3.jar",
+   "sha1": "ad0abc821f3f8a6573ac19a50970fc1bc46b4275",
+   "size": 621837,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/aero_climate_bridge-1.0.0.jar",
+   "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/files/aero_climate_bridge-1.0.0.jar",
+   "sha1": "cd319b58ff0cca6524664c719ded883b01493f9c",
+   "size": 4839,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/aero_railway_planner-0.4.0-alpha.1.jar",
+   "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/files/aero_railway_planner-0.4.0-alpha.1.jar",
+   "sha1": "91842fcb7f85cfec5075f487da2faf36436518d9",
+   "size": 441674,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/aeroarcana-quests-art.jar",
+   "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/files/aeroarcana-quests-art.jar",
+   "sha1": "569bb451170cbcab6d36f90387ef53bd575ca16d",
+   "size": 18509133,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/aeronauticsdiscovery-2.2.0.jar",
+   "url": "https://cdn.modrinth.com/data/MtpVp9HL/versions/bhDula1K/aeronauticsdiscovery-2.2.0.jar",
+   "sha1": "3d180ae4e8c8d5f6a450fbf61e0d1af80ce42373",
+   "size": 603044,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/aeroworks-1.5.0.jar",
+   "url": "https://cdn.modrinth.com/data/P26k79kP/versions/6kk7ruR3/aeroworks-1.5.0.jar",
+   "sha1": "0dffcd74781e2f7d0495c4aad1165eb3473476ec",
+   "size": 790152,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/alshanex_familiars-1.21.1_v5.0.jar",
+   "url": "https://cdn.modrinth.com/data/GmF3uubs/versions/2bwB44Aa/alshanex_familiars-1.21.1_v5.0.jar",
+   "sha1": "5ac62a959e6abb2a4810307ceba309d316653eb1",
+   "size": 27059287,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/antarchy-2.4.3+1.21.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/bnrJEOg5/versions/HFWU4hYv/antarchy-2.4.3%2B1.21.1-neoforge.jar",
+   "sha1": "73432572e048abd27377b5fb916b8ce5285353d1",
+   "size": 74030877,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/anthology-1.0.7+1.21.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/L7cI8p0P/versions/oYN3fJkz/anthology-1.0.7%2B1.21.1-neoforge.jar",
+   "sha1": "7cdf0c078ebffbe7b5b48444c7b76c592abdcc33",
+   "size": 515417,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/antos-neoforge-1.21.1-1.6.6.jar",
+   "url": "https://cdn.modrinth.com/data/MzU6Lh9B/versions/QCuLhnVg/antos-neoforge-1.21.1-1.6.6.jar",
+   "sha1": "817d26ef49b51b14c0cc9b7981e63e0ef23aa780",
+   "size": 2376909,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+   "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar",
+   "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+   "size": 75804,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/apprentice_codex-1.0.1+mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/MYxjEv5n/versions/4Wz2Dikf/apprentice_codex-1.0.1%2Bmc1.21.1.jar",
+   "sha1": "3077999f51299a53a0af1b8a1aec22f4099e36a3",
+   "size": 11757447,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/architectury-13.0.12-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/xGfBrBzj/architectury-13.0.12-neoforge.jar",
+   "sha1": "646dace27624ac08ad8d229fe15f6601a8b7fbb2",
+   "size": 584731,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/atlas_api-1.21.1-1.2.0.jar",
+   "url": "https://cdn.modrinth.com/data/7e9kzq9t/versions/IkS0pyUg/atlas_api-1.21.1-1.2.0.jar",
+   "sha1": "79487e97bd6dbbd6cfbdbcd4fbf1a7ac34fb8998",
+   "size": 28419,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/azimuth-1.4.10.jar",
+   "url": "https://cdn.modrinth.com/data/RpH8tmT1/versions/dxtZVosY/azimuth-1.4.10.jar",
+   "sha1": "911e255bd09a6bcb2ca85ea172d1812e0f4665f1",
+   "size": 143818,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/azurelib-neo-1.21.1-3.2.8.jar",
+   "url": "https://cdn.modrinth.com/data/7zlUOZvb/versions/rzVuOJoh/azurelib-neo-1.21.1-3.2.8.jar",
+   "sha1": "dbed0ea2fa6d1b76db21dc8ab6092b82bf46f942",
+   "size": 1389101,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/balm-neoforge-1.21.1-21.0.67.jar",
+   "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/gMedgtzL/balm-neoforge-1.21.1-21.0.67.jar",
+   "sha1": "68c95ca8a6a87d26199d43ff6978bc94949329e3",
+   "size": 786010,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/bellsandwhistles-0.4.7-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/gJ5afkVv/versions/w0mifib8/bellsandwhistles-0.4.7-1.21.1.jar",
+   "sha1": "85944080f8bd47dad64a8193a70662cd9ddbb200",
+   "size": 193619,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/bits_n_bobs-2.3.5.jar",
+   "url": "https://cdn.modrinth.com/data/T8bvmqVZ/versions/g9Lmjjc5/bits_n_bobs-2.3.5.jar",
+   "sha1": "50119ba6849f2b165ab692ab312dbe4867444ac0",
+   "size": 2433531,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/q2bV1Tm1/versions/lE9PF6Wp/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+   "sha1": "249a5f2ba43fd341d4a2831691c154d92aa5a12d",
+   "size": 23943105,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/born_in_chaos_[Neoforge]_1.21.1_1.7.6.jar",
+   "url": "https://cdn.modrinth.com/data/1kcHy4de/versions/ttcWWp3r/born_in_chaos_%5BNeoforge%5D_1.21.1_1.7.6.jar",
+   "sha1": "73704f38ac368c03716f9cc8f537470d3b352fa2",
+   "size": 11842184,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/brassworksmissions-2.1-hotfix.jar",
+   "url": "https://cdn.modrinth.com/data/uUhZpyjI/versions/gnSAwQ2A/brassworksmissions-2.1-hotfix.jar",
+   "sha1": "f884f2b736e780bebfa6f1b1625300f55cf4cd7b",
+   "size": 606681,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.124.jar",
+   "url": "https://cdn.modrinth.com/data/COlSi5iR/versions/VACgDPOc/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.124.jar",
+   "sha1": "469497c209e77742a85020845a361851f14d99e2",
+   "size": 3717706,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/caelus-neoforge-7.0.1+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/40FYwb4z/versions/KsfI4QsR/caelus-neoforge-7.0.1%2B1.21.1.jar",
+   "sha1": "e4c2e1af4e3082d68f7df75f7c8ce30116d71515",
+   "size": 50235,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/carryon-neoforge-1.21.1-2.2.6.13.jar",
+   "url": "https://cdn.modrinth.com/data/joEfVgkn/versions/PV8oLZ1q/carryon-neoforge-1.21.1-2.2.6.13.jar",
+   "sha1": "2ceb0d9284525b6cb2a214c88cf6511cab91f601",
+   "size": 361486,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/cataclysm_create-1.21.1-Neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/pmUh6mZW/versions/6Km4SJcj/cataclysm_create-1.21.1-Neoforge.jar",
+   "sha1": "852b6adfa8369f4b7a18722cf11d8bd84aec87b0",
+   "size": 177219,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/cataclysm_spellbooks-1.1.15-1.21.jar",
+   "url": "https://cdn.modrinth.com/data/3FEg0A8D/versions/7fmcTGwb/cataclysm_spellbooks-1.1.15-1.21.jar",
+   "sha1": "2083d49ebb1d222b682f5082e315277a17365342",
+   "size": 1184270,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/cbc_at_Neoforge_1.21.1_0.1.4c-recoilfix.jar",
+   "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/files/cbc_at_Neoforge_1.21.1_0.1.4c-recoilfix.jar",
+   "sha1": "5419892a80357e03993ff1bc5919a6aea6ce069e",
+   "size": 1438632,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/chat_heads-0.15.7-neoforge-1.21.jar",
+   "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ZPylso9i/chat_heads-0.15.7-neoforge-1.21.jar",
+   "sha1": "536b2af675229d2a33eb4cf5afbe7148a62d5f3f",
+   "size": 91948,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/cmpackagecouriers-neoforge-2.3.1.jar",
+   "url": "https://cdn.modrinth.com/data/GRqrodjM/versions/aG9jHA8l/cmpackagecouriers-neoforge-2.3.1.jar",
+   "sha1": "a4629f9222bd4222d63388de62a46679896078a1",
+   "size": 328843,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/copycats-3.0.11+mc.1.21.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/UT2M39wf/versions/zLlVJXf0/copycats-3.0.11%2Bmc.1.21.1-neoforge.jar",
+   "sha1": "020a921b43794bb2172d48a5e6ec4a4f56a681b9",
+   "size": 1805121,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/corpse-neoforge-1.21.1-1.1.22.jar",
+   "url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/SElnDbg1/corpse-neoforge-1.21.1-1.1.22.jar",
+   "sha1": "0d73e082e4d5c0f185aa8030bcefb68c259d1107",
+   "size": 256780,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create-1.21.1-6.0.10.jar",
+   "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+   "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
+   "size": 19123767,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+   "url": "https://cdn.modrinth.com/data/oWaK0Q19/versions/44pLdPGg/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+   "sha1": "ddbe9cbc25e8f663218aa1e9fdfc4b99f0e11e4b",
+   "size": 33123131,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create-confectionery1.21.1_v1.1.3b.jar",
+   "url": "https://cdn.modrinth.com/data/WPE5gRs9/versions/ndnETBEN/create-confectionery1.21.1_v1.1.3b.jar",
+   "sha1": "47e235efa862c5cbea53fdf8346d4c499674defa",
+   "size": 2127265,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create-enchantment-industry-2.5.4b.jar",
+   "url": "https://cdn.modrinth.com/data/JWGBpFUP/versions/L6VSDdC4/create-enchantment-industry-2.5.4b.jar",
+   "sha1": "48be078caf6be2b3e43787418625618dc39b7ae1",
+   "size": 1607432,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create-integrated-farming-1.4.3.jar",
+   "url": "https://cdn.modrinth.com/data/9k1pAsfR/versions/EWfVwbHy/create-integrated-farming-1.4.3.jar",
+   "sha1": "27cbb530828aa375450d005426e609d96cb254e9",
+   "size": 865429,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_aeronautics_automated_logistics-0.7.0.jar",
+   "url": "https://cdn.modrinth.com/data/73ZXeRfx/versions/ESwTkggq/create_aeronautics_automated_logistics-0.7.0.jar",
+   "sha1": "0da40850bdb4f3eb18340e6adb466d2af5fba50f",
+   "size": 1766088,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_aeronautics_transmission_linkage-0.2.9.jar",
+   "url": "https://cdn.modrinth.com/data/Y1dq5ioE/versions/WoUjC6d4/create_aeronautics_transmission_linkage-0.2.9.jar",
+   "sha1": "408317e1fe8b44512007df662a342888acf67871",
+   "size": 736565,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_atmospherics-2.0.0-oceans-e638ce3.jar",
+   "url": "https://cdn.modrinth.com/data/vh6aSn2S/versions/69W6RqG8/create_atmospherics-2.0.0-oceans-e638ce3.jar",
+   "sha1": "5754db2123349c56bd30ef5bf2a1cf631ddeedec",
+   "size": 13155367,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_bb-1.0.8-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/j4ARnQwY/versions/nC19ZMKK/create_bb-1.0.8-1.21.1.jar",
+   "sha1": "59220d82cf962773e26778fc24c454e761368092",
+   "size": 2618795,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_connected-1.3.3-mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/Vg5TIO6d/versions/Xe7EqzfQ/create_connected-1.3.3-mc1.21.1.jar",
+   "sha1": "96ae45fa44cd7028a31b9613cb672009e811b145",
+   "size": 6786783,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_factory_logistics-1.21.1-1.6.1-all.jar",
+   "url": "https://cdn.modrinth.com/data/QMGO17gm/versions/6lav8Nc5/create_factory_logistics-1.21.1-1.6.1-all.jar",
+   "sha1": "4bc1f1a2241e37152e19143f86843837827c0a7c",
+   "size": 1303123,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_hypertube-0.6.0-NEOFORGE.jar",
+   "url": "https://cdn.modrinth.com/data/ATDdrG1y/versions/qYjOyvgW/create_hypertube-0.6.0-NEOFORGE.jar",
+   "sha1": "8004b4b3959364609906ea4d7bf409add879a222",
+   "size": 546142,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_jetpack-forge-5.2.1.jar",
+   "url": "https://cdn.modrinth.com/data/UbFnAd4l/versions/sCwiqLqq/create_jetpack-forge-5.2.1.jar",
+   "sha1": "cbd949c62723d805c2ab019def6e6718c50037b8",
+   "size": 495109,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_mechanical_spawner-1.21.1-1.3.2-6.0.10.jar",
+   "url": "https://cdn.modrinth.com/data/T1hmeGi9/versions/k7Fepzl4/create_mechanical_spawner-1.21.1-1.3.2-6.0.10.jar",
+   "sha1": "d9a5a2ee44238e4a90f70057ba9ec8414594fe24",
+   "size": 1215649,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_mobile_packages-1.21.1-0.7.8.jar",
+   "url": "https://cdn.modrinth.com/data/1vXRfEHZ/versions/xSPt2JXH/create_mobile_packages-1.21.1-0.7.8.jar",
+   "sha1": "1e5238c8764bcfc3c0af29c3ff5b4533a18364c7",
+   "size": 623172,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_more_automation-0.5.2-neoforge-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/7iJ65LNI/versions/en1TN4J7/create_more_automation-0.5.2-neoforge-1.21.1.jar",
+   "sha1": "a184d11c11fb03619dd8940cc160b3aa0d5e96fe",
+   "size": 315683,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_ore_excavation_plus-0.2.5-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/ZHocuC06/versions/mevrMbVX/create_ore_excavation_plus-0.2.5-1.21.1.jar",
+   "sha1": "39f3e33528d5c1c7d0ff73b77bcc0bf7bdef1bd9",
+   "size": 1386380,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_pillagers_arise NeoForge 1.21.1-132.36.jar",
+   "url": "https://cdn.modrinth.com/data/VT2rW2wr/versions/dSpuz2DS/create_pillagers_arise%20NeoForge%201.21.1-132.36.jar",
+   "sha1": "ffc083a957c3e527d9aabf3fb851b780ef443b5a",
+   "size": 1778273,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_power_loader-2.0.5-mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/wPQ6GgFE/versions/3Y4r0ItR/create_power_loader-2.0.5-mc1.21.1.jar",
+   "sha1": "5bd3ecef6fc66985e6fdf416706c98fb774ba03d",
+   "size": 442369,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_radar-5.1.1-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/BLu2Yqfq/versions/ES5qa3pY/create_radar-5.1.1-1.21.1.jar",
+   "sha1": "b33c9c8ae355cc42167afb0647ed72a25f391ca0",
+   "size": 5729658,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_submarine-3.4.8.jar",
+   "url": "https://cdn.modrinth.com/data/mva5q4qZ/versions/ZL3n46XL/create_submarine-3.4.8.jar",
+   "sha1": "5c1ae9efd408e8be0d373b36e37a0416ba4b2a19",
+   "size": 12435647,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_train_physics-0.2.0-beta.2.jar",
+   "url": "https://cdn.modrinth.com/data/sOs1Eq2b/versions/cKkqankx/create_train_physics-0.2.0-beta.2.jar",
+   "sha1": "23f59fa58793d99875b3ed95e726ac0b44a472b8",
+   "size": 61401,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_tweaked_controllers-1.21.1-1.2.7.jar",
+   "url": "https://cdn.modrinth.com/data/H6bJ8Ju4/versions/csCe2v7f/create_tweaked_controllers-1.21.1-1.2.7.jar",
+   "sha1": "6358da213d0eff982c3431a8d004a3e912f7957a",
+   "size": 303343,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_walking_steel-1.0.0.jar",
+   "url": "https://cdn.modrinth.com/data/YDfSQUPe/versions/QcrDonC0/create_walking_steel-1.0.0.jar",
+   "sha1": "a5a12f55ef41e8e9259a50d25f868c7452d44b4c",
+   "size": 86191,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/create_wizardry-1.21.1-0.5.1-pre1.jar",
+   "url": "https://cdn.modrinth.com/data/OeGdeWEj/versions/K1xkNKKf/create_wizardry-1.21.1-0.5.1-pre1.jar",
+   "sha1": "5aa96dd49136ea855ccdf441b606cc26fd88b927",
+   "size": 653145,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createbigcannons-5.11.7+mc.1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/GWp4jCJj/versions/bOiDu0LS/createbigcannons-5.11.7%2Bmc.1.21.1.jar",
+   "sha1": "c90ee0b2142e2c58d233e150cb3a24c7cb07eb2d",
+   "size": 3771506,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createcontraptionterminals-1.21-1.4.0.jar",
+   "url": "https://cdn.modrinth.com/data/gOPAFzp0/versions/gBvq8zOa/createcontraptionterminals-1.21-1.4.0.jar",
+   "sha1": "ede963781ca5bf49c5117031087b8085043c7ab3",
+   "size": 91226,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createdeco-2.1.3.jar",
+   "url": "https://cdn.modrinth.com/data/sMvUb4Rb/versions/qrcMVoBD/createdeco-2.1.3.jar",
+   "sha1": "93d9eff58b46c6953e907d071e6be4e3ce07be38",
+   "size": 3328498,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createdieselgenerators-1.21.1-1.3.15.jar",
+   "url": "https://cdn.modrinth.com/data/ZM3tt6p1/versions/UoPH8lO1/createdieselgenerators-1.21.1-1.3.15.jar",
+   "sha1": "7f751dabfa83c141c1d13025cd16f06553ba459b",
+   "size": 3154746,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createfood-neoforge-1.21.1-3.0.0.jar",
+   "url": "https://cdn.modrinth.com/data/4HnO3el1/versions/uaxLGKon/createfood-neoforge-1.21.1-3.0.0.jar",
+   "sha1": "8cb5a2bf84c7ce28e0ca5815785da35d23fd6569",
+   "size": 11968172,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createmetalwork-neoforge-1.21.1-3.0.0.jar",
+   "url": "https://cdn.modrinth.com/data/q5i9RTSJ/versions/jImnSYtO/createmetalwork-neoforge-1.21.1-3.0.0.jar",
+   "sha1": "251b18b4a337f75a8090e5a90c872bceefb3caeb",
+   "size": 2082431,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createnuclear-2.0.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/z611fdf7/versions/zNIyk0mQ/createnuclear-2.0.1-neoforge.jar",
+   "sha1": "90977ec04d39c5d6de0d715218ef55e3401c4ba4",
+   "size": 8357375,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createoreexcavation-1.21-1.6.8.jar",
+   "url": "https://cdn.modrinth.com/data/ResbpANg/versions/tivxiPTo/createoreexcavation-1.21-1.6.8.jar",
+   "sha1": "9a76b86ec7470d4bd7332f22d6e50a3693098c10",
+   "size": 476990,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createpropulsion-1.1.5.jar",
+   "url": "https://cdn.modrinth.com/data/ApkoHNO9/versions/H13U56dc/createpropulsion-1.1.5.jar",
+   "sha1": "928e9428ee92d07426c296b04a7fffb1e737e290",
+   "size": 1707765,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6.jar",
+   "url": "https://cdn.modrinth.com/data/Dq3STxps/versions/rlsRwxq3/createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6.jar",
+   "sha1": "bf0ff70b421fb6fdb899f21e8e2899bbc9bd5e33",
+   "size": 4680276,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/cultofazazelneoforge-1.1.4.12.jar",
+   "url": "https://cdn.modrinth.com/data/tnd2BYam/versions/soOXKDV6/cultofazazelneoforge-1.1.4.12.jar",
+   "sha1": "fae73bb61db8d7b0f3dc5d7d446db8344679ac30",
+   "size": 10920502,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
+   "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+   "size": 410690,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/darkdoppelganger-4.5.1-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/2vzHL83v/versions/Zembk00z/darkdoppelganger-4.5.1-1.21.1.jar",
+   "sha1": "0188507db5dd4277ed692ac34fcf17074b33ef17",
+   "size": 4796417,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/discerning_the_eldritch-1.4.5-1.21.jar",
+   "url": "https://cdn.modrinth.com/data/bA1tmmcv/versions/A5kNeH0o/discerning_the_eldritch-1.4.5-1.21.jar",
+   "sha1": "93e48d71885cbb287b5afe689f4090050bc416c0",
+   "size": 22174980,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/dragoncare-1.3.1-aerofix.jar",
+   "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/files/dragoncare-1.3.1-aerofix.jar",
+   "sha1": "13184579be6ea8f3eb11b545a0c7ecfd9c65376e",
+   "size": 3428916,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/dragonlib-3.0.29+mc1.21.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/sbIsGaOV/versions/y30Bx41r/dragonlib-3.0.29%2Bmc1.21.1-neoforge.jar",
+   "sha1": "ca7227b30334cb50117efe5cf76a01772e053eed",
+   "size": 2117194,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/dungeons-and-taverns-v4.4.4.jar",
+   "url": "https://cdn.modrinth.com/data/tpehi7ww/versions/BYUUUeZA/dungeons-and-taverns-v4.4.4.jar",
+   "sha1": "249a5bdd0e8622b8a11f88758e6f5fd5fda036a3",
+   "size": 24859622,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/dynamicvillage-v0.5.1-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/YCPmkFAm/versions/9maBydxx/dynamicvillage-v0.5.1-1.21.1.jar",
+   "sha1": "98fc2adc502c0f34ee29cba48c1e733b88c94b1c",
+   "size": 205427,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/echoes_of_the_end__structures NeoForge Fabric 1.21.1 -12.00.13.jar",
+   "url": "https://cdn.modrinth.com/data/eVpstLY3/versions/latIOBBs/echoes_of_the_end__structures%20NeoForge%20Fabric%201.21.1%20-12.00.13.jar",
+   "sha1": "b301050f30a92caa148448e27158e105e3af3039",
+   "size": 269189,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/effortlessbuilding-4.2+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/DYtfQEYj/versions/YxnBXtLv/effortlessbuilding-4.2%2B1.21.1.jar",
+   "sha1": "34af0d5e57f771fa9a37e6b1b5e59c38a03afd01",
+   "size": 958842,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/eldritch_expansion-0.4.2.jar",
+   "url": "https://cdn.modrinth.com/data/fzkXfZx5/versions/WAZutrEI/eldritch_expansion-0.4.2.jar",
+   "sha1": "d5fe1169cdaf1ec0197052d38eebe3768fab0c0d",
+   "size": 307290,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/electroenergetics-1.21.1-1.1.4.jar",
+   "url": "https://cdn.modrinth.com/data/qYJdIoAx/versions/ZMfRgLy5/electroenergetics-1.21.1-1.1.4.jar",
+   "sha1": "e2e7dfa11767d17920571e1c7d2c37211421539c",
+   "size": 4774719,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/entityculling-neoforge-1.12.1-mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/DDaDZQ47/entityculling-neoforge-1.12.1-mc1.21.1.jar",
+   "sha1": "75671869d5991e7fbeed77f0549501d1368d6f44",
+   "size": 1523607,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/epic-structures-dungeons-1.2.5.jar",
+   "url": "https://cdn.modrinth.com/data/t0YT91nL/versions/tcsK0UPh/epic-structures-dungeons-1.2.5.jar",
+   "sha1": "ab762dcaf04fcdb036b698039d7fac12df2773eb",
+   "size": 17378734,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/escalated-1.3.2+mc.1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/LyOBYG8Q/versions/vJ49zRJl/escalated-1.3.2%2Bmc.1.21.1.jar",
+   "sha1": "34854b74bd9c627b873cb21bb5ec15fbad038db6",
+   "size": 512624,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/eternalstarlight-0.9.1+1.21.1+neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/XvcfUGfB/versions/IyTc0Vvj/eternalstarlight-0.9.1%2B1.21.1%2Bneoforge.jar",
+   "sha1": "5b9235c764787242085de386aaeb02372b1ab03c",
+   "size": 59325382,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/explorations-neoforge-1.21.1-1.6.5.jar",
+   "url": "https://cdn.modrinth.com/data/pcGnjJ39/versions/oe5VEYWf/explorations-neoforge-1.21.1-1.6.5.jar",
+   "sha1": "86b1c2405c36e896bc4b5018cc0a7903dc8bda5f",
+   "size": 219796,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/familiarslib-1.21.1-2.0.jar",
+   "url": "https://cdn.modrinth.com/data/dAPGqOME/versions/9bQAzzox/familiarslib-1.21.1-2.0.jar",
+   "sha1": "088769a8e05160a2bc0546267fc2e1c22542feb3",
+   "size": 788562,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/farmers-spell-n-spellbook-1.0.7.1-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/UWV8H4F4/versions/4F8DZu21/farmers-spell-n-spellbook-1.0.7.1-1.21.1.jar",
+   "sha1": "ce0ab69210e38da89aabc6f1a0993c6526b30517",
+   "size": 5660012,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/fdbosses-3.2-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/7fqQYwaC/versions/kwrLMvMC/fdbosses-3.2-1.21.1.jar",
+   "sha1": "e42079e55eb25ba1fc0b16ce86c627b7a3d36fdb",
+   "size": 25979434,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/fdlib-1.0.9-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/LcmGQfK2/versions/eGbrbFqp/fdlib-1.0.9-1.21.1.jar",
+   "sha1": "03a171d170b22a04e67d2cc7894ddddd8489a295",
+   "size": 973335,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/ferritecore-7.0.3-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
+   "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
+   "size": 121559,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/first-steps-neoforge-2.10.jar",
+   "url": "https://cdn.modrinth.com/data/98tY8ITu/versions/CM45YxeH/first-steps-neoforge-2.10.jar",
+   "sha1": "e0610467df89f25b4e63fc301a4e4fc42d21d13b",
+   "size": 2076939,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/ftb-filter-system-neoforge-21.1.4.jar",
+   "url": "https://mediafilez.forgecdn.net/files/7429/11/ftb-filter-system-neoforge-21.1.4.jar",
+   "sha1": "a48e54edeacc59aaba29a1b627799c052112ee0b",
+   "size": 211671,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/ftb-library-neoforge-2101.1.40.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9650/381/ftb-library-neoforge-2101.1.40.jar",
+   "sha1": "e5f24391a447754dbc6d37d866981f47d67bb664",
+   "size": 1643436,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/ftb-quests-neoforge-2101.1.39.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9650/792/ftb-quests-neoforge-2101.1.39.jar",
+   "sha1": "d5a0de6ad0517fd843ea830b49b06287c0686906",
+   "size": 1670999,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/ftb-teams-neoforge-2101.1.12.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9434/81/ftb-teams-neoforge-2101.1.12.jar",
+   "sha1": "9c831fbbbccf2178827c3ccf278b2f2a0ce57306",
+   "size": 308430,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/gadgets-and-gizmos-bundled-2.0.3.jar",
+   "url": "https://cdn.modrinth.com/data/Sza3GgEL/versions/SeokxTA4/gadgets-and-gizmos-bundled-2.0.3.jar",
+   "sha1": "c5973b6e8f2e95537257fc809cc051336631f5cd",
+   "size": 57088696,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+   "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/Grwn5rUB/geckolib-neoforge-1.21.1-4.9.3.jar",
+   "sha1": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac",
+   "size": 634531,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/getittogetherdrops-neoforge-1.21.5-1.4.jar",
+   "url": "https://cdn.modrinth.com/data/T0OUgf8P/versions/K4TUzlwa/getittogetherdrops-neoforge-1.21.5-1.4.jar",
+   "sha1": "ead940a50f69313802960c497e252acd3956334f",
+   "size": 8825,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/grim-kingdoms-lost-structures-ruins-2.0.3.jar",
+   "url": "https://cdn.modrinth.com/data/f4d4E9De/versions/2HwCrjkl/grim-kingdoms-lost-structures-ruins-2.0.3.jar",
+   "sha1": "54d6fa1040cfca3f0ea9d1766b7ed63864ee660c",
+   "size": 10281208,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/hazentouvelib-1.0.9.jar",
+   "url": "https://cdn.modrinth.com/data/nZaIUw7C/versions/zSqYdmPI/hazentouvelib-1.0.9.jar",
+   "sha1": "b5d68711babb604e368b918683eb89a4d1492077",
+   "size": 559849,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/iceandfire-2.1-beta.1.jar",
+   "url": "https://cdn.modrinth.com/data/VpmCsizY/versions/o6K8vx54/iceandfire-2.1-beta.1.jar",
+   "sha1": "1c420e2669bf69e3ce8e0fd0a988c619adfe9e61",
+   "size": 16835499,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/iceandfire_addon-1.1.1-neoforge-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/Vf0JUkLp/versions/KcFTh6uw/iceandfire_addon-1.1.1-neoforge-1.21.1.jar",
+   "sha1": "6c11c11d6e681d3b8558496f85e25af7cc34b3fa",
+   "size": 57157,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/iceandfire_create-1.21.1-Neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/HuZZUARA/versions/hLfHYYgY/iceandfire_create-1.21.1-Neoforge.jar",
+   "sha1": "8df672049df01c45aaabcf2b1b06c4c526e0b49e",
+   "size": 190935,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/iceandfire_smithing-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/xGg3Zcsk/versions/IubPoVRe/iceandfire_smithing-1.21.1.jar",
+   "sha1": "e748b78e3bb5786ce25cda0857f0e67ccc2dbcaa",
+   "size": 66955,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/integrated_api-neoforge-1.21.1-1.9.2.jar",
+   "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/W2kSUAja/integrated_api-neoforge-1.21.1-1.9.2.jar",
+   "sha1": "deb0bbaabc520dece9047f5527d1d6d85082bfae",
+   "size": 486108,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/integrated_villages-1.3.3+1.21.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/o1qh5qIF/versions/B5BcNY1z/integrated_villages-1.3.3%2B1.21.1-neoforge.jar",
+   "sha1": "4ba7360abf671b1f0f40c43c590977da2048490e",
+   "size": 4592084,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/interiors-1.21.1-neoforge-0.6.1.jar",
+   "url": "https://cdn.modrinth.com/data/r4Knci2k/versions/gBrfZy6S/interiors-1.21.1-neoforge-0.6.1.jar",
+   "sha1": "a558777ef4510da2f4d32ca3da6ac7384c9a9940",
+   "size": 486912,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+   "sha1": "1bd129cf7bce65d6b1c0543045f0620c98a0f885",
+   "size": 2540723,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/irons_jewelry-1.21.1-2.0.2.jar",
+   "url": "https://cdn.modrinth.com/data/cTagjDuu/versions/MCWj9fXj/irons_jewelry-1.21.1-2.0.2.jar",
+   "sha1": "2f8d934d04111037dcf3fe7b04c96aec892da744",
+   "size": 731614,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/irons_lib-1.21.1-2.3.0.jar",
+   "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/dgH7P81J/irons_lib-1.21.1-2.3.0.jar",
+   "sha1": "539b49b1a3988d4084a80470f0cfa404258bf0d0",
+   "size": 481888,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/irons_spellbooks-1.21.1-3.16.3.jar",
+   "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/slKLosTb/irons_spellbooks-1.21.1-3.16.3.jar",
+   "sha1": "e8832385c01db56b9fcb19c48fcedc76a3a70d92",
+   "size": 13890045,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/irons_spells_dynamic_skilltree_1.1.0.jar",
+   "url": "https://cdn.modrinth.com/data/cdEXZLO4/versions/j2XQWLuk/irons_spells_dynamic_skilltree_1.1.0.jar",
+   "sha1": "de961262e4328fea6861f6ba94323037df2d44ab",
+   "size": 254720,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/ironsable-1.2.2.jar",
+   "url": "https://cdn.modrinth.com/data/WB9oQ4EQ/versions/tN91AzIt/ironsable-1.2.2.jar",
+   "sha1": "d7a17c970855986496919aa6e6908023a1ed9e92",
+   "size": 214580,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/iss_magicfromtheeast-1.1.5.jar",
+   "url": "https://cdn.modrinth.com/data/NfYqagMx/versions/kMTvd9NT/iss_magicfromtheeast-1.1.5.jar",
+   "sha1": "e3552ea6b7b32b843c48bf0d857237d4b7129ab0",
+   "size": 1680780,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/jei-1.21.1-neoforge-19.70.0.469.jar",
+   "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/1vC6z8wV/jei-1.21.1-neoforge-19.70.0.469.jar",
+   "sha1": "363f10ce1d8918381a125cc1e8d800caf1bcb40e",
+   "size": 4784333,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/journeymap-neoforge-1.21.1-6.0.9.jar",
+   "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/CtFE7hwT/journeymap-neoforge-1.21.1-6.0.9.jar",
+   "sha1": "3a5c86e620a7d5aa53b6e42ca4a1577bbba1d332",
+   "size": 4320499,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/jupiter-2.3.7-1.21.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/XbiLGMMU/versions/Jpcw76rq/jupiter-2.3.7-1.21.1-neoforge.jar",
+   "sha1": "569fb484ea5c8e8d690945ad4cd132131a719751",
+   "size": 278988,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/kotlinforforge-5.13.0-all.jar",
+   "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/9ZlVvei8/kotlinforforge-5.13.0-all.jar",
+   "sha1": "b1d5563f4e3db9ec4a4a2b371560aa171d6de237",
+   "size": 7364729,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/legendarymage-1.1.3.jar",
+   "url": "https://cdn.modrinth.com/data/2nmJDjSm/versions/Zj6KtEFu/legendarymage-1.1.3.jar",
+   "sha1": "d7415eec7248f535aa2cb4eb81728d7c44052372",
+   "size": 3169120,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/libIPN-neoforge-1.21.1-6.6.3.jar",
+   "url": "https://cdn.modrinth.com/data/onSQdWhM/versions/BGe4KMlE/libIPN-neoforge-1.21.1-6.6.3.jar",
+   "sha1": "baab9e8cae3d2b77b5e172b5694e465ee9f30d4a",
+   "size": 626146,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/linearbearing-1.3.5.jar",
+   "url": "https://cdn.modrinth.com/data/ZTwCjE7O/versions/8SJdnoXS/linearbearing-1.3.5.jar",
+   "sha1": "eea526a9e5b22ef1482f3f6f739d65a53681f1f0",
+   "size": 203626,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/linearbearingsfix-1.0.3.jar",
+   "url": "https://cdn.modrinth.com/data/xLxyRluH/versions/MQ6XuOMQ/linearbearingsfix-1.0.3.jar",
+   "sha1": "035f3e0654522796aab12ba9161fe5e7fbeb9fa3",
+   "size": 28688,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/lionfishapi-3.1.jar",
+   "url": "https://cdn.modrinth.com/data/FoVacERa/versions/fTRMVgyZ/lionfishapi-3.1.jar",
+   "sha1": "353ca00ed118eb67cf11085abbbd699884722326",
+   "size": 91596,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/lithium-neoforge-0.15.4+mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+   "sha1": "97212e45c963730bbfc7c44780df99317814c21b",
+   "size": 774220,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/lithosphere-1.9.jar",
+   "url": "https://cdn.modrinth.com/data/iv9jp2k9/versions/U5WCfdKO/lithosphere-1.9.jar",
+   "sha1": "1197851f35c71bebf308afa6334ff2f523437d0c",
+   "size": 1178986,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/lithostitched-1.8.1-neoforge-21.1.jar",
+   "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/cZu4cHY3/lithostitched-1.8.1-neoforge-21.1.jar",
+   "sha1": "88cdded5b617e19b4d2676948b5550699de23578",
+   "size": 1023751,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/loconautics-0.1.3BETA.jar",
+   "url": "https://mediafilez.forgecdn.net/files/9627/28/loconautics-0.1.3BETA.jar",
+   "sha1": "c37063f3002e85d1a65d35705f123e7df1e9c5af",
+   "size": 4614886,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/mca-neoforge-7.7.36-beta.3+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/1W98a849/versions/S2Ln2tIn/mca-neoforge-7.7.36-beta.3%2B1.21.1.jar",
+   "sha1": "837241e4da732733c307b7385e14d9ec8e93182f",
+   "size": 12141510,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/mechanicals-1.21.1-1.1.6.jar",
+   "url": "https://cdn.modrinth.com/data/ProvjTA7/versions/GBSlpwLT/mechanicals-1.21.1-1.1.6.jar",
+   "sha1": "65818a9a904983c39acfd7b2da3fe784bd35e83b",
+   "size": 2022181,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/mezz_config-1.21.1-neoforge-0.7.1-standalone.jar",
+   "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/V6oWFnxW/mezz_config-1.21.1-neoforge-0.7.1-standalone.jar",
+   "sha1": "2382e29c9a0f44d4f4b9baa4cb3f6a356e048e60",
+   "size": 347249,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/modernfix-neoforge-5.27.27+mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/ZDZENbHH/modernfix-neoforge-5.27.27%2Bmc1.21.1.jar",
+   "sha1": "52c008540c7dc2cc451f7e939a885d7462c9ae72",
+   "size": 614138,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/moonlight-1.21.1-3.8.3-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/yBea1yLM/moonlight-1.21.1-3.8.3-neoforge.jar",
+   "sha1": "046821d548a1269164c792bab46d55798085c285",
+   "size": 2327347,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/muchmoredungeons-neoforge-1.21.1-2.0.1.jar",
+   "url": "https://cdn.modrinth.com/data/ydBxwDBa/versions/UVY2JEM6/muchmoredungeons-neoforge-1.21.1-2.0.1.jar",
+   "sha1": "f52c8d84be5a93dbb306526b07bae3c5146209be",
+   "size": 583220,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/natures_spirit-2.3.2-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/WBvnqHfV/versions/EQReaqUo/natures_spirit-2.3.2-1.21.1.jar",
+   "sha1": "df178fbd03d204a69f355f9b613dd4f18639ec78",
+   "size": 18677548,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/netherportalfix-neoforge-1.21.1-21.1.1.jar",
+   "url": "https://cdn.modrinth.com/data/nPZr02ET/versions/O09BGtgh/netherportalfix-neoforge-1.21.1-21.1.1.jar",
+   "sha1": "9f1ba483216aebce1ee6185601231158684f5de8",
+   "size": 211972,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/noisium-neoforge-2.3.0+mc1.21-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/nJBE6tif/noisium-neoforge-2.3.0%2Bmc1.21-1.21.1.jar",
+   "sha1": "1bea6b61378ba80f038256c4345d9ff3b67928c4",
+   "size": 60296,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+   "url": "https://cdn.modrinth.com/data/c7m1mi73/versions/2C41Q8WX/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+   "sha1": "a8bb6e25807682e72c23bf4065f3cd5f6373ece3",
+   "size": 46623,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/paladin_spells-1.21.1-1.1.4.jar",
+   "url": "https://cdn.modrinth.com/data/JnNkkyFG/versions/QnpXkWUJ/paladin_spells-1.21.1-1.1.4.jar",
+   "sha1": "534697473b265e6daf4692bdefeb2df3d2608b08",
+   "size": 1864377,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/pantographsandwires-neoforge-1.21.1-beta-0.2.3-C6.jar",
+   "url": "https://cdn.modrinth.com/data/VzdCnMqW/versions/CbRqaEft/pantographsandwires-neoforge-1.21.1-beta-0.2.3-C6.jar",
+   "sha1": "44ac4b3d476c2a2b824ea8bf4bc8bb124edd74c9",
+   "size": 2030764,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/pipeorgans-0.9.2.1+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/yGttHo06/versions/mv1qcsse/pipeorgans-0.9.2.1%2B1.21.1.jar",
+   "sha1": "823be9b57775ec7898a7e6d70c01bcdf77d2c3b3",
+   "size": 7132757,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/HJZB6bmA/player-animation-lib-forge-2.0.4%2B1.21.1.jar",
+   "sha1": "05be8ddcc78532b9a5520c718edc6c971cd0057c",
+   "size": 203149,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/polymorph-neoforge-1.2.0+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/tagwiZkJ/versions/9yWvrF5o/polymorph-neoforge-1.2.0%2B1.21.1.jar",
+   "sha1": "fa6c5fa8a21229c85d564b47c73df7160b3bd4df",
+   "size": 172671,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/portable_engine_liquid_fuel-2.0.0-neoforge-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/HLbPoouI/versions/L6KPVFxI/portable_engine_liquid_fuel-2.0.0-neoforge-1.21.1.jar",
+   "sha1": "f9602c7f9a8268507a835bfa47db1512d356dae7",
+   "size": 133486,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/pufferfish_unofficial_additions-1.21.1-2.2.8.jar",
+   "url": "https://cdn.modrinth.com/data/IAao6ECB/versions/Gg8lwHYR/pufferfish_unofficial_additions-1.21.1-2.2.8.jar",
+   "sha1": "b273ea691e027b33fb9a19fb966c5f072edfa5c0",
+   "size": 52976,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/puffish_attributes-0.8.3-1.21-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/FCFcFw09/versions/ZySEqrUb/puffish_attributes-0.8.3-1.21-neoforge.jar",
+   "sha1": "9e6a87f790fc9281ea2685f8d4f6435d0d7c6d1f",
+   "size": 235542,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/puffish_skills-0.19.2-1.21-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/hqQqvaa4/versions/8tfcI2wU/puffish_skills-0.19.2-1.21-neoforge.jar",
+   "sha1": "e7439fa56036bfacf228269b8b89f10cbbba13fd",
+   "size": 652840,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/puzzleslib-v21.1.66-mc1.21.1+neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/kmN5PWk9/puzzleslib-v21.1.66-mc1.21.1%2Bneoforge.jar",
+   "sha1": "fd584167f1277aef5411a98a22390c65cabe6e07",
+   "size": 1451120,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/railways-0.3.0-beta.2+neoforge-mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/L3Jv0QZI/versions/czVeSmZo/railways-0.3.0-beta.2%2Bneoforge-mc1.21.1.jar",
+   "sha1": "82a28ce51fdbc583477d7ae7c4c94cc6d23ec2b4",
+   "size": 18728584,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/reeses-sodium-options-neoforge-2.2.4+mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/XjF2IkL8/reeses-sodium-options-neoforge-2.2.4%2Bmc1.21.1.jar",
+   "sha1": "e9e6d101b31acb51539141937ad5b069ff2ccc4d",
+   "size": 258894,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/repurposed_structures-7.5.22+1.21.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/QDNS5oAT/versions/8duZuWci/repurposed_structures-7.5.22%2B1.21.1-neoforge.jar",
+   "sha1": "a64f6b2d331d5c3a5feefcd18d23f4585a42b097",
+   "size": 8246760,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2%2Bmc.1.21.1-neoforge.jar",
+   "sha1": "ec2e4996f8bee8714173e603e379fef8a6901765",
+   "size": 76369,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/sable-neoforge-1.21.1-2.0.6.jar",
+   "url": "https://cdn.modrinth.com/data/T9PomCSv/versions/fg9dTRz9/sable-neoforge-1.21.1-2.0.6.jar",
+   "sha1": "cf46f7e8c1511f170abcdbee739944f0540549bf",
+   "size": 12986135,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/sizeable_foliage-neoforge-1.21.1-1.3.0.jar",
+   "url": "https://cdn.modrinth.com/data/lgD8igI0/versions/kzcKvYlT/sizeable_foliage-neoforge-1.21.1-1.3.0.jar",
+   "sha1": "681e82a16bb66ad65e82c7dd5c819535d10982f8",
+   "size": 193129,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/sliceanddice-4.3.4-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/GmjmRQ0A/versions/D6mQaFRW/sliceanddice-4.3.4-neoforge.jar",
+   "sha1": "bfcb12d13465caf6743f200fbd755b72705011e4",
+   "size": 1356389,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/sodium-extra-neoforge-0.9.5+mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/T819dLGI/sodium-extra-neoforge-0.9.5%2Bmc1.21.1.jar",
+   "sha1": "6ca433df0ad08ce8413582e75dcae7619414a068",
+   "size": 483373,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/AANobbMI/versions/uMOpc5uV/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+   "sha1": "1757289be21ed18db5b0d90703fa3db1b2de5693",
+   "size": 1292934,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/sophisticatedbackpacks-1.21.1-3.26.21.2249.jar",
+   "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/tJnK2DE1/sophisticatedbackpacks-1.21.1-3.26.21.2249.jar",
+   "sha1": "940e93e9eaaf7db50c308c2a849a471830f6c1ea",
+   "size": 1265683,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/sophisticatedcore-1.21.1-1.5.38.2484.jar",
+   "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/hhok4NTk/sophisticatedcore-1.21.1-1.5.38.2484.jar",
+   "sha1": "d03c42d2f00ddec0bf999b3525afe85dba6c6e46",
+   "size": 1855171,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/spark-1.10.124-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar",
+   "sha1": "9430cc2ab64ff89d698be593769fb9f9ee4efae6",
+   "size": 3642581,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/stars_aligned-1.0.0.jar",
+   "url": "https://cdn.modrinth.com/data/1ILI8Ruf/versions/UPGDImGB/stars_aligned-1.0.0.jar",
+   "sha1": "2aba4b8823b5db3bc3657d0a049b719304ce2981",
+   "size": 114676,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/structure_generation_improver-2.0.1-neoforge-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/8NXpf3Um/versions/QFntKDEr/structure_generation_improver-2.0.1-neoforge-1.21.1.jar",
+   "sha1": "29cf2a6dc18c9698f9d86ccc4d95b88e4bbc306f",
+   "size": 46926,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/structures-1.3.jar",
+   "url": "https://cdn.modrinth.com/data/PZIWeQhv/versions/lwgkR66t/structures-1.3.jar",
+   "sha1": "ec72df1f203f66f45edbd508c8ed89dd8e05dffc",
+   "size": 20307,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/struts-1.3.1.jar",
+   "url": "https://cdn.modrinth.com/data/sHO3MhQx/versions/BOTN7zzN/struts-1.3.1.jar",
+   "sha1": "131663d29e0dd944e03299b35bda18aefacd1932",
+   "size": 216678,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/supplementaries-1.21.1-4.1.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/ry2Njtnv/supplementaries-1.21.1-4.1.1-neoforge.jar",
+   "sha1": "b1e0c795341f98ce4980ef2d606f3b9f9ef38021",
+   "size": 13958834,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/tfmg-1.21.1-1.3.3a-community.jar",
+   "url": "https://cdn.modrinth.com/data/hC1xYvnS/versions/o8aSx7yp/tfmg-1.21.1-1.3.3a-community.jar",
+   "sha1": "05869fc36732f40c1a23770208b0b7cb649373a6",
+   "size": 5631220,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/the_beyond-1.0.1.jar",
+   "url": "https://cdn.modrinth.com/data/QFR0NFEH/versions/aBH0IbX3/the_beyond-1.0.1.jar",
+   "sha1": "8b6dba68ae4cfb32e364daef3df4023ff56db495",
+   "size": 13843490,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/toms_storage-1.21-2.4.2.jar",
+   "url": "https://cdn.modrinth.com/data/XZNI4Cpy/versions/WQAMoIMC/toms_storage-1.21-2.4.2.jar",
+   "sha1": "592af3bc4768c804c4929af16961ca2a1a916942",
+   "size": 856803,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/trade-cycling-neoforge-1.21.1-1.0.23.jar",
+   "url": "https://cdn.modrinth.com/data/qpPoAL6m/versions/9dxmi65z/trade-cycling-neoforge-1.21.1-1.0.23.jar",
+   "sha1": "e72bceb0d118839658f3eda9a60301b50fcef01c",
+   "size": 86678,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/unraveling_spells-1.21.1-1.2.0b.jar",
+   "url": "https://cdn.modrinth.com/data/x7x0umr5/versions/KFL0C2EL/unraveling_spells-1.21.1-1.2.0b.jar",
+   "sha1": "1d9783dd01c7e16f32b0875bfcd92d0f5cf76d26",
+   "size": 403371,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/uranus-2.4.1-1.21.1-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/3Acxy864/versions/1YdU56pR/uranus-2.4.1-1.21.1-neoforge.jar",
+   "sha1": "2d689d2d9e5861ea0a382a459fa8fb0a3e4b5091",
+   "size": 847732,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/voicechat-neoforge-1.21.1-2.6.27.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/iR08ksVF/voicechat-neoforge-1.21.1-2.6.27.jar",
+   "sha1": "8aded3a22614a8e1641973623e7817dccea513fa",
+   "size": 4936802,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/waystones-neoforge-1.21.1-21.1.47.jar",
+   "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/sE6fMBGR/waystones-neoforge-1.21.1-21.1.47.jar",
+   "sha1": "51c3390c2555416979905f9d1b05ebc1a4de29c8",
+   "size": 1254420,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/wind_spellbooks-1.0.1.jar",
+   "url": "https://cdn.modrinth.com/data/nTApwmMc/versions/hOrukM8m/wind_spellbooks-1.0.1.jar",
+   "sha1": "84fec13f30dc9646625ecc7f009c6592fc65d21b",
+   "size": 443474,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/witherreincarnated-1.21.1-1.0.5.jar",
+   "url": "https://cdn.modrinth.com/data/YDc8cRWF/versions/6d4I4VPO/witherreincarnated-1.21.1-1.0.5.jar",
+   "sha1": "7d5b44a8ec9e6c4f4624382e3a804b32160450de",
+   "size": 12616597,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "config/aces_spell_utils-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aces_spell_utils-client.toml",
+   "sha1": "0658e82215e9185faf64bf0f63fcdae2b3cbb39d",
+   "size": 135,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aces_spell_utils-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aces_spell_utils-common.toml",
+   "sha1": "b1ec368790ee770cf51ccab701886821102d7c34",
+   "size": 660,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/acolyte-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/acolyte-common.toml",
+   "sha1": "e9bca41d0f18748349a2423bd298e12813a7ff49",
+   "size": 1515,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aeroengineering-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeroengineering-client.toml",
+   "sha1": "ad1d0813c333487c38157f69f6e691db7b3d93db",
+   "size": 353,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aeroengineering-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeroengineering-server.toml",
+   "sha1": "dbfa29aa28229772ca7926ce25d8933547cc8ac8",
+   "size": 4084,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aeronautics-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeronautics-server.toml",
+   "sha1": "e01adc163a806d84330b7778e11acb0ce3d33678",
+   "size": 3066,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aeronautics_utility_objects-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeronautics_utility_objects-server.toml",
+   "sha1": "ace0fc81f5cf622d20047e429f6585251233e022",
+   "size": 6925,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aeronauticsdiscovery-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeronauticsdiscovery-common.toml",
+   "sha1": "544455cf0b2a9c1e0d07d24abf9b9d6039b87459",
+   "size": 3893,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aeronauticsdiscovery-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeronauticsdiscovery-server.toml",
+   "sha1": "b8c57e91a433847e74948514bbf764ca2b18a279",
+   "size": 721,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aeronauticswinds-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeronauticswinds-client.toml",
+   "sha1": "e3da40bbaa65daee25c18886b6fb72c774575794",
+   "size": 10984,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aeronauticswinds-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeronauticswinds-common.toml",
+   "sha1": "16e62e0bb914083566cbc09480109e95ffc076f7",
+   "size": 23342,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/aeroworks-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeroworks-client.toml",
+   "sha1": "beed62e0c620b1dd5f4dc6a2584d321f965af453",
+   "size": 291,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/aeroworks-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/aeroworks-common.toml",
+   "sha1": "91f1c73489d3fe6ed8d55b06646fc70114a98e02",
+   "size": 2769,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/alshanex_familiars-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/alshanex_familiars-server.toml",
+   "sha1": "ce7d35dd976e6206ed0be3833e2ba887e6b42ae0",
+   "size": 145,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/antarchy/.config_generation",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/antarchy/.config_generation",
+   "sha1": "0ade7c2cf97f75d009975f4d720d1fa6c19f4897",
+   "size": 1,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/antarchy/antarchy_misc.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/antarchy/antarchy_misc.toml",
+   "sha1": "f6eb1f1abf5c596b359f38a2cc18a0838ab513b7",
+   "size": 9817,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/antarchy/antarchy_mobs.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/antarchy/antarchy_mobs.toml",
+   "sha1": "b4c635475c3d39e61e56e07ce9f96e803e08a3c3",
+   "size": 40736,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/antarchy/antarchy_tools.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/antarchy/antarchy_tools.toml",
+   "sha1": "02d2e2e8b06aa158bc5244d1c553fe85257ce313",
+   "size": 24148,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/antos.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/antos.json",
+   "sha1": "f36850f183670e652023209c059959db8fe53a15",
+   "size": 1223,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/appleskin-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/appleskin-client.toml",
+   "sha1": "8f167f14bbd81163f78c5e3459dcffdb50225117",
+   "size": 1376,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/apprenticecodex-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/apprenticecodex-client.toml",
+   "sha1": "d7a24b998d0639c23cae96256fb7501e9b320936",
+   "size": 3826,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/apprenticecodex-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/apprenticecodex-common.toml",
+   "sha1": "3b0cadc241261bec19c1ff353ea067de8e5ab26f",
+   "size": 370,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/apprenticecodex-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/apprenticecodex-server.toml",
+   "sha1": "28e9f84613b7b054ea7de7afa1c4dbbc2311e5e1",
+   "size": 52988,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/azimuth-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/azimuth-client.toml",
+   "sha1": "7cf9feddb300b6828d20fd3d4864c5edff47e783",
+   "size": 145,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/azimuth-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/azimuth-common.toml",
+   "sha1": "ceb38fbdaa09b93489a7d379f3030f3b53e2d315",
+   "size": 109,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/azurelib.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/azurelib.json",
+   "sha1": "9b664f0a5d48fb8a25dfd7f5d1c5bd731b5e93c5",
+   "size": 509,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/bits_n_bobs-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/bits_n_bobs-common.toml",
+   "sha1": "d36e1f6f100457a68b52c965d13596a3d5424aa4",
+   "size": 2372,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/bits_n_bobs-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/bits_n_bobs-server.toml",
+   "sha1": "e47775a3461b29a0d1284441d7096ef0326fd728",
+   "size": 1964,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/block_factorys_bosses-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/block_factorys_bosses-client.toml",
+   "sha1": "41dc0f08855db8dc72e4b353b712331767f3f194",
+   "size": 2637,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/block_factorys_bosses-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/block_factorys_bosses-server.toml",
+   "sha1": "60b9f5670d368c84914c1bf152b0c1becdcfcf0c",
+   "size": 843,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/brassworksmissions/missions.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/brassworksmissions/missions.json",
+   "sha1": "cb440d3484e2593e25c6de560576220e07e71abc",
+   "size": 27586,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/brassworksmissions-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/brassworksmissions-client.toml",
+   "sha1": "5fd9d370f79aac1965b4437cdd63723f84e92c34",
+   "size": 535,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/brassworksmissions-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/brassworksmissions-server.toml",
+   "sha1": "10ad340a162b636f1e94e7bb12d34085774a85d5",
+   "size": 1532,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/c2me.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/c2me.toml",
+   "sha1": "052b9e160305f4e0f71a98b0110d31ca25db3e56",
+   "size": 12468,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/carryon-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/carryon-client.toml",
+   "sha1": "1fd6cec44704488ae7d2ab31425b6eb88ef3ce9c",
+   "size": 588,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/carryon-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/carryon-common.toml",
+   "sha1": "f13ee696f128d74f1c82d90d8987ff8ef9389b70",
+   "size": 9110,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/cataclysm-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/cataclysm-client.toml",
+   "sha1": "31bb7d3e8acf3c15c5aef997d006c56e2b83c4f3",
+   "size": 539,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/cataclysm-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/cataclysm-common.toml",
+   "sha1": "b0dc6b40a859434df049bbfe9ff5138da4a49483",
+   "size": 30664,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/cataclysm_spellbooks-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/cataclysm_spellbooks-server.toml",
+   "sha1": "ba976cbf64eeabccb4a681563bce7f0f946cb963",
+   "size": 123,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/cbc_at-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/cbc_at-server.toml",
+   "sha1": "39a83db5040dc8d35e515a92234d64b56243b5c1",
+   "size": 191,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/chunky/config.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/chunky/config.json",
+   "sha1": "a8157f2e1e649b891aaccb8ec83d38c84429c82a",
+   "size": 146,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/cmpackagecouriers-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/cmpackagecouriers-server.toml",
+   "sha1": "c614409eeb00748c42503d1e72e5d4b5edc889f4",
+   "size": 565,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/coldsweat/client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/coldsweat/client.toml",
+   "sha1": "4b12fa2e0b09d9417602814aa59af6848a5562a5",
+   "size": 13172,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/coldsweat/entity.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/coldsweat/entity.toml",
+   "sha1": "2f208218bc0ed1a263171e5b592750f5d4d38789",
+   "size": 7701,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/coldsweat/item.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/coldsweat/item.toml",
+   "sha1": "b7992b8d0ee49a38c0f22fe7df3909a7b295347a",
+   "size": 16996,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/coldsweat/main.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/coldsweat/main.toml",
+   "sha1": "3e643fd4d7fb3b8584d0a7985b5a016672499571",
+   "size": 8536,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/coldsweat/world.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/coldsweat/world.toml",
+   "sha1": "5c06c9ce683e9243def167c9b320406b38008c08",
+   "size": 25814,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/copycats-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/copycats-client.toml",
+   "sha1": "85dca288044ae0940f94102ec82ee810ffb3bc59",
+   "size": 340,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/copycats-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/copycats-common.toml",
+   "sha1": "ff51da0faadaec726600993bd5ade2fef8e26dc5",
+   "size": 2165,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/copycats-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/copycats-server.toml",
+   "sha1": "1ece346a8a95d1d5fb7b9a7ae569a14588cb5766",
+   "size": 363,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/corpse-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/corpse-server.toml",
+   "sha1": "741422c678902068793cb2a82f1a4e51943a5764",
+   "size": 1092,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create-client.toml",
+   "sha1": "421de5ea5e5255b28219d47d4a89f0886c2314b2",
+   "size": 4795,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create-common.toml",
+   "sha1": "eeb60a2bebe041d74118246f0353028f23c82242",
+   "size": 153,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create-server.toml",
+   "sha1": "63469f0e9bae7e25d1ae75dd8ed8e3d4460dd132",
+   "size": 16893,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_aeronautics_automated_logistics-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_aeronautics_automated_logistics-client.toml",
+   "sha1": "5acb86b78fadaba257a0008a0208c9c85a658139",
+   "size": 701,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_aeronautics_automated_logistics-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_aeronautics_automated_logistics-common.toml",
+   "sha1": "c73c56a01c6f8ec83adce6a76e7d12dec4c7f0e0",
+   "size": 7383,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_connected-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_connected-common.toml",
+   "sha1": "3e1e250fc2e46f3bbe5a7d0c3e78b6f96eed98d7",
+   "size": 1753,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_connected-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_connected-server.toml",
+   "sha1": "8d7f5c042583d57ca1b53952f77c2f77f880efa7",
+   "size": 2081,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_dragons_plus-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_dragons_plus-client.toml",
+   "sha1": "7771aaf9b69d41d8839d4cce7fba0f07079e6e88",
+   "size": 302,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_dragons_plus-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_dragons_plus-common.toml",
+   "sha1": "0e6ce73fb1f7a723a633128799821864163a5a19",
+   "size": 1851,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_dragons_plus-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_dragons_plus-server.toml",
+   "sha1": "2618cf08d00dd1bc0652ea703ffe171a34537b51",
+   "size": 1266,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_dragons_plus-simulated-extension-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_dragons_plus-simulated-extension-server.toml",
+   "sha1": "378d76d9545421d4071ce666d7a228a596ceaaab",
+   "size": 3078,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_enchantment_industry-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_enchantment_industry-client.toml",
+   "sha1": "31325d48446b183105eda69b9571273c16706571",
+   "size": 155,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_enchantment_industry-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_enchantment_industry-common.toml",
+   "sha1": "cd7b60ca06a2072a694385fb34fd6ed7e5a38c21",
+   "size": 399,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_enchantment_industry-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_enchantment_industry-server.toml",
+   "sha1": "384ddee819be21c59135cb2ecd01bbb4b66ee9e3",
+   "size": 9938,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_factory_logistics-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_factory_logistics-server.toml",
+   "sha1": "444c55299e2bd7c8b3ddf577f2fed81258668efd",
+   "size": 350,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_high_seas-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_high_seas-client.toml",
+   "sha1": "78c04addf0b55b6d64993a74b2dd20d8c7a39f08",
+   "size": 719,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_high_seas-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_high_seas-server.toml",
+   "sha1": "ef221eb0d4653b296d7854e3b464db31fd84068a",
+   "size": 4206,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_hypertube-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_hypertube-client.toml",
+   "sha1": "65bb2f99046660f9b34feec7e682e234ffcf4ed5",
+   "size": 202,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_hypertube-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_hypertube-server.toml",
+   "sha1": "598c112c579007057e6ac12b924a297c583c8f22",
+   "size": 1918,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_integrated_farming-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_integrated_farming-server.toml",
+   "sha1": "dc4daae305f4d8d0971bb331077e0af573e5bbdc",
+   "size": 3072,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_jetpack-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_jetpack-client.toml",
+   "sha1": "70ea33618876884aff4db8f90776a4aff2c4ca18",
+   "size": 334,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_jetpack-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_jetpack-common.toml",
+   "sha1": "419f265343dcc0bd875481b4c20cdaf75db11a62",
+   "size": 609,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_mechanical_spawner-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_mechanical_spawner-server.toml",
+   "sha1": "ae9e57991518df7f8e219486fab66e6f12518434",
+   "size": 1233,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_mobile_packages-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_mobile_packages-client.toml",
+   "sha1": "e50941c9010c73b802f39bb4551fd7e1c9bd7ec1",
+   "size": 616,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_mobile_packages-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_mobile_packages-server.toml",
+   "sha1": "92d09a2d1126505fe61fae906d1dde89f978da96",
+   "size": 787,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_pillagers_arise-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_pillagers_arise-common.toml",
+   "sha1": "3062f2354c9ca937408e1851b345e6aad8a89472",
+   "size": 4676,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_power_loader-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_power_loader-server.toml",
+   "sha1": "41ec5bd00db66c86e421d32609bf391a455e6d29",
+   "size": 3107,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_radar-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_radar-client.toml",
+   "sha1": "b516b7c87fc7a71e4cc5d1f62adae923a05b3337",
+   "size": 3346,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_radar-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_radar-server.toml",
+   "sha1": "9458128c58da6aaabd783fe26be468feac9c54c8",
+   "size": 13591,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_submarine-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_submarine-client.toml",
+   "sha1": "512430d04e477a7fd5d0d903159556bd54a7c95d",
+   "size": 587,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_submarine-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_submarine-common.toml",
+   "sha1": "68e3c31c88ffe5552f6081045dd93b1b96c997e1",
+   "size": 775,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_submarine-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_submarine-server.toml",
+   "sha1": "ccd320167348eef2b4c3c930387fb0f215d9a459",
+   "size": 6389,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_submarine-vortex.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_submarine-vortex.toml",
+   "sha1": "7a3b63ea294661a344133437490d77c7ce8e34b3",
+   "size": 4990,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_submarine_client_state.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_submarine_client_state.json",
+   "sha1": "3f7cee0f28c98ecf92351a1917699ba3edbbb432",
+   "size": 126,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_train_physics-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_train_physics-common.toml",
+   "sha1": "0741fa303b40d082b9a5628f3044380d8c017fd7",
+   "size": 334,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/create_wizardry-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/create_wizardry-common.toml",
+   "sha1": "323399119303dbed249b71a4384c6cde19db2c40",
+   "size": 4753,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createbigcannons-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createbigcannons-client.toml",
+   "sha1": "87fbdca62b45cd42cdf5482a54b4c6654ef12e05",
+   "size": 3754,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createbigcannons-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createbigcannons-server.toml",
+   "sha1": "e2b04e0d6e18d2cc39b16907f22085f827ec0c92",
+   "size": 11776,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createdieselgenerators-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createdieselgenerators-client.toml",
+   "sha1": "ef628891d4cfe78e3cce0b399a36e68e2ff81d0b",
+   "size": 243,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createdieselgenerators-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createdieselgenerators-common.toml",
+   "sha1": "22e5e9df83f4ed6673878f59a8132757503a7d96",
+   "size": 407,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createdieselgenerators-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createdieselgenerators-server.toml",
+   "sha1": "0dbe7fbd51ea48a41c8338376ab329e85d09519b",
+   "size": 1540,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createfood-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createfood-client.toml",
+   "sha1": "ec6e46b9b752b60e8b1241666b6eee0784e85716",
+   "size": 12799,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createfood-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createfood-common.toml",
+   "sha1": "ec26e907179aca70834e58de627863dd1824be04",
+   "size": 7766,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createfood-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createfood-server.toml",
+   "sha1": "904326de2733335cc32b84bcdbe01d8696b8933d",
+   "size": 17859,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createmetalwork-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createmetalwork-common.toml",
+   "sha1": "60bd5e89dd600aa4058d2bea54c39059452ca022",
+   "size": 5431,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createmetalwork-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createmetalwork-server.toml",
+   "sha1": "7c466bb8f8ab2d25888902ef5f4e6d66573e988b",
+   "size": 50,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createnuclear-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createnuclear-client.toml",
+   "sha1": "bf3930179501f1aae23b73ef50f4ac90c04320fc",
+   "size": 176,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createnuclear-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createnuclear-common.toml",
+   "sha1": "bf3edabdfaeb4ca1aef8642467ef20f16c433ddf",
+   "size": 222,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createnuclear-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createnuclear-server.toml",
+   "sha1": "48a95051a33ee2b37ee0470a78cc97c0f95d6ffe",
+   "size": 5250,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createoreexcavation-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createoreexcavation-common.toml",
+   "sha1": "c2c7bb4fb936883d8c0deb4819687bdbbeaf5afa",
+   "size": 690,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createoreexcavation-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createoreexcavation-server.toml",
+   "sha1": "d2051ac980cfdf5a1e87576c472afbbe45f484ab",
+   "size": 683,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createpropulsion-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createpropulsion-client.toml",
+   "sha1": "9a6108d3b4d169e48ad4cbd712c12321179b1e88",
+   "size": 558,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createpropulsion-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createpropulsion-common.toml",
+   "sha1": "ccbaad06baff63ab81c24550d350925681430f77",
+   "size": 17283,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createrailwaysnavigator-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createrailwaysnavigator-client.toml",
+   "sha1": "5d5c9fbfc41833553823fa9175ae1115021a5962",
+   "size": 1564,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createrailwaysnavigator-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createrailwaysnavigator-common.toml",
+   "sha1": "b96a9e33ff25e64a46cfc68c89bea3cbfcd245a0",
+   "size": 2422,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createrailwaysnavigator-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createrailwaysnavigator-server.toml",
+   "sha1": "d9621e5eca90e6ab7758488369e1df6e65cdf5ec",
+   "size": 4124,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createthrusters-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createthrusters-client.toml",
+   "sha1": "af4fcf5fc5db95b8131fd773c35c45f8efd73f07",
+   "size": 3045,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createthrusters-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createthrusters-common.toml",
+   "sha1": "99d3504e2bbf8eb12089b7bb1a06bfb254fb8f41",
+   "size": 7914,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createthrusters-fuels.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createthrusters-fuels.json",
+   "sha1": "bf2c11d2ee9910f829f4e5b502ecdd8b29d94f1a",
+   "size": 10913,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createthrusters-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createthrusters-server.toml",
+   "sha1": "2055e08042321f88a4485809eeda45cea6254856",
+   "size": 14692,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createthrusters-tablet-apps-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createthrusters-tablet-apps-server.toml",
+   "sha1": "6f6a321c2312aa4879c033e4e09e3215359ca710",
+   "size": 722,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/createtweakedcontrollers-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/createtweakedcontrollers-client.toml",
+   "sha1": "1e767fa649bca882e8c38ee49579975e2da3e40a",
+   "size": 1176,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/CT_tablet_apps.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/CT_tablet_apps.json",
+   "sha1": "740461c1c86e14641a68a23cf05c547de7d289c4",
+   "size": 4164,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/ctm.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ctm.toml",
+   "sha1": "133fb0ee46f2697532cdcc4a477b688f67980057",
+   "size": 178,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/curios-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/curios-client.toml",
+   "sha1": "7e66e02fbf04b28e7de60c4e675d2b5168be5ec6",
+   "size": 766,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/curios-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/curios-common.toml",
+   "sha1": "2805359d4ad1ce08ef52cc73f84a96dafdc41024",
+   "size": 159,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/curios-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/curios-server.toml",
+   "sha1": "8ccde45d5edd3767324231935fe07ac2318a0eb5",
+   "size": 483,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/darkdoppelganger-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/darkdoppelganger-common.toml",
+   "sha1": "cb91ee1e342213e25187a1e25493b1ce629cc48f",
+   "size": 6515,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/discerning_the_eldritch-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/discerning_the_eldritch-common.toml",
+   "sha1": "15c42a177a0b66a2f6acf5d2077f84bfcdd8838c",
+   "size": 2507,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/dndecor-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/dndecor-server.toml",
+   "sha1": "8a981ee49156d5bf38944e411ed7d502d6d6e0f2",
+   "size": 5424,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/dragoncare-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/dragoncare-common.toml",
+   "sha1": "742a4e1e5dde18615dde18297d9f82dadc5d015b",
+   "size": 10916,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/dragonlib-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/dragonlib-common.toml",
+   "sha1": "8218d2f5abe4fb35aed19d0641a6891a27879a96",
+   "size": 3104,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/dragonlib-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/dragonlib-server.toml",
+   "sha1": "ffc01e7fd8e72152e898f944980fdb1bc8bb2e9e",
+   "size": 1036,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/dungeon_crawl.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/dungeon_crawl.toml",
+   "sha1": "db20b16750a48323385dc6b9ce86c7a900c12fd7",
+   "size": 2454,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/dynamicvillage-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/dynamicvillage-common.toml",
+   "sha1": "9a588ce2be297a85e962fbc79b0f5df38487ceb3",
+   "size": 358,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/electroenergetics-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/electroenergetics-client.toml",
+   "sha1": "00a86fe66b33aa9630e173f4fee0eb8d6cead7bd",
+   "size": 706,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/electroenergetics-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/electroenergetics-server.toml",
+   "sha1": "967ab1a39f1b8629306887140efd403a6bb5ef09",
+   "size": 5872,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/entityculling.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/entityculling.json",
+   "sha1": "71d872172923ba0b593d8654bfd596f9520ddc8b",
+   "size": 2248,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/escalated-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/escalated-server.toml",
+   "sha1": "1b6dba4e6974530e1db5a5a96d16977826299815",
+   "size": 347,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/eternal_starlight.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/eternal_starlight.json",
+   "sha1": "0cc827739ae2ac5695838efe267126ad4805a0de",
+   "size": 5280,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/explorations.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/explorations.json",
+   "sha1": "9c94d2b64b8529c9d33629974d02f46cf3117730",
+   "size": 1306,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/familiarslib-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/familiarslib-server.toml",
+   "sha1": "bd7cdccaa99bb680bfcd7d394da311458c4fab2e",
+   "size": 142,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/farmers_spell-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/farmers_spell-common.toml",
+   "sha1": "2ad3a6e2fef4b291d90312c9364689f8a77ea2cf",
+   "size": 256,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/farmersdelight-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/farmersdelight-client.toml",
+   "sha1": "649ffb20a99fa6a43ce25a5207c5461fee9f135d",
+   "size": 476,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/farmersdelight-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/farmersdelight-common.toml",
+   "sha1": "94acfbb88ae7c6618e0650aaa867eaaef8b9783a",
+   "size": 3817,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/fastbench.cfg",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/fastbench.cfg",
+   "sha1": "de58e32332e763a3fcb5a791e0e41d59db9b770a",
+   "size": 541,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/fdbosses/bosses.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/fdbosses/bosses.json",
+   "sha1": "3388e36cadb78b784e1a5d1ec94e2246d0ccbd31",
+   "size": 3098,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/fdlib/fdlib_client.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/fdlib/fdlib_client.json",
+   "sha1": "2d74767f5cb57f7f79dae04e3e1dd4d206d861da",
+   "size": 136,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/fdlib/test.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/fdlib/test.json",
+   "sha1": "1f01c0f2173afc8e66a3c265b4cf97e264abc1da",
+   "size": 215,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/ferritecore-mixin.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ferritecore-mixin.toml",
+   "sha1": "117f758af35aac859c535d5d2da96c5747a87aea",
+   "size": 1603,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/firststeps.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/firststeps.json",
+   "sha1": "72d230beef98f7b7095ae2971869f2486c325980",
+   "size": 3254,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/fluidlogistics-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/fluidlogistics-client.toml",
+   "sha1": "2c650bec4f9e6d506080bcb2811f3e5175697a4d",
+   "size": 51,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/fluidlogistics-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/fluidlogistics-server.toml",
+   "sha1": "948b612a1c9ea4449744365f5a267e8d60177339",
+   "size": 2511,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/flywheel-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/flywheel-client.toml",
+   "sha1": "16e17067e3426d88c81a69d39e7afa6a0bed9c48",
+   "size": 637,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/fml.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/fml.toml",
+   "sha1": "13f5451645ea894599396cc2e402b77628c17348",
+   "size": 1550,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/framedblocks-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/framedblocks-client.toml",
+   "sha1": "d08d2e0657f6eee96649460b4c43d6444905909e",
+   "size": 7109,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/framedblocks-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/framedblocks-server.toml",
+   "sha1": "2444ab2fd8307cffb39b865fd593f31f0671f6e2",
+   "size": 1265,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/ftblibrary-client.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftblibrary-client.snbt",
+   "sha1": "1a6fd5dcd4e4b6545de440edea6f604029fce5ff",
+   "size": 1651,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/ftbquests/quests/chapter_groups.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapter_groups.snbt",
+   "sha1": "afc928fe1a474b0768ceabf2d27ac8367d2996f5",
+   "size": 379,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/create.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/create.snbt",
+   "sha1": "740f7751cd1e8d95421887b9aab061b73067f353",
+   "size": 28055,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/dragons.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/dragons.snbt",
+   "sha1": "87b94b3018189e74497297a8788827e577a1e2a7",
+   "size": 19647,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/dungeons.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/dungeons.snbt",
+   "sha1": "2ee41e4838f0bc013b200828eaec52ea2f201c58",
+   "size": 26820,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/farm.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/farm.snbt",
+   "sha1": "5cc5fe237300a01813da26118de32a44b46648ae",
+   "size": 16405,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/industry.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/industry.snbt",
+   "sha1": "b0c4ecea100c873047dd01b0cbc6f3608abfd64d",
+   "size": 22971,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/magic.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/magic.snbt",
+   "sha1": "d34a7c7af75b6df0af1782c872b3c67e0c934494",
+   "size": 28815,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/sky.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/sky.snbt",
+   "sha1": "409f70afaed2bc13cb5c11488ed98df3f5c4b521",
+   "size": 23502,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/start.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/start.snbt",
+   "sha1": "e38cc32af496c2dbc8fab8299b30616b847a7c93",
+   "size": 15378,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/weapons.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/weapons.snbt",
+   "sha1": "4dc5e8e0cde90c63c187224b29ea6600c1d75ca1",
+   "size": 16596,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/data.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/data.snbt",
+   "sha1": "d5f3ca34a19c55a0d6fc479bfa49e3d5608c1a07",
+   "size": 789,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/lang/en_us.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/lang/en_us.snbt",
+   "sha1": "f1603c72eb737814a302979eb6ee0a92092e2e40",
+   "size": 290246,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/lang/ru_ru.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/lang/ru_ru.snbt",
+   "sha1": "f1603c72eb737814a302979eb6ee0a92092e2e40",
+   "size": 290246,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/lang/uk_ua.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/lang/uk_ua.snbt",
+   "sha1": "f1603c72eb737814a302979eb6ee0a92092e2e40",
+   "size": 290246,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/reward_tables/common.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/reward_tables/common.snbt",
+   "sha1": "d8471e7b36c1374e315a4da42546de6f27fbe661",
+   "size": 1702,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/reward_tables/epic.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/reward_tables/epic.snbt",
+   "sha1": "cbc7cef640dfa896501cbf50d7658b04db13706e",
+   "size": 1186,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/reward_tables/rare.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/reward_tables/rare.snbt",
+   "sha1": "1b8ef9e8358a5aa2b230aaf160f19d243fa4a686",
+   "size": 1417,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests/quests/reward_tables/uncommon.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/reward_tables/uncommon.snbt",
+   "sha1": "4daaf277d545f69ed35924f878ec5e85042536ee",
+   "size": 1690,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/ftbquests-client.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests-client.snbt",
+   "sha1": "3152836d322ec70298e3f59206bc01a243f90f74",
+   "size": 1551,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/ftbteams-server.snbt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbteams-server.snbt",
+   "sha1": "d7f7b121c0b1511fea41fedefcd9094c577f1604",
+   "size": 1112,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/gadgetsandgizmos_mob_haunting.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/gadgetsandgizmos_mob_haunting.json",
+   "sha1": "f756642d7902c872720e2a83bb5b89b33b155dee",
+   "size": 625,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/gadgetsngizmos-camera-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/gadgetsngizmos-camera-client.toml",
+   "sha1": "8652ad561b3a1fd2e216ac2afda9b4d78e41187d",
+   "size": 240,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/gadgetsngizmos-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/gadgetsngizmos-server.toml",
+   "sha1": "1a3b349d6d81664fb0b3436500fd5e51d756de8d",
+   "size": 479,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/getittogetherdrops-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/getittogetherdrops-server.toml",
+   "sha1": "9ab2dfb5069d111b7af8d067d22814dfed2cbf58",
+   "size": 332,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/iceandfire/iaf-client.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/iceandfire/iaf-client.json",
+   "sha1": "2531fec65902db637e660f5045efb41d1196d261",
+   "size": 108,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/iceandfire/iaf-common.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/iceandfire/iaf-common.json",
+   "sha1": "6c8322ebc0bc8a275f7abcb269eecfec33767d37",
+   "size": 4641,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/immediatelyfast.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/immediatelyfast.json",
+   "sha1": "9005fdfb4eeaa64cf158b244b263aa5347d03db0",
+   "size": 1114,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/integrated_villages-neoforge-1_21.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/integrated_villages-neoforge-1_21.toml",
+   "sha1": "bf418cabd4c8d1b6671468f8314973e527f60ebc",
+   "size": 603,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+   "sha1": "2bedb4d58a778b937dd9da01c50a46af9887709b",
+   "size": 1450,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/inventoryprofilesnext/integrationHints/unraveling_spells.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/inventoryprofilesnext/integrationHints/unraveling_spells.json",
+   "sha1": "4120d319b1a8a1dbda455745547b47d1c1e34b52",
+   "size": 187,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/inventoryprofilesnext/inventoryprofiles.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/inventoryprofilesnext/inventoryprofiles.json",
+   "sha1": "58b81b870399a90daad1a3249c68c2d5bd18abf9",
+   "size": 57,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/inventoryprofilesnext/villager-trading-config-v2.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/inventoryprofilesnext/villager-trading-config-v2.json",
+   "sha1": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+   "size": 1177,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/iris-excluded.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/iris-excluded.json",
+   "sha1": "20bd3420b5c911402ac289c154b56ac1dd8f84ba",
+   "size": 31,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/iris.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/iris.properties",
+   "sha1": "528d553b27a6ad73bd6f8eadf110a99e53766416",
+   "size": 304,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/irons_jewelry-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/irons_jewelry-server.toml",
+   "sha1": "612abf02dfbfd4893eaac306adb148a139bc4400",
+   "size": 356,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/irons_spellbooks-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/irons_spellbooks-client.toml",
+   "sha1": "2c4f69fd310f6dc5b635637729d5e5b2c1304085",
+   "size": 3571,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/irons_spellbooks-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/irons_spellbooks-server.toml",
+   "sha1": "cd2ef1556b033d39ea10f40f629bc5f181bbc821",
+   "size": 5334,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/irons_spellbooks_spell_config/global_config.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/irons_spellbooks_spell_config/global_config.json",
+   "sha1": "3fd1649e33039ce955191888a01c0742aa31a0f9",
+   "size": 257,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
+   "sha1": "0626a852ff61bae06a961c130fb3ef11c20bff5c",
+   "size": 683,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/ironsable-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ironsable-server.toml",
+   "sha1": "690c01d107a5a9b47c4b9ee8c27be46adb6b0170",
+   "size": 173,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/iss_magicfromtheeast-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/iss_magicfromtheeast-server.toml",
+   "sha1": "5f8a0b0c537db150d3a02baf39226d581b66694b",
+   "size": 787,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/jade/hide-blocks.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jade/hide-blocks.json",
+   "sha1": "a503776a467ca75d97916f99bf665dbf64a521a9",
+   "size": 149,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/jade/hide-entities.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jade/hide-entities.json",
+   "sha1": "ef2152a130cc5ff42903c76e69c3e4279d94b9e7",
+   "size": 243,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/jade/jade.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jade/jade.json",
+   "sha1": "8ea73ab5be986b34ee05bf2dcef295f59dcde376",
+   "size": 1089,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/jade/plugins.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jade/plugins.json",
+   "sha1": "e6bfc5d6a0f7ae55716b53bac9834705dd2a43c7",
+   "size": 3390,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/jade/sort-order.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jade/sort-order.json",
+   "sha1": "25967d95b4a13028cbbeae0109b9dc497d7f9c86",
+   "size": 3870,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/jei/blacklist.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jei/blacklist.json",
+   "sha1": "a8a4458dce77bc89e82e71719ad2cc14b2739d39",
+   "size": 19,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/jei/client/default/jei-client.ini",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jei/client/default/jei-client.ini",
+   "sha1": "4920613ec2328b4b11b2fc10427c6ad4ae302d17",
+   "size": 16999,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/jei/client/default/jei-colors.ini",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jei/client/default/jei-colors.ini",
+   "sha1": "1044f6310eb4e62253c9d9e1ba3a9313599b310e",
+   "size": 1655,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/jei/client/default/jei-debug.ini",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jei/client/default/jei-debug.ini",
+   "sha1": "d02dc7d7cf1c8ced3ef1f9253a0bbadb6580d56d",
+   "size": 1174,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/jei/client/default/jei-mod-id-format.ini",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jei/client/default/jei-mod-id-format.ini",
+   "sha1": "6106cc9c99906ea9da4854730887379ec1e8b256",
+   "size": 863,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jei/client/ingredient-list-mod-sort-order.ini",
+   "sha1": "397d0d60715dfdb6ab543d3740fcf1f1c1ecfc11",
+   "size": 2502,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/jei/client/ingredient-list-type-sort-order.ini",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jei/client/ingredient-list-type-sort-order.ini",
+   "sha1": "5795702b34241081e61b4740f17d42a591dd67ba",
+   "size": 134,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/jei/client/recipe-category-sort-order.ini",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jei/client/recipe-category-sort-order.ini",
+   "sha1": "089c6b16a860dec333b17c36c6962f606a70d559",
+   "size": 3456,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/jei/server/world/default/jei-server.ini",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jei/server/world/default/jei-server.ini",
+   "sha1": "0b66661cb1502be37f15fafc585a1602cf748e4b",
+   "size": 1205,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/journeymap-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/journeymap-server.toml",
+   "sha1": "f5f7eb44a304882b631b813927707948a3588728",
+   "size": 550,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/jupiter.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/jupiter.json",
+   "sha1": "41523a49fbd84a019751ab03e7edfa74544c41a8",
+   "size": 171,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/legendarymage-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/legendarymage-common.toml",
+   "sha1": "f00ec2e7e03806e4472574a04b59dcae4ddab38e",
+   "size": 12775,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/lithium.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/lithium.properties",
+   "sha1": "38f2993a7d80d0a6a25eb6182bd6898af24a16eb",
+   "size": 267,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/lithostitched.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/lithostitched.json",
+   "sha1": "9ae03c2dafdba47d9518aae1865d20e5abadbe03",
+   "size": 273,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/loconautics-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/loconautics-client.toml",
+   "sha1": "a53c5ebbefcd5e65ca2ed247eb75a6bd266fc1be",
+   "size": 845,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/loconautics-experimental.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/loconautics-experimental.toml",
+   "sha1": "a56f0261aff22e5c52c7f1bbf38d892b5818e7d0",
+   "size": 287,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/loconautics-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/loconautics-server.toml",
+   "sha1": "b4edcf8b4661d038b2481497026b5d7ab5289758",
+   "size": 6485,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/mca.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/mca.json",
+   "sha1": "37221fae78c541a2341894c97a0859aab2084fb6",
+   "size": 9705,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/mezz_config/client/default/settings.ini",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/mezz_config/client/default/settings.ini",
+   "sha1": "37c6c10d605efbf78119e1fea0d6d0b06ba9ca77",
+   "size": 1452,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/modernfix-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/modernfix-common.toml",
+   "sha1": "84439141a9dbc2f96212967ea8437d420d8d9c8e",
+   "size": 105,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/modernfix-mixins.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/modernfix-mixins.properties",
+   "sha1": "3df1a5d1b40d5db1291c4a507f34353bc2a408f1",
+   "size": 5548,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/moogs_structures.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/moogs_structures.json",
+   "sha1": "26b82b685f5ef33daf2c1fe497b96a9949e25e10",
+   "size": 466,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/moonlight-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/moonlight-client.toml",
+   "sha1": "e88b87fb5f58e4f6b55b5f41abac3dadf1d62860",
+   "size": 2320,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/moonlight-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/moonlight-common.toml",
+   "sha1": "1f62002e06c865342690eea17511a19503da3d5d",
+   "size": 960,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/MouseTweaks.cfg",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/MouseTweaks.cfg",
+   "sha1": "651b3e4db2d430dc1da3566b2984b264061a6794",
+   "size": 135,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/muchmoredungeons.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/muchmoredungeons.json",
+   "sha1": "7268541732d46fd824074ec011413f0448ebd779",
+   "size": 759,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/natures_spirit-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/natures_spirit-common.toml",
+   "sha1": "4f5909abc8d8b845ad1622eda40e3c0f366ac03a",
+   "size": 2621,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/neoforge-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/neoforge-client.toml",
+   "sha1": "b51515abb0c65a891514baffb4c78d2357ecd1ed",
+   "size": 578,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/neoforge-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/neoforge-common.toml",
+   "sha1": "2e904b9a9bf2c03e8dfe4d0b3b43dee9965c062b",
+   "size": 1050,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/neoforge-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/neoforge-server.toml",
+   "sha1": "536538f1f29efb49318318113530bd4fd74c235b",
+   "size": 1177,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/netherman-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/netherman-common.toml",
+   "sha1": "293ebc27007b3e60673ff664da8ad669dfbbe088",
+   "size": 7500,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/offroad-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/offroad-server.toml",
+   "sha1": "ffcf430144dfb7acb9839fdfcc7cc97bc2922365",
+   "size": 1167,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/packetfixer.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/packetfixer.properties",
+   "sha1": "f0c91328eb0234eb0e735794a265ed6623e69370",
+   "size": 488,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/pantographsandwires-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/pantographsandwires-client.toml",
+   "sha1": "872e4e27d82ecaf8ec1f58c3ad42fd67e0781635",
+   "size": 190,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/pantographsandwires-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/pantographsandwires-common.toml",
+   "sha1": "dd6180efd9cc758e5f144ebc5a21385cf5203439",
+   "size": 1731,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/pantographsandwires-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/pantographsandwires-server.toml",
+   "sha1": "00d681a8d053da7fb30b521e98d2b3409cdb05ab",
+   "size": 2670,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/patchouli-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/patchouli-client.toml",
+   "sha1": "fca303723bcd692f1d64b76c7cf303afa46fc142",
+   "size": 1089,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/pipeorgans-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/pipeorgans-client.toml",
+   "sha1": "cdf0cbcd16dc5c9074e9c4d599c1ff4086cbe544",
+   "size": 978,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/pipeorgans-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/pipeorgans-server.toml",
+   "sha1": "68328a30590cafa668e6f7b9bea6ede59855ed31",
+   "size": 568,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/placebo.cfg",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/placebo.cfg",
+   "sha1": "a3d7b80b1073ac5baaccaa5691c3fa8409fa4827",
+   "size": 495,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/ponder-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ponder-client.toml",
+   "sha1": "b502ba9ea972ce81ef602c964b3bc0bbd3401fd8",
+   "size": 635,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/puffish_skills/config.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/puffish_skills/config.json",
+   "sha1": "b5b81101a7458b4c026d44b7dbd505105c5c5514",
+   "size": 42,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/railways-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/railways-client.toml",
+   "sha1": "e5ef761cc2ea65c879c20e683b63126e208172fe",
+   "size": 2387,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/railways-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/railways-common.toml",
+   "sha1": "ac0d5f8ae59e3e99c69e1764d8381bf20c3286fe",
+   "size": 335,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/railways-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/railways-server.toml",
+   "sha1": "a2ff88b1bb3229b13a06185fbb81a721646de4b1",
+   "size": 1965,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/repurposed_structures-neoforge/modded_loot.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/repurposed_structures-neoforge/modded_loot.toml",
+   "sha1": "dc56f20daa79eaca0fd3be966b317cd9f41868dc",
+   "size": 552,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/ritchiesprojectilelib-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ritchiesprojectilelib-server.toml",
+   "sha1": "9247f1308244803efa47430360d0fb07b8fb3fab",
+   "size": 710,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sable-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sable-client.toml",
+   "sha1": "3e3537c15a39ca1612447f3844d4fe261abf03a3",
+   "size": 946,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sable-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sable-common.toml",
+   "sha1": "244d4c98d76f7a03afb6d731ae6150427f4c195f",
+   "size": 2243,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sable-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sable-server.toml",
+   "sha1": "3e88b91b286a6b3903027b1b69440987df2e46f9",
+   "size": 328,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/simulated-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/simulated-client.toml",
+   "sha1": "ab18703bfa8de8df6bac639cfbb8892f27350067",
+   "size": 1045,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/simulated-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/simulated-server.toml",
+   "sha1": "987252f401c9ed893c7639894bb5c4a4b78f8fe8",
+   "size": 7249,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sizeable_foliage.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sizeable_foliage.properties",
+   "sha1": "a36cb28611cfd5e0963dfb3b274ea14242f94746",
+   "size": 86,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sliceanddice-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sliceanddice-client.toml",
+   "sha1": "10fda97229b3d0f41ebb5016afad9e37e4444c1d",
+   "size": 29,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sliceanddice-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sliceanddice-common.toml",
+   "sha1": "bc0235112e1a1955cdf201946cddcfd68acc8e1b",
+   "size": 475,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sodium-extra-options.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sodium-extra-options.json",
+   "sha1": "2cd4fd259b6c7ba9f33acaf7d1b197d9c88eb3d8",
+   "size": 2175,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sodium-extra.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sodium-extra.properties",
+   "sha1": "e90b2514226a0624cf42112b42477f9872598b89",
+   "size": 360,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sodium-fingerprint.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sodium-fingerprint.json",
+   "sha1": "bc657b9d87b2afe7ea39067b192ce8e64210b86b",
+   "size": 427,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sodium-mixins.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sodium-mixins.properties",
+   "sha1": "5455463ee999b945c1cff8ae90f2b705e19fb86c",
+   "size": 258,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sodium-options.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sodium-options.json",
+   "sha1": "f94c57d0a992e4201e71401c82e2de166bb9bd48",
+   "size": 762,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/sophisticatedbackpacks-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sophisticatedbackpacks-common.toml",
+   "sha1": "faab0a1537b5377ed89cf1a2f6e660116a15891b",
+   "size": 118,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sophisticatedbackpacks-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sophisticatedbackpacks-server.toml",
+   "sha1": "970cbcbf12fe0c4877783badbb02448c582722ee",
+   "size": 24153,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sophisticatedcore-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sophisticatedcore-client.toml",
+   "sha1": "27700782a7cd2e3f4a681fcee62fbe28057bca12",
+   "size": 478,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/sophisticatedcore-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/sophisticatedcore-common.toml",
+   "sha1": "38c97b76ba12385efb92c47b5ce15dd62076f766",
+   "size": 3829,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/spark/config.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/spark/config.json",
+   "sha1": "33b6644f61573b11848cde9419529737418e0207",
+   "size": 117,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/spark/tmp/about.txt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/spark/tmp/about.txt",
+   "sha1": "a63da50166561c948dc39484f0d88990cdbe29a0",
+   "size": 585,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/spark/tmp-client/about.txt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/spark/tmp-client/about.txt",
+   "sha1": "a63da50166561c948dc39484f0d88990cdbe29a0",
+   "size": 585,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/stars_aligned-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/stars_aligned-common.toml",
+   "sha1": "554cdc93f5732893379f14780ae6fdefd5f27f5a",
+   "size": 330,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/structure_generation_improver.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/structure_generation_improver.json",
+   "sha1": "3870ed4600f8827eee93e1d8659b7b0949a242f7",
+   "size": 1597,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/structure_generation_improver.templates.txt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/structure_generation_improver.templates.txt",
+   "sha1": "eea7b913b2b8f88c6e108360cd2e161f5dce1053",
+   "size": 583251,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/structures-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/structures-common.toml",
+   "sha1": "554cdc93f5732893379f14780ae6fdefd5f27f5a",
+   "size": 330,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/submarine_hull.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/submarine_hull.json",
+   "sha1": "c71eda7fca58230f21468df2bf8558d9ba151fcd",
+   "size": 1224708,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/supplementaries-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/supplementaries-client.toml",
+   "sha1": "07a4865a5eb0ab735105d999b9a4ffccb9470155",
+   "size": 9306,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/supplementaries-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/supplementaries-common.toml",
+   "sha1": "8ca97c7cdc29e66c4acccce56523942e5130e29f",
+   "size": 33317,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/terrablender.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/terrablender.toml",
+   "sha1": "194a663d21fe1df84f7230013c470329088fa710",
+   "size": 988,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/tfmg-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/tfmg-client.toml",
+   "sha1": "fd52d75cad8f9252187572f1df2cccda36dcf6c2",
+   "size": 179,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/tfmg-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/tfmg-common.toml",
+   "sha1": "e17e8f0b2b0852a790120ef872fd7b865ca9a2d1",
+   "size": 4669,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/tfmg-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/tfmg-server.toml",
+   "sha1": "5e4999acb091180da24b8df0957878b9e176765c",
+   "size": 2391,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/the_beyond-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/the_beyond-client.toml",
+   "sha1": "7cae3b874282cf29ed85c85d94e2d98dbd33a7fc",
+   "size": 905,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/the_beyond-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/the_beyond-common.toml",
+   "sha1": "5f3a39a4114a82783a2e74328dc0286cfa896b02",
+   "size": 2532,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/toms_storage-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/toms_storage-common.toml",
+   "sha1": "59b3401c12ac8337f5ebba44223b5f86673d7336",
+   "size": 844,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/toms_storage-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/toms_storage-server.toml",
+   "sha1": "c4db75e3d8d696eebadd268b839506aece450f97",
+   "size": 1933,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/trade_cycling-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/trade_cycling-client.toml",
+   "sha1": "4d33f63b7df9ec74f6e4c510648cfe6152c49dae",
+   "size": 129,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/transition.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/transition.json",
+   "sha1": "8b50cd4b9956dc3443acd38e47f80e23ff7712f5",
+   "size": 97,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/travelerstitles-neoforge-1_21.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/travelerstitles-neoforge-1_21.toml",
+   "sha1": "9c289f8a399192e154af0af5b08fe53a35e78558",
+   "size": 10680,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/trender.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/trender.json",
+   "sha1": "1ecd2edb27bfbc69f24e0cd52d3a22f98bdce8f0",
+   "size": 47,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/unraveling_spells/conflicts.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/unraveling_spells/conflicts.json",
+   "sha1": "797d598eaf7d5da5f1f762480443bb1d62971ce5",
+   "size": 18,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/unraveling_spells/conflicts_example.txt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/unraveling_spells/conflicts_example.txt",
+   "sha1": "73bd7ba617510aa7dc266df9bf442b6a2bab664c",
+   "size": 418,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/unraveling_spells-client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/unraveling_spells-client.toml",
+   "sha1": "fff34bbcd050810d43639e3d3311fa68a3d88590",
+   "size": 506,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/unraveling_spells-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/unraveling_spells-common.toml",
+   "sha1": "ecf22160cd5d041be9714bb4e14e50ccf432498e",
+   "size": 3051,
+   "kind": "config",
+   "policy": "force"
+  },
+  {
+   "path": "config/voicechat/category-volumes.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/voicechat/category-volumes.properties",
+   "sha1": "c9f8fd05a81e609071657f5c4c27d5cd377c5b12",
+   "size": 46,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/voicechat/player-volumes.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/voicechat/player-volumes.properties",
+   "sha1": "c77eeb6fb16c2844e9bbcf19667d30c9401212d5",
+   "size": 44,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/voicechat/translations.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/voicechat/translations.properties",
+   "sha1": "383e00e7dd0d5f00daa2ffcfd24c939d255dc7e3",
+   "size": 1182,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/voicechat/username-cache.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/voicechat/username-cache.json",
+   "sha1": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
+   "size": 2,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/voicechat/voicechat-client.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/voicechat/voicechat-client.properties",
+   "sha1": "e9b98b10af8531e906e201fe9527b6cf001b03b4",
+   "size": 5062,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/voicechat/voicechat-server.properties",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/voicechat/voicechat-server.properties",
+   "sha1": "eb76fd8f4172efdfcdd460cab7aa670542d220c8",
+   "size": 3214,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "config/waystones-common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/waystones-common.toml",
+   "sha1": "06dd828d6a45d68670f631a035628e493c0dc816",
+   "size": 6493,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/wind_spellbooks-server.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/wind_spellbooks-server.toml",
+   "sha1": "419b9aad7bf1ccbb1f957e84a59cc0063dc9d569",
+   "size": 93,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/witherreincarnated/client.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/witherreincarnated/client.toml",
+   "sha1": "f9926c484f3f533c6426f480109ad9ecd3eea765",
+   "size": 918,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "config/witherreincarnated/common.toml",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/witherreincarnated/common.toml",
+   "sha1": "fc1a907aa8c395aa207f798fc8c23bd711968e25",
+   "size": 1550,
+   "kind": "config",
+   "policy": "keep-modified"
+  },
+  {
+   "path": "options.txt",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/options.txt",
+   "sha1": "d64405a4e992139a7e50b19db2893ad5b67cfe8c",
+   "size": 19110,
+   "kind": "config",
+   "policy": "once"
+  },
+  {
+   "path": "patchouli_data.json",
+   "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/patchouli_data.json",
+   "sha1": "231380073231d2812497b2be8d12dd38fef3ead8",
+   "size": 70,
+   "kind": "config",
+   "policy": "keep-modified"
+  }
+ ]
+}

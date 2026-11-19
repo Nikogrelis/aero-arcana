@@ -1,0 +1,432 @@
+[elementMarkIcon]
+	#Enable element mark icons displayed above entities' heads.
+	#When enabled, icons representing active element marks will be rendered above entities.
+	#Default: true
+	enabled = true
+	#Distance from the top of the entity's collision box to the CENTER of the mark icons.
+	#The icon is about 0.36 blocks tall, so with the default 0.5 the icon's bottom sits roughly
+	#5 pixels (5/16 block) above the collision box.
+	#Higher values move the icons further above the entity.
+	#Default: 0.5 blocks
+	#Range: 0.0 - 3.0
+	# Default: 0.5
+	# Range: 0.0 ~ 3.0
+	height_offset = 0.5
+	#Scale of element mark icons.
+	#Higher values make the icons larger.
+	#Default: 1.0 (normal size)
+	#Range: 0.5 - 3.0
+	# Default: 1.0
+	# Range: 0.5 ~ 3.0
+	scale = 1.0
+
+	[buffs.lightningRodBuff]
+		#Ice magic resist reduction per level (as decimal).
+		#Default: -0.05 (-5%)
+		#Range: -0.5 to 0.0
+		# Default: -0.05
+		# Range: -0.5 ~ 0.0
+		iceResistReduction = -0.05
+		#Lightning magic resist reduction per level (as decimal).
+		#Default: -0.10 (-10%)
+		#Range: -0.5 to 0.0
+		# Default: -0.1
+		# Range: -0.5 ~ 0.0
+		lightningResistReduction = -0.1
+		#Duration of Lightning Rod buff in seconds.
+		#Default: 10 seconds
+		#Range: 1 - 60
+		# Default: 10
+		# Range: 1 ~ 60
+		durationSeconds = 10
+		#Maximum stack count for Lightning Rod buff.
+		#Default: 5 stacks
+		#Range: 1 - 10
+		# Default: 5
+		# Range: 1 ~ 10
+		maxStacks = 5
+
+	[buffs.darknessBuff]
+		#Blood magic resist reduction (as decimal).
+		#Default: -0.05 (-5%)
+		#Range: -0.5 to 0.0
+		# Default: -0.05
+		# Range: -0.5 ~ 0.0
+		bloodResistReduction = -0.05
+
+	[buffs.chaosBuff]
+		#Spell power bonus per level (as decimal).
+		#Default: 0.05 (+5% per level)
+		#Range: 0.0 - 0.5
+		# Default: 0.05
+		# Range: 0.0 ~ 0.5
+		spellPowerBonusPerLevel = 0.05
+
+	[buffs.plagueBuff]
+		#Max health reduction per level (as decimal).
+		#Default: 0.02 (-2% per level)
+		#Range: 0.0 - 0.1
+		# Default: 0.02
+		# Range: 0.0 ~ 0.1
+		maxHealthReductionPerLevel = 0.02
+		#Chance to convert to zombie on death (as decimal).
+		#Default: 0.25 (25%)
+		#Range: 0.0 - 1.0
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		zombieConversionChance = 0.25
+		#Chance for poison explosion on death (as decimal).
+		#Default: 0.75 (75%)
+		#Range: 0.0 - 1.0
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		explosionChance = 0.75
+		#Duration of Plague buff in seconds.
+		#Default: 10 seconds
+		#Range: 1 - 60
+		# Default: 10
+		# Range: 1 ~ 60
+		durationSeconds = 10
+		#Maximum stack count for Plague buff.
+		#Default: 10 stacks
+		#Range: 1 - 20
+		# Default: 10
+		# Range: 1 ~ 20
+		maxStacks = 10
+
+	[buffs.electrocutedBuff]
+		#Base damage of chain lightning per level.
+		#Default: 5.0
+		#Range: 1.0 - 50.0
+		# Default: 5.0
+		# Range: 1.0 ~ 50.0
+		baseDamage = 5.0
+		#Trigger interval in ticks (20 ticks = 1 second).
+		#Default: 40 ticks (2 seconds)
+		#Range: 20 - 200
+		# Default: 40
+		# Range: 20 ~ 200
+		triggerInterval = 40
+		#Chain lightning range in blocks.
+		#Default: 8.0 blocks
+		#Range: 1.0 - 32.0
+		# Default: 8.0
+		# Range: 1.0 ~ 32.0
+		chainRange = 8.0
+		#Maximum number of chain lightning targets.
+		#Default: 3 targets
+		#Range: 1 - 10
+		# Default: 3
+		# Range: 1 ~ 10
+		maxChainTargets = 3
+
+	[buffs.enderEchoBuff]
+		#Spell power bonus ratio based on ender power (as decimal).
+		#Default: 0.333 (33.3% of ender power bonus)
+		#Range: 0.0 - 1.0
+		# Default: 0.333
+		# Range: 0.0 ~ 1.0
+		spellPowerRatio = 0.333
+		#Spell resist bonus ratio based on ender power (as decimal).
+		#Default: 0.5 (50% of ender power bonus)
+		#Range: 0.0 - 1.0
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		spellResistRatio = 0.5
+
+	[buffs.magicShotgunBuff]
+		#Spell power reduction per level (as decimal, negative value).
+		#Default: -0.10 (-10% per level)
+		#Range: -0.5 to 0.0
+		# Default: -0.1
+		# Range: -0.5 ~ 0.0
+		spellPowerReductionPerLevel = -0.1
+		#Cast time reduction per level (as decimal).
+		#Default: 0.10 (+10% per level)
+		#Range: 0.0 - 0.5
+		# Default: 0.1
+		# Range: 0.0 ~ 0.5
+		castTimeReductionPerLevel = 0.1
+		#Melee damage bonus per level.
+		#Default: 5.0 damage per level
+		#Range: 0.0 - 20.0
+		# Default: 5.0
+		# Range: 0.0 ~ 20.0
+		meleeDamagePerLevel = 5.0
+		#Maximum buff level for Magic Shotgun.
+		#Default: 5 levels
+		#Range: 1 - 10
+		# Default: 5
+		# Range: 1 ~ 10
+		maxBuffLevel = 5
+
+	[buffs.armorReductionBuff]
+		#Armor reduction per level (as decimal).
+		#Default: 0.02 (-2% per level)
+		#Range: 0.0 - 0.1
+		# Default: 0.02
+		# Range: 0.0 ~ 0.1
+		armorReductionPerLevel = 0.02
+
+	[buffs.pyroFlameBuff]
+		#Base damage per second from Pyro Flame effect.
+		#Default: 1.0 damage per second
+		#Range: 0.5 - 10.0
+		# Default: 1.0
+		# Range: 0.5 ~ 10.0
+		damagePerSecond = 1.0
+		#Max health reduction per level (as decimal).
+		#Default: 0.02 (-2% per level)
+		#Range: 0.0 - 0.1
+		# Default: 0.02
+		# Range: 0.0 ~ 0.1
+		maxHealthReductionPerLevel = 0.02
+		#Damage interval in ticks (20 ticks = 1 second).
+		#Default: 20 ticks (1 second)
+		#Range: 10 - 100
+		# Default: 20
+		# Range: 10 ~ 100
+		damageInterval = 20
+		#Base explosion power when entity with Pyro Flame dies.
+		#Default: 1.0
+		#Range: 0.5 - 3.0
+		# Default: 1.0
+		# Range: 0.5 ~ 3.0
+		explosionBasePower = 1.0
+		#Additional explosion power per buff level.
+		#Default: 0.3
+		#Range: 0.1 - 1.0
+		# Default: 0.3
+		# Range: 0.1 ~ 1.0
+		explosionPowerPerLevel = 0.3
+		#Whether Pyro Flame explosion can destroy blocks.
+		#Default: false (safe explosion)
+		explosionDestroyBlocks = false
+		#Whether Pyro Flame explosion can cause fire.
+		#Default: false
+		explosionCauseFire = false
+		#List of entity types that cannot receive Pyro Flame buff.
+		#Format: ["minecraft:creeper", "minecraft:skeleton"]
+		#Default: empty list (no blacklist)
+		entityBlacklist = []
+
+	[buffs.boilingBlood]
+		#Base burst damage of the boiling blood reaction (fire + blood).
+		#Total damage = (base + missing health * lostHealthRatio) * (firePower + bloodPower) * 2.5
+		#Default: 1.0
+		#Range: 0.0 - 20.0
+		# Default: 1.0
+		# Range: 0.0 ~ 20.0
+		baseDamage = 1.0
+		#Ratio of the target's missing health converted into burst damage.
+		#Higher values make low-health targets take massively more damage (execution).
+		#Default: 0.3
+		#Range: 0.0 - 2.0
+		# Default: 0.3
+		# Range: 0.0 ~ 2.0
+		lostHealthRatio = 0.3
+
+	[buffs.annihilation]
+		#Base annihilation damage of the annihilation reaction (holy + eldritch).
+		#Total damage = (base + removedEffects * perEffectDamage) * (holyPower + eldritchPower) * 2.5
+		#Default: 2.0
+		#Range: 0.0 - 20.0
+		# Default: 2.0
+		# Range: 0.0 ~ 20.0
+		baseDamage = 2.0
+		#Bonus annihilation damage per removed effect instance.
+		#Default: 1.5
+		#Range: 0.0 - 20.0
+		# Default: 1.5
+		# Range: 0.0 ~ 20.0
+		perEffectDamage = 1.5
+
+	[buffs.enderWarp]
+		#Distance the target is pulled towards the caster by the ender warp reaction (lightning + eldritch).
+		#The pull is a velocity displacement, not an enderman-style teleport.
+		#Default: 5.0 blocks
+		#Range: 1.0 - 16.0
+		# Default: 5.0
+		# Range: 1.0 ~ 16.0
+		pullDistance = 5.0
+		#Entities whose max health is greater than or equal to this value are immune to the ender warp pull.
+		#Protects boss fights from being disrupted.
+		#Default: 100.0
+		#Range: 1.0 - 1000.0
+		# Default: 100.0
+		# Range: 1.0 ~ 1000.0
+		bossHealthThreshold = 100.0
+
+	[buffs.chargedBuff]
+		#Damage multiplier applied to the caster's next spell while the charged buff is active.
+		#The buff is consumed after one spell hit.
+		#Default: 2.0
+		#Range: 1.0 - 10.0
+		# Default: 2.0
+		# Range: 1.0 ~ 10.0
+		damageMultiplier = 2.0
+		#Duration of the charged buff in seconds.
+		#Default: 15 seconds
+		#Range: 1 - 60
+		# Default: 15
+		# Range: 1 ~ 60
+		durationSeconds = 15
+
+	[buffs.holyFire]
+		#Base damage of the holy fire purification reaction (fire + holy).
+		#Total damage = base * (firePower + holyPower) * 2.5, undead targets take this multiplied by undeadMultiplier.
+		#Also purifies (removes) all beneficial effects from the target.
+		#Default: 3.0
+		#Range: 0.0 - 20.0
+		# Default: 3.0
+		# Range: 0.0 ~ 20.0
+		baseDamage = 3.0
+		#Damage multiplier against undead/undying creatures for the holy fire reaction.
+		#Default: 2.0
+		#Range: 1.0 - 10.0
+		# Default: 2.0
+		# Range: 1.0 ~ 10.0
+		undeadMultiplier = 2.0
+
+	[buffs.bloodThorns]
+		#Base thorns damage dealt back to melee attackers hitting a target with the blood thorns buff (lightning + blood).
+		#Thorns damage = base * (lightningPower + bloodPower).
+		#Default: 3.0
+		#Range: 0.0 - 20.0
+		# Default: 3.0
+		# Range: 0.0 ~ 20.0
+		baseDamage = 3.0
+		#Duration of the blood thorns buff in seconds.
+		#Default: 8 seconds
+		#Range: 1 - 60
+		# Default: 8
+		# Range: 1 ~ 60
+		durationSeconds = 8
+
+	[buffs.frostFog]
+		#Radius of the frost poison fog cloud spawned by the frost fog reaction (ice + poison).
+		#Default: 3.0 blocks
+		#Range: 1.0 - 8.0
+		# Default: 3.0
+		# Range: 1.0 ~ 8.0
+		radius = 3.0
+		#Duration of the frost poison fog cloud in seconds.
+		#Default: 5 seconds
+		#Range: 1 - 30
+		# Default: 5
+		# Range: 1 ~ 30
+		durationSeconds = 5
+		#Poison effect level applied per second to entities inside the frost fog.
+		#Default: 1
+		#Range: 1 - 5
+		# Default: 1
+		# Range: 1 ~ 5
+		poisonLevel = 1
+
+	[buffs.plagueCloud]
+		#Radius of the eldritch plague cloud spawned by the plague cloud reaction (eldritch + poison).
+		#Default: 3.0 blocks
+		#Range: 1.0 - 8.0
+		# Default: 3.0
+		# Range: 1.0 ~ 8.0
+		radius = 3.0
+		#Duration of the eldritch plague cloud in seconds.
+		#Default: 5 seconds
+		#Range: 1 - 30
+		# Default: 5
+		# Range: 1 ~ 30
+		durationSeconds = 5
+
+	[buffs.iceBlood]
+		#Heal reduction ratio for the ice blood reaction (ice + blood).
+		#Applied as a multiplier to incoming heals on the target.
+		#Default: 0.5 (50% heal reduction)
+		#Range: 0.0 - 1.0
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		healReductionRatio = 0.5
+		#Duration of the ice blood debuff in seconds.
+		#Default: 8 seconds
+		#Range: 1 - 30
+		# Default: 8
+		# Range: 1 ~ 30
+		durationSeconds = 8
+
+	[buffs.voidFrost]
+		#Knockback distance for the void frost reaction (ice + eldritch).
+		#Target is pushed away from the caster by this distance.
+		#Default: 3.0 blocks
+		#Range: 1.0 - 10.0
+		# Default: 3.0
+		# Range: 1.0 ~ 10.0
+		knockbackDistance = 3.0
+		#Base duration of the fear effect in seconds.
+		#Duration scales with mark level (level * duration).
+		#Default: 3 seconds
+		#Range: 1 - 10
+		# Default: 3
+		# Range: 1 ~ 10
+		durationSeconds = 3
+
+	[buffs.holyIce]
+		#Radius of the holy ice slow cloud in blocks.
+		#Default: 3.0
+		#Range: 1.0 - 8.0
+		# Default: 3.0
+		# Range: 1.0 ~ 8.0
+		slowRadius = 3.0
+		#Duration of the holy ice slow cloud in seconds.
+		#Default: 5
+		#Range: 1 - 30
+		# Default: 5
+		# Range: 1 ~ 30
+		durationSeconds = 5
+		#Slow effect amplifier applied to entities inside the cloud.
+		#Default: 1
+		#Range: 0 - 5
+		# Default: 1
+		# Range: 0 ~ 5
+		slowAmplifier = 1
+
+	[buffs.hellfireBrand]
+		#Lifesteal ratio for the hellfire brand reaction (fire + eldritch).
+		#Caster heals for damage_dealt * this_ratio when hitting a branded target.
+		#Default: 0.1 (10%)
+		#Range: 0.0 - 1.0
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		lifestealRatio = 0.1
+		#Duration of the hellfire brand debuff in seconds.
+		#Default: 8 seconds
+		#Range: 1 - 30
+		# Default: 8
+		# Range: 1 ~ 30
+		durationSeconds = 8
+
+	[buffs.holyDew]
+		#Mana amount restored by the holy dew reaction (holy + poison).
+		#Caster recovers this amount of mana. Triggered when holy hits a target with a poison mark.
+		#Default: 10.0
+		#Range: 0.0 - 100.0
+		# Default: 10.0
+		# Range: 0.0 ~ 100.0
+		manaAmount = 10.0
+
+[debug]
+	#Enable global debug mode for all mod systems.
+	#When enabled, detailed debug logs will be output to console.
+	#This affects all debug output from element reactions, entities, and trails.
+	#Default: false (debug mode disabled)
+	globalDebugMode = false
+	#Enable debug output for Trail System to console.
+	#Includes tick updates, render counts, and trail statistics.
+	#Default: false (debug output disabled)
+	trailSystemDebugOutput = false
+	#Enable debug output for Echo Strike system to console.
+	#Includes trigger attempts, success/failure reasons, and damage info.
+	#Default: false (debug output disabled)
+	echoStrikeDebugOutput = false
+	#Enable debug output for Element Reaction system to console.
+	#This includes mark application, upgrades, and reaction triggers.
+	#Default: false (debug output disabled)
+	elementReactionDebugOutput = false

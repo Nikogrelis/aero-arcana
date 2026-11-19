@@ -1,0 +1,8 @@
+{
+    "org.holy.unraveling_spells.client.MagicLecternScreen": {
+        "ignore": true
+    },
+    "org.holy.unraveling_spells.client.ShrivingForgeScreen": {
+        "ignore": true
+    }
+}

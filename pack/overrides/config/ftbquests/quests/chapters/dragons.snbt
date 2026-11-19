@@ -1,0 +1,1067 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragons"
+	group: "0BE1C090DF7965DC"
+	icon: {
+		id: "iceandfire:dragonegg_red"
+	}
+	id: "55C118F3C58E829D"
+	images: [{
+		alpha: 235
+		height: 54.0d
+		id: "5C4A0D3035F03317"
+		image: "aeroarcana:textures/quests/bg_dragons.png"
+		order: -100
+		rotation: 0.0d
+		width: 96.0d
+		x: 10.0d
+		y: -0.62d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "iceandfire:bestiary"
+			}
+			id: "6081AF8FBDD7FF6E"
+			rewards: [
+				{
+					count: 2
+					id: "3C979F6BFDB0546D"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "6E553F47360CBA1C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5F966B16C0229FA4"
+					table_id: 5316463214207542468L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/bestiary"
+				criterion: ""
+				id: "3EADE24F49B43699"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6081AF8FBDD7FF6E"]
+			id: "3639702B6064B806"
+			rewards: [
+				{
+					count: 4
+					id: "58CE710F0B9C8755"
+					item: {
+						count: 1
+						id: "iceandfire:silver_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "35E7C4053114D556"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4435A3792AAA0D50"
+					item: { count: 1, id: "iceandfire:silver_ingot" }
+					type: "item"
+				}
+				{
+					id: "665D7077CA233D71"
+					item: { count: 1, id: "iceandfire:silver_sword" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3639702B6064B806"]
+			id: "6668BAFAE121361A"
+			rewards: [
+				{
+					id: "492D2345755E6BD6"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+				{
+					id: "5F1ACF25B425BAE1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "3A0C762D56910D6A"
+				item: { count: 1, id: "iceandfire:dragon_seeker" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6668BAFAE121361A"]
+			icon: {
+				id: "iceandfire:dragonegg_red"
+			}
+			id: "2581C6E391A074E3"
+			rewards: [
+				{
+					id: "780D12E941B56A8F"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "41C44A5D2E4FD1F5"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "5E7B61B41841F996"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "420BA9C144AF09B2"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2581C6E391A074E3"]
+			icon: {
+				id: "iceandfire:dragon_meal"
+			}
+			id: "0A92E7C77A752226"
+			rewards: [
+				{
+					count: 32
+					id: "14D95CF5C77F66CD"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "48A61D13FD564EBA"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_meal"
+				criterion: ""
+				id: "40DC69225E821EFC"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A92E7C77A752226"]
+			icon: {
+				id: "iceandfire:dragon_stick"
+			}
+			id: "2736F843F024DB60"
+			rewards: [
+				{
+					count: 16
+					id: "0DE0C8222C84ADAD"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					id: "720122DB6D4E0A6C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragon_staff"
+					criterion: ""
+					id: "2A2A1822E8E6DCF7"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_horn"
+					criterion: ""
+					id: "017786F741B41B14"
+					type: "advancement"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2736F843F024DB60"]
+			id: "362208976B9A86CB"
+			rewards: [
+				{
+					count: 4
+					id: "4493C393E55923D7"
+					item: {
+						count: 1
+						id: "iceandfire:dragonbone"
+					}
+					type: "item"
+				}
+				{
+					id: "7F046DECC7B4B4BE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "209320E30A67DF9E"
+					item: { count: 1, id: "iceandfire:dragonbone" }
+					type: "item"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragonbone_tool"
+					criterion: ""
+					id: "1D06DC35F72764FC"
+					type: "advancement"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["362208976B9A86CB"]
+			icon: {
+				id: "iceandfire:dragonforge_fire_brick"
+			}
+			id: "50DA5FCD09844CD5"
+			rewards: [
+				{
+					count: 32
+					id: "35BC246C425EA857"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					id: "07EB63507D2827A9"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_forge_brick"
+				criterion: ""
+				id: "28E931A86F3646BE"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50DA5FCD09844CD5"]
+			icon: {
+				id: "iceandfire:dragonforge_fire_core"
+			}
+			id: "5A62A4C568671226"
+			rewards: [
+				{
+					count: 2
+					id: "09F1E52A39B25192"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "53F8E07A4A3C9AC7"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "37E38467C13C8E4A"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_forge_core"
+				criterion: ""
+				id: "3B858FD1A8E6D01D"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A62A4C568671226"]
+			icon: {
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+			id: "7107D705FCD22626"
+			rewards: [
+				{
+					count: 16
+					id: "6EB90C126D68486E"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "020C6CEAE68D44C7"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel"
+				criterion: ""
+				id: "41C2D24F9BCEBF9F"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7107D705FCD22626"]
+			icon: {
+				id: "iceandfire:dragonsteel_fire_sword"
+			}
+			id: "07DECB666D7DE69F"
+			rewards: [
+				{
+					id: "51AEC161BCA011DD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4900AB90A35A3540"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+				criterion: ""
+				id: "53822B70D83F550B"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07DECB666D7DE69F"
+				"50BFB97211349EBE"
+			]
+			icon: {
+				id: "iceandfire:dragonarmor_dragon_steel_fire_head"
+			}
+			id: "635C7BBA8C050B36"
+			rewards: [
+				{
+					id: "23D3FDFD3E6DF883"
+					item: {
+						count: 1
+						id: "iceandfire:dragonarmor_silver_head"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "54D0CA0943AEE2CF"
+					item: {
+						count: 1
+						id: "dragoncare:exceptional_dragon_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "5D49DE15B86B0B47"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "487C8FDE005883AF"
+					table_id: 3848313944286140496L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "dragoncare:tamed_three_elements"
+					criterion: ""
+					id: "492DE5BD44DE8196"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragonarmor"
+					criterion: ""
+					id: "167F11A9173D5FB0"
+					type: "advancement"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6668BAFAE121361A"]
+			icon: {
+				id: "iceandfire:dragonscales_red"
+			}
+			id: "028B67D3FA396B45"
+			optional: true
+			rewards: [
+				{
+					id: "72540B69C9A70E0C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "0FF5FAF0349C7745"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "709D8A2E666B1788"
+				structure: "iceandfire:fire_dragon_roost"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6668BAFAE121361A"]
+			icon: {
+				id: "iceandfire:dragonscales_blue"
+			}
+			id: "1CBA625DD649A9F0"
+			optional: true
+			rewards: [
+				{
+					id: "27EB5BB6418D96AA"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6808C51DD3D13339"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "7AD150515B7545C7"
+				structure: "iceandfire:ice_dragon_roost"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6668BAFAE121361A"]
+			icon: {
+				id: "iceandfire:dragonscales_electric"
+			}
+			id: "516D165C1406E34F"
+			optional: true
+			rewards: [
+				{
+					id: "1C1FBEFC83F9CA6D"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "70239DECED16BA89"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "1347F86AC0F60952"
+				structure: "iceandfire:lightning_dragon_roost"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2581C6E391A074E3"]
+			icon: {
+				id: "dragoncare:exceptional_dragon_meal"
+			}
+			id: "6BF2C00D00B8E970"
+			rewards: [
+				{
+					count: 4
+					id: "7B9F6E5EF66E2857"
+					item: {
+						count: 1
+						id: "dragoncare:dragon_fruit_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "099390DF36228734"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				advancement: "dragoncare:exceptional_meal_craft"
+				criterion: ""
+				id: "5CD98016D7461D99"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BF2C00D00B8E970"]
+			id: "0D02BCA1801622AE"
+			rewards: [
+				{
+					count: 2
+					id: "07CA77E2EBF7CD80"
+					item: {
+						count: 1
+						id: "dragoncare:exceptional_dragon_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "193DC2C8F07EE821"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				advancement: "dragoncare:dragon_befriended"
+				criterion: ""
+				id: "51270B5ACD6314E4"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D02BCA1801622AE"]
+			id: "50BFB97211349EBE"
+			rewards: [
+				{
+					count: 32
+					id: "0EE34C27230DD1CE"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "0A46C3B66131545C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1ED4D6E2A1423384"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "dragoncare:taming_started"
+				criterion: ""
+				id: "70E45B16C14B8A3C"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50BFB97211349EBE"]
+			icon: {
+				id: "dragoncare:dragon_blood_syringe"
+			}
+			id: "5BD891451FA53D02"
+			rewards: [
+				{
+					count: 2
+					id: "55E5CEF1269BAE8D"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3932D6FC48C1B222"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "77E9A839914ED022"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "dragoncare:syringe_craft"
+					criterion: ""
+					id: "538A459F333126D6"
+					type: "advancement"
+				}
+				{
+					advancement: "dragoncare:scale_shears_craft"
+					criterion: ""
+					id: "6A060ACDAD264328"
+					type: "advancement"
+				}
+				{
+					advancement: "dragoncare:painkiller_craft"
+					criterion: ""
+					id: "37BE5FEBECF36526"
+					type: "advancement"
+				}
+			]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50BFB97211349EBE"]
+			icon: {
+				id: "dragoncare:dragon_brush"
+			}
+			id: "0FD95FA029740167"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "546F96551891E8C4"
+					item: {
+						count: 1
+						id: "dragoncare:dragon_fruit_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "5DA570D002CC2D06"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					advancement: "dragoncare:dragon_brush_craft"
+					criterion: ""
+					id: "235C7BDDD084BC4B"
+					type: "advancement"
+				}
+				{
+					advancement: "dragoncare:fresh_look"
+					criterion: ""
+					id: "7F27A83DDBEEBC8E"
+					type: "advancement"
+				}
+			]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5BD891451FA53D02"]
+			icon: {
+				id: "dragoncare:dragon_phone"
+			}
+			id: "42F91FF35B1D634E"
+			optional: true
+			rewards: [{
+				id: "6D5704561A8967DF"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [
+				{
+					advancement: "dragoncare:dragon_phone_craft"
+					criterion: ""
+					id: "61E592E218BBF77A"
+					type: "advancement"
+				}
+				{
+					advancement: "dragoncare:ash_sensor_craft"
+					criterion: ""
+					id: "763DC699098DE782"
+					type: "advancement"
+				}
+				{
+					advancement: "dragoncare:ash_tablets_craft"
+					criterion: ""
+					id: "08248787AF8EDF03"
+					type: "advancement"
+				}
+			]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5BD891451FA53D02"]
+			icon: {
+				id: "dragoncare:burnt_sheet"
+			}
+			id: "395DCC2CFAD51FD4"
+			optional: true
+			rewards: [
+				{
+					id: "7D98BB5546AB64A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "751421BC60C19518"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "dragoncare:echo_of_cruelty"
+				criterion: ""
+				id: "436112FEF6F198E8"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6081AF8FBDD7FF6E"]
+			icon: {
+				id: "iceandfire:pixie_dust"
+			}
+			id: "59DA822BE1353AB0"
+			optional: true
+			rewards: [
+				{
+					id: "7663D32B6CC209C5"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "43D21B2DD9978D5A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/jar_pixie"
+				criterion: ""
+				id: "6E66288CC3C8E33B"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6081AF8FBDD7FF6E"]
+			icon: {
+				id: "iceandfire:hippogryph_egg"
+			}
+			id: "6047C4ADE51D2924"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7C78E470898B240B"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_foot"
+					}
+					type: "item"
+				}
+				{
+					id: "10E6D172C0C0B44C"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+				{
+					id: "1B06368C1F94A735"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				id: "57E828B45D54D7D0"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3639702B6064B806"]
+			icon: {
+				id: "iceandfire:sea_serpent_fang"
+			}
+			id: "4401185BA969E92D"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "0E30AD3BFE0F3F4C"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "5990959996972B93"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "37B65F3C20968FAD"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_sea_serpent"
+				criterion: ""
+				id: "19CC4AE2B80DA8D4"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3639702B6064B806"]
+			icon: {
+				id: "iceandfire:cyclops_eye"
+			}
+			id: "58433C197C0D8765"
+			optional: true
+			rewards: [
+				{
+					id: "2C582E46BA96EBB3"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "329C532FC310CF3B"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0CB6679F232C4F5F"
+					structure: "iceandfire:cyclops_cave"
+					type: "structure"
+				}
+				{
+					advancement: "iceandfire:iceandfire/kill_cyclops"
+					criterion: ""
+					id: "4B8FF81FB1AF77B7"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3639702B6064B806"]
+			icon: {
+				id: "iceandfire:gorgon_head"
+			}
+			id: "3740BF364CC86046"
+			optional: true
+			rewards: [
+				{
+					id: "7B996E25FCAABACB"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "5D15257C91E3FB74"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6B02C1F085088ED3"
+					structure: "iceandfire:gorgon_temple"
+					type: "structure"
+				}
+				{
+					advancement: "iceandfire:iceandfire/gorgon_head"
+					criterion: ""
+					id: "33C7AD718C991F89"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3639702B6064B806"]
+			icon: {
+				id: "iceandfire:deathworm_chitin_yellow"
+			}
+			id: "742A37477527D181"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5E2ACDB0991E80C2"
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
+					type: "item"
+				}
+				{
+					id: "5348DDDAD43BAFC8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_deathworm"
+				criterion: ""
+				id: "5E399570FE0F2425"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3740BF364CC86046"]
+			icon: {
+				id: "iceandfire:hydra_heart"
+			}
+			id: "44A72F1F8494F00A"
+			optional: true
+			rewards: [
+				{
+					id: "6B77B6B477690A02"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "02679037A9A343EA"
+					table_id: 7310135408972123843L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3BF4B3629EA048FF"
+					structure: "iceandfire:hydra_cave"
+					type: "structure"
+				}
+				{
+					advancement: "iceandfire:iceandfire/kill_hydra"
+					criterion: ""
+					id: "447988008D6D51C6"
+					type: "advancement"
+				}
+			]
+			x: 9.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["362208976B9A86CB"]
+			icon: {
+				id: "iceandfire:dragonbone_sword_fire"
+			}
+			id: "13DFB8179764CD4F"
+			optional: true
+			rewards: [
+				{
+					id: "68E7A4B6D9C54512"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "7037AB75E7A2A32E"
+					table_id: 5292660125326155739L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
+				criterion: ""
+				id: "7F2E9E19F4C08510"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 2.25d
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ icon: { id: "minecraft:compass" }, id: "68D89B1B8355876D" }
+		{ icon: { id: "create:cogwheel" }, id: "2E619C564BDB7D08" }
+		{ icon: { id: "irons_spellbooks:arcane_essence" }, id: "0BE1C090DF7965DC" }
+		{ icon: { id: "minecraft:iron_sword" }, id: "1EAD31C0D6700414" }
+		{ icon: { id: "farmersdelight:cooking_pot" }, id: "610171414D49A6BD" }
+	]
+}
