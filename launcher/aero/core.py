@@ -1,4 +1,4 @@
-﻿"""Aero Arcana launcher core: pack sync, Minecraft/NeoForge install (portablemc) and game start.
+"""Aero Arcana launcher core: pack sync, Minecraft/NeoForge install (portablemc) and game start.
 
 Layout (all under ROOT = %APPDATA%\\.aeroarcana, or AERO_ROOT for tests):
   ROOT/                 portablemc main dir: versions, libraries, assets, Java runtimes
@@ -29,7 +29,7 @@ INDEX_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/
 NEWS_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/NEWS.md"
 RELEASE_API = "https://api.github.com/repos/Nikogrelis/aero-arcana/releases/latest"
 UA = "AeroArcanaLauncher/1.0 (+https://github.com/Nikogrelis/aero-arcana)"
-LAUNCHER_VERSION = "1.0.4"
+LAUNCHER_VERSION = "1.0.5"
 
 ROOT = pathlib.Path(os.environ.get("AERO_ROOT") or pathlib.Path(os.environ["APPDATA"]) / ".aeroarcana")
 GAME = ROOT / "game"
@@ -149,7 +149,7 @@ def fetch_index(state: State) -> dict:
         log.warning("index download failed: %s", e)
         if cache.exists():
             return json.loads(cache.read_bytes())
-        raise RuntimeError("РќРµС‚ СЃРІСЏР·Рё СЃ СЃРµСЂРІРµСЂРѕРј РѕР±РЅРѕРІР»РµРЅРёР№ (GitHub). РџСЂРѕРІРµСЂСЊС‚Рµ РёРЅС‚РµСЂРЅРµС‚.") from e
+        raise RuntimeError("Нет связи с сервером обновлений (GitHub). Проверьте интернет.") from e
 
 
 def plan_sync(idx: dict, state: State) -> tuple[list, list]:
@@ -212,13 +212,13 @@ def download_files(todo: list, state: State, progress) -> None:
                 last_err = e
                 log.warning("download %s attempt %d: %s", rel, attempt + 1, e)
                 time.sleep(1 + attempt * 2)
-        raise RuntimeError(f"РќРµ СѓРґР°Р»РѕСЃСЊ СЃРєР°С‡Р°С‚СЊ {rel}: {last_err}")
+        raise RuntimeError(f"Не удалось скачать {rel}: {last_err}")
 
     stop = threading.Event()
 
     def ticker():
         while not stop.wait(0.25):
-            progress("sync", min(done[0] / total, 1.0), f"РЎРєР°С‡РёРІР°РЅРёРµ СЃР±РѕСЂРєРё: {done[0] / 2**20:.0f} / {total / 2**20:.0f} РњР‘")
+            progress("sync", min(done[0] / total, 1.0), f"Скачивание сборки: {done[0] / 2**20:.0f} / {total / 2**20:.0f} МБ")
     t = threading.Thread(target=ticker, daemon=True)
     t.start()
     try:
@@ -246,9 +246,9 @@ def ensure_servers_dat(server: dict) -> None:
 
 
 def sync_pack(state: State, progress) -> dict:
-    progress("check", 0.0, "РџСЂРѕРІРµСЂРєР° РѕР±РЅРѕРІР»РµРЅРёР№вЂ¦")
+    progress("check", 0.0, "Проверка обновлений…")
     idx = fetch_index(state)
-    progress("check", 0.0, "РЎРІРµСЂРєР° С„Р°Р№Р»РѕРІ СЃР±РѕСЂРєРёвЂ¦")
+    progress("check", 0.0, "Сверка файлов сборки…")
     todo, stale = plan_sync(idx, state)
     for p in stale:
         log.info("remove stale mod %s", p.name)
@@ -260,7 +260,7 @@ def sync_pack(state: State, progress) -> dict:
     ensure_servers_dat(idx["server"])
     state.data["pack_version"] = idx["version"]
     state.save()
-    progress("sync", 1.0, "РЎР±РѕСЂРєР° Р°РєС‚СѓР°Р»СЊРЅР°")
+    progress("sync", 1.0, "Сборка актуальна")
     return idx
 
 
@@ -275,10 +275,10 @@ def portablemc_exe(progress=None) -> pathlib.Path:
     if exe.exists():
         return exe
     if progress:
-        progress("install", None, "Р—Р°РіСЂСѓР·РєР° СѓСЃС‚Р°РЅРѕРІС‰РёРєР° MinecraftвЂ¦")
+        progress("install", None, "Загрузка установщика Minecraft…")
     data = http_get(PMC_URL, timeout=120)
     if hashlib.sha256(data).hexdigest() != PMC_SHA256:
-        raise RuntimeError("РЈСЃС‚Р°РЅРѕРІС‰РёРє Minecraft СЃРєР°С‡Р°Р»СЃСЏ РїРѕРІСЂРµР¶РґС‘РЅРЅС‹Рј, РїРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰С‘ СЂР°Р·.")
+        raise RuntimeError("Установщик Minecraft скачался повреждённым, попробуйте ещё раз.")
     import io, zipfile
     exe.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(io.BytesIO(data)) as z:
@@ -300,7 +300,7 @@ def start_game(idx: dict, nick: str, ram_gb: int, progress, on_started, join_ser
                                                        "--join-server-port", str(idx["server"]["port"])]
     log.info("run %s", " ".join(cmd))
     GAME.mkdir(parents=True, exist_ok=True)
-    progress("install", 0.0, "РџРѕРґРіРѕС‚РѕРІРєР° Minecraft Рё NeoForgeвЂ¦")
+    progress("install", 0.0, "Подготовка Minecraft и NeoForge…")
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=ROOT,
                             creationflags=NO_WINDOW, text=True, encoding="utf-8", errors="replace")
     game_log = open(ROOT / "logs" / "portablemc.log", "w", encoding="utf-8")
@@ -314,26 +314,26 @@ def start_game(idx: dict, nick: str, ram_gb: int, progress, on_started, join_ser
         if kind == "download" and len(parts) >= 3 and "/" in parts[2]:
             try:
                 cur, tot = (float(x) for x in parts[2].split("/"))
-                progress("install", cur / tot if tot else 0, f"РЈСЃС‚Р°РЅРѕРІРєР° Minecraft: {cur / 2**20:.0f} / {tot / 2**20:.0f} РњР‘")
+                progress("install", cur / tot if tot else 0, f"Установка Minecraft: {cur / 2**20:.0f} / {tot / 2**20:.0f} МБ")
             except ValueError:
                 pass
         elif kind.startswith("neoforge_"):
-            progress("install", None, "РЈСЃС‚Р°РЅРѕРІРєР° NeoForgeвЂ¦ (С‚РѕР»СЊРєРѕ РІ РїРµСЂРІС‹Р№ СЂР°Р·, 1вЂ“3 РјРёРЅСѓС‚С‹)")
+            progress("install", None, "Установка NeoForge… (только в первый раз, 1–3 минуты)")
         elif kind in ("load_jvm", "loaded_jvm"):
-            progress("install", None, "РџРѕРґРіРѕС‚РѕРІРєР° JavaвЂ¦")
+            progress("install", None, "Подготовка Java…")
         elif kind in ("assets_loading", "verified_assets", "load_libraries"):
-            progress("install", None, "РџСЂРѕРІРµСЂРєР° С„Р°Р№Р»РѕРІ РёРіСЂС‹вЂ¦")
+            progress("install", None, "Проверка файлов игры…")
         elif kind.startswith("error_"):
             errors.append(line.strip())
         if not started and (kind in ("launched", "game_launched", "launch") or kind.startswith("game_")):
             started = True
-            progress("install", 1.0, "Р—Р°РїСѓСЃРє РёРіСЂС‹вЂ¦")
+            progress("install", 1.0, "Запуск игры…")
             on_started()
     code = proc.wait()
     game_log.close()
     if not started and code != 0:
-        raise RuntimeError("РќРµ СѓРґР°Р»РѕСЃСЊ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РёР»Рё Р·Р°РїСѓСЃС‚РёС‚СЊ РёРіСЂСѓ:\n" + ("\n".join(errors[-5:]) or f"РєРѕРґ {code}")
-                           + f"\nРџРѕРґСЂРѕР±РЅРѕСЃС‚Рё: {ROOT / 'logs' / 'portablemc.log'}")
+        raise RuntimeError("Не удалось установить или запустить игру:\n" + ("\n".join(errors[-5:]) or f"код {code}")
+                           + f"\nПодробности: {ROOT / 'logs' / 'portablemc.log'}")
     return code
 
 
