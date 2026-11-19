@@ -54,10 +54,12 @@ def main(ref_zip):
     jars = {n.rsplit("/", 1)[1]: n for n in z.namelist() if n.startswith("versions/Aero-Arcana/mods/") and n.endswith(".jar")}
     lock = {e["file"]: e for e in json.load(open(SRC / "lock.json", encoding="utf-8"))}
     files, own, problems = [], [], []
+    LOCAL_OWN = SRC / "local"   # own/patched jars: the current build, not the copy in the reference zip
     for name, entry in sorted(jars.items()):
         if name in DROP or name in SERVER_ONLY:
             continue
-        data = z.read(entry)
+        own_file = LOCAL_OWN / name
+        data = own_file.read_bytes() if own_file.exists() and name not in lock and name not in CF else z.read(entry)
         sha1, size = hashlib.sha1(data).hexdigest(), len(data)
         if name in lock:
             e = lock[name]

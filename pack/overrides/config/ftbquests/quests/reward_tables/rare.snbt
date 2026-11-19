@@ -7,7 +7,7 @@
 			monster: 0
 			passive: 0
 		}
-		glow: 1b
+		glow: true
 		string_id: "aeroarcana_rare"
 	}
 	loot_size: 1
@@ -29,7 +29,13 @@
 				id: "minecraft:netherite_scrap"
 			}
 		}
-		{ id: "1E287AEDD0B1C8E4", item: { count: 1, id: "minecraft:totem_of_undying" } }
+		{
+			id: "1E287AEDD0B1C8E4"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+		}
 		{
 			count: 3
 			id: "3441304B69201E74"
@@ -46,7 +52,13 @@
 				id: "irons_spellbooks:uncommon_ink"
 			}
 		}
-		{ id: "3653F67850E04426", item: { count: 1, id: "minecraft:enchanted_golden_apple" } }
+		{
+			id: "3653F67850E04426"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+		}
 		{
 			count: 48
 			id: "524392C152EE0EEE"
@@ -79,6 +91,12 @@
 				id: "minecraft:ancient_debris"
 			}
 		}
-		{ id: "39E5378B063A74B4", item: { count: 1, id: "minecraft:diamond_block" } }
+		{
+			id: "39E5378B063A74B4"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+		}
 	]
 }

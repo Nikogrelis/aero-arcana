@@ -7,7 +7,7 @@
 			monster: 0
 			passive: 0
 		}
-		glow: 1b
+		glow: true
 		string_id: "aeroarcana_epic"
 	}
 	loot_size: 1
@@ -37,7 +37,13 @@
 				id: "irons_spellbooks:epic_ink"
 			}
 		}
-		{ id: "1DC25FCCFDF4291B", item: { count: 1, id: "irons_spellbooks:legendary_ink" } }
+		{
+			id: "1DC25FCCFDF4291B"
+			item: {
+				count: 1
+				id: "irons_spellbooks:legendary_ink"
+			}
+		}
 		{
 			count: 2
 			id: "7B98EB087D6540BC"
@@ -46,8 +52,20 @@
 				id: "minecraft:totem_of_undying"
 			}
 		}
-		{ id: "6138498AE61CDB6D", item: { count: 1, id: "minecraft:elytra" } }
-		{ id: "4B4811A4F0DF6D54", item: { count: 1, id: "minecraft:nether_star" } }
+		{
+			id: "6138498AE61CDB6D"
+			item: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+		}
+		{
+			id: "4B4811A4F0DF6D54"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+		}
 		{
 			count: 4
 			id: "0FC14981F0468B81"

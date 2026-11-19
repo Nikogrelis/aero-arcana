@@ -51,6 +51,8 @@
 		"&7• Иметь в инвентаре: &fНаращиватель слоёв"
 		"&7• Иметь в инвентаре: &f2 × Промежуточное дуло стальной пушки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_steel.png width:220 height:110 align:center}"
 	]
 	quest.009385FD221238D6.quest_subtitle: "Слой за слоем"
 	quest.009385FD221238D6.title: "Составная стальная пушка"
@@ -61,6 +63,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Повелитель напряжения»&7: Создайте магнитопровод трансформатора"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_transformer.png width:220 height:110 align:center}"
 	]
 	quest.00CC798A47FEE3D2.quest_subtitle: "Вверх и вниз"
 	quest.00CC798A47FEE3D2.title: "Трансформатор"
@@ -72,6 +76,8 @@
 		"&7• Получить достижение &e«Муравьиный гнев»&7: Используйте красного муравья, чтобы попасть в Тораксис."
 		"&7• Получить достижение &e«Долой королеву»&7: Победите Королеву"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_antarchy_queen.png width:220 height:110 align:center}"
 	]
 	quest.00D7F4C381FAD3FB.title: "&dКоролева Тораксиса"
 	quest.00FD4407F6E76DEC.quest_desc: [
@@ -83,6 +89,8 @@
 		"&7• Иметь в инвентаре: &fСливочное масло"
 		"&7• Иметь в инвентаре: &fЛомтик сыра"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_create_food.png width:220 height:110 align:center}"
 	]
 	quest.00FD4407F6E76DEC.quest_subtitle: "За сколько? Я вас умоляю, своё же"
 	quest.00FD4407F6E76DEC.title: "&eМасло и сыр, как на Привозе"
@@ -94,6 +102,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &ffire dragon roost"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_fire_roost.png width:220 height:110 align:center}"
 	]
 	quest.028B67D3FA396B45.title: "&cОгненное логово"
 	quest.02AB0821A402FF9A.quest_desc: [
@@ -107,6 +117,8 @@
 		"&7• Иметь в инвентаре: &fГироскопический пропеллерный подшипник"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_gyro.png width:220 height:110 align:center}"
 	]
 	quest.02AB0821A402FF9A.quest_subtitle: "Ровный киль в любую погоду"
 	quest.02AB0821A402FF9A.title: "Гироскоп"
@@ -121,6 +133,8 @@
 		"&7• Иметь в инвентаре: &fВозвратная пружина чугунной автопушки"
 		"&7• Иметь в инвентаре: &f2 × Дуло чугунной автопушки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_autocannon.png width:220 height:110 align:center}"
 	]
 	quest.0390DD10C20C2F64.quest_subtitle: "Быстро и часто"
 	quest.0390DD10C20C2F64.title: "Автопушка"
@@ -133,6 +147,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Чудной писарь»&7: Создайте начертательный стол."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_inscription_table.png width:220 height:110 align:center}"
 	]
 	quest.046D20E3A9C4544D.title: "Стол для начертаний"
 	quest.04C20C536805C665.quest_desc: [
@@ -142,6 +158,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &ftaoist house"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_magic_east.png width:220 height:110 align:center}"
 	]
 	quest.04C20C536805C665.title: "Магия Востока"
 	quest.059531E078B3DE57.quest_desc: [
@@ -151,6 +169,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_legendary_mage.png width:220 height:110 align:center}"
 	]
 	quest.059531E078B3DE57.title: "Легендарный маг"
 	quest.06B80B7DBD56A747.quest_desc: [
@@ -173,6 +193,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Драконья эволюция»&7: Создайте оружие из драконьей стали"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dragonsteel_weapon.png width:220 height:110 align:center}"
 	]
 	quest.07DECB666D7DE69F.title: "Драконье оружие"
 	quest.088826E730CDF272.quest_desc: [
@@ -182,6 +204,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Ужас глубин»&7: Одолейте кракена Неракисса"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_kraken.png width:220 height:110 align:center}"
 	]
 	quest.088826E730CDF272.quest_subtitle: "Кракен: говорили же — не купаться где попало"
 	quest.088826E730CDF272.title: "&9Неракис из Кальмиуса"
@@ -194,6 +218,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Мой апофеоз»&7: Убейте Вознесённого"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_ascended_one.png width:220 height:110 align:center}"
 	]
 	quest.08DFD3138A40F57C.quest_subtitle: "Босс"
 	quest.08DFD3138A40F57C.title: "&3Вознесённый"
@@ -206,6 +232,8 @@
 		"&7• Иметь в инвентаре: &fЧугунная пружина отката тяжёлой автопушки"
 		"&7• Иметь в инвентаре: &f2 × Чугунный ствол тяжёлой автопушки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_heavy.png width:220 height:110 align:center}"
 	]
 	quest.0914685AEA7A6AEA.quest_subtitle: "Калибр имеет значение"
 	quest.0914685AEA7A6AEA.title: "Тяжёлая автопушка"
@@ -217,6 +245,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Гормон роста ящеров»&7: Создайте драконью еду, чтобы ускорять рост драконов"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dragon_meal.png width:220 height:110 align:center}"
 	]
 	quest.0A92E7C77A752226.quest_subtitle: "Тётя Соня сказала бы: худенький, кормите больше"
 	quest.0A92E7C77A752226.title: "Шо дракон будет кушать?"
@@ -228,6 +258,8 @@
 		"&7• Получить достижение &e«Замороженная тюрьма»&7: Найдите Замороженную тюрьму"
 		"&7• Получить достижение &e«Крестовый поход против Проклятия»&7: Призовите и убейте Маледиктуса"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_maledictus.png width:220 height:110 align:center}"
 	]
 	quest.0B4EF2108933E937.title: "&3Маледиктус"
 	quest.0B6EFE67BB943FFE.quest_desc: [
@@ -239,6 +271,8 @@
 		"&7• Иметь в инвентаре: &fГоловка насосной установки"
 		"&7• Иметь в инвентаре: &fМеханический привод насосной установки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_pumpjack.png width:220 height:110 align:center}"
 	]
 	quest.0B6EFE67BB943FFE.quest_subtitle: "Кивает, как дед на лавочке, — и качает"
 	quest.0B6EFE67BB943FFE.title: "Качалка в посадке"
@@ -249,6 +283,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«А оно алмазное?»&7: Создай алмазную дрель"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_diamond_drill.png width:220 height:110 align:center}"
 	]
 	quest.0BFC388794F096EF.quest_subtitle: "Будете смеяться, но это таки алмаз"
 	quest.0BFC388794F096EF.title: "Алмазный бур? Я вас умоляю"
@@ -259,6 +295,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Дикий мясник»&7: Используйте нож для извлечения больших кусков мяса из Свиней"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_ham.png width:220 height:110 align:center}"
 	]
 	quest.0C3AECA1897BAA87.quest_subtitle: "Нож — это не только кухня"
 	quest.0C3AECA1897BAA87.title: "Дикий мясник"
@@ -271,6 +309,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Высоты не боюсь!»&7: Получите и разместите датчик высоты"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_sensors.png width:220 height:110 align:center}"
 	]
 	quest.0C516E75E8793509.quest_subtitle: "Знать свою высоту"
 	quest.0C516E75E8793509.title: "Без давления"
@@ -282,6 +322,8 @@
 		"&7• Иметь в инвентаре: &f4 × Колёсное крепление"
 		"&7• Иметь в инвентаре: &f4 × Шина"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_tires.png width:220 height:110 align:center}"
 	]
 	quest.0C6B7E69750DD029.quest_subtitle: "По земле тоже надо ездить"
 	quest.0C6B7E69750DD029.title: "Колёса"
@@ -292,6 +334,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Не выносишь жару...»&7: Потратьте целый незеритовый слиток, чтобы улучшить свой нож! Или свалите с кухни."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_netherite_knife.png width:220 height:110 align:center}"
 	]
 	quest.0C8940A9F06F38AB.quest_subtitle: "Для настоящих профи"
 	quest.0C8940A9F06F38AB.title: "&5Незеритовый нож"
@@ -302,6 +346,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Держать курс»&7: Постройте и киль, и руль для настоящего гидродинамического управления."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_keel.png width:220 height:110 align:center}"
 	]
 	quest.0C8D4AAF5AFA1BDB.quest_subtitle: "Киль и руль"
 	quest.0C8D4AAF5AFA1BDB.title: "Держать курс"
@@ -313,6 +359,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Ты — не ты, когда голоден»&7: Усмирите дикого дракона Исключительным кормом. Оказывается, он сжигал деревни просто потому, что вовремя не позавтракал!"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dc_befriend.png width:220 height:110 align:center}"
 	]
 	quest.0D02BCA1801622AE.quest_subtitle: "Он просто был голоден — угостите, не жадничайте"
 	quest.0D02BCA1801622AE.title: "Семки для дракона"
@@ -326,6 +374,8 @@
 		"&7• Иметь в инвентаре: &fМеханическая рука"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_arm.png width:220 height:110 align:center}"
 	]
 	quest.0DCC8C2F2C09290E.quest_subtitle: "Занятые руки"
 	quest.0DCC8C2F2C09290E.title: "Механическая рука"
@@ -338,6 +388,8 @@
 		"&7• Получить достижение &e«Механический маг воздуха»&7: Разместите и активируйте вентилятор в корпусе"
 		"&7• Получить достижение &e«Обработка воздухом»&7: Используйте вентилятор в корпусе для обработки предметов"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_fan.png width:220 height:110 align:center}"
 	]
 	quest.0EC369A56CB228C1.quest_subtitle: "Подуем на руду"
 	quest.0EC369A56CB228C1.title: "Обработка ветром"
@@ -349,6 +401,8 @@
 		"&7• Получить достижение &e«Ламинарное движение»&7: Соедините два вала с помощью механического ремня"
 		"&7• Получить достижение &e«Антураж аэропорта»&7: Извлеките или добавьте предмет в контейнер с помощью шлюза"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_belt.png width:220 height:110 align:center}"
 	]
 	quest.0F73625D07D8B55F.quest_subtitle: "Шахтёрская лава, а не та, что горит. Ленты и воронки"
 	quest.0F73625D07D8B55F.title: "Конвейер, как в лаве"
@@ -361,6 +415,8 @@
 		"&7• Получить достижение &e«Электрический век»&7: Протяните провод между двумя контактами"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_wires.png width:220 height:110 align:center}"
 	]
 	quest.0FA49663C217FEE0.quest_subtitle: "Иначе подключённые"
 	quest.0FA49663C217FEE0.title: "Первые провода"
@@ -373,6 +429,8 @@
 		"&7• Получить достижение &e«Местный Мойдодыр»&7: Создать щётку для дракона. Пришло время укротить не только дракона, но и вековую грязь на его хвосте."
 		"&7• Получить достижение &e«Свежий вид»&7: Очистить первый уровень грязи. Дракон одобряет этот легкий массаж щеткой."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dc_brush.png width:220 height:110 align:center}"
 	]
 	quest.0FD95FA029740167.title: "Свежий вид"
 	quest.102A18D25972F2BF.quest_desc: [
@@ -382,6 +440,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f4 × Чугунный слиток"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_gate_industry.png width:220 height:110 align:center}"
 	]
 	quest.102A18D25972F2BF.quest_subtitle: "Открывает раздел «Промышленность»"
 	quest.102A18D25972F2BF.title: "&7→ Тяжёлая промышленность"
@@ -394,6 +454,8 @@
 		"&7• Получить достижение &e«Закачаешься»&7: Разместите и включите механическую помпу"
 		"&7• Получить достижение &e«Буль»&7: Посмотрите, как предмет наполняется с помощью дозатора"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_fluids.png width:220 height:110 align:center}"
 	]
 	quest.1042FBA0D0CD0C62.quest_subtitle: "Под давлением"
 	quest.1042FBA0D0CD0C62.title: "Трубы и насосы"
@@ -407,6 +469,8 @@
 		"&7• Иметь в инвентаре: &fЖелезный бур"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_drilling.png width:220 height:110 align:center}"
 	]
 	quest.104FE87C765414DD.quest_subtitle: "Начнём бурить — Донбасс порожняк не гонит"
 	quest.104FE87C765414DD.title: "Свой забой"
@@ -418,6 +482,8 @@
 		"&7• Иметь в инвентаре: &f2 × Прожектор"
 		"&7• Иметь в инвентаре: &f8 × Платформа станции"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_bells.png width:220 height:110 align:center}"
 	]
 	quest.1059D0BAD2A64A64.quest_subtitle: "Красивые поезда"
 	quest.1059D0BAD2A64A64.title: "Колокольчики и свистки"
@@ -429,6 +495,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Пир на весь мир»&7: Некоторые блюда лучше всего подавать на стол, чтобы разделить их с друзьями. Приготовьте свои миски!"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_feast.png width:220 height:110 align:center}"
 	]
 	quest.113B853DDA1C65C8.quest_subtitle: "Блюда на весь стол — пацаны с района уже идут"
 	quest.113B853DDA1C65C8.title: "&6Стол как на День шахтёра"
@@ -440,6 +508,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Шеф-повар»&7: Попробуйте все доступные виды блюд!"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_master_chef.png width:220 height:110 align:center}"
 	]
 	quest.1237F7AB7933A500.quest_subtitle: "Я вас умоляю, кто тут готовит лучше?"
 	quest.1237F7AB7933A500.title: "&6&lШеф всей Молдаванки"
@@ -450,6 +520,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fВакуумный сборщик"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_vacuum_harvester.png width:220 height:110 align:center}"
 	]
 	quest.12D3898B7D97B8AA.quest_subtitle: "Create Integrated Farming"
 	quest.12D3898B7D97B8AA.title: "&bВакуумный комбайн"
@@ -459,6 +531,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fmeadow ruin"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_grim_ruins.png width:220 height:110 align:center}"
 	]
 	quest.13848AAE19232F12.title: "Мрачные королевства"
 	quest.13DFB8179764CD4F.quest_desc: [
@@ -469,6 +543,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Пылающий клинок»&7: Создайте легендарное огненное или ледяное оружие"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_elemental_sword.png width:220 height:110 align:center}"
 	]
 	quest.13DFB8179764CD4F.title: "Пламенный меч"
 	quest.141ABD86CB97EC79.quest_desc: [
@@ -478,6 +554,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f3 × Горячий шоколад"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_hot_chocolate.png width:220 height:110 align:center}"
 	]
 	quest.141ABD86CB97EC79.quest_subtitle: "Регенерация в бутылочке"
 	quest.141ABD86CB97EC79.title: "Горячий шоколад"
@@ -488,6 +566,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Я маневрирую это»&7: Создайте маневровый двигатель"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_vector.png width:220 height:110 align:center}"
 	]
 	quest.141B4C4E2D206AAC.quest_subtitle: "Поворачивать соплом"
 	quest.141B4C4E2D206AAC.title: "Вектор тяги"
@@ -499,6 +579,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Обузданная гидравлика»&7: Поставьте водяное колесо и попытайтесь заставить его вращаться"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_water_wheel.png width:220 height:110 align:center}"
 	]
 	quest.145E1CA732F8C333.quest_subtitle: "Вода крутит бесплатно — ставок тоже при деле"
 	quest.145E1CA732F8C333.title: "Колесо на ставке"
@@ -509,6 +591,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fПриёмник радарного предупреждения"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_rwr.png width:220 height:110 align:center}"
 	]
 	quest.14C609A214C6A6E5.quest_subtitle: "Радиоэлектронная борьба"
 	quest.14C609A214C6A6E5.title: "Меня видят!"
@@ -519,6 +603,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f4 × Чугунный слиток"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_gate_weapons.png width:220 height:110 align:center}"
 	]
 	quest.14CF3B92F3A21722.quest_subtitle: "Открывает раздел «Оружие»"
 	quest.14CF3B92F3A21722.title: "&c→ Пушки и оружие"
@@ -531,6 +617,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fЮвелирная станция"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_jewelry.png width:220 height:110 align:center}"
 	]
 	quest.1509B51CECFE1EC8.title: "Самоцветы и украшения"
 	quest.15EA8EC84DE6DF84.quest_desc: [
@@ -539,6 +627,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &funderground temple"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_explorations.png width:220 height:110 align:center}"
 	]
 	quest.15EA8EC84DE6DF84.title: "Подземный храм"
 	quest.183F4CC6A2DC71E6.quest_desc: [
@@ -551,6 +641,8 @@
 		"&7• Иметь в инвентаре: &fПушечный заряжатель"
 		"&7• Иметь в инвентаре: &fТолкательная насадка"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_loader.png width:220 height:110 align:center}"
 	]
 	quest.183F4CC6A2DC71E6.quest_subtitle: "Руки не для пороха"
 	quest.183F4CC6A2DC71E6.title: "Заряжатель"
@@ -562,6 +654,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Древние знания»&7: Восстановите древний трактат."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_netherite_book.png width:220 height:110 align:center}"
 	]
 	quest.18E3312EDEF69C80.quest_subtitle: "Веха: мастер"
 	quest.18E3312EDEF69C80.title: "&5Древний кодекс"
@@ -573,6 +667,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fАндезитовый загрузчик чанков"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_loader_andesite.png width:220 height:110 align:center}"
 	]
 	quest.19A6BC3ECEAAD6E2.quest_subtitle: "Загрузчик чанков"
 	quest.19A6BC3ECEAAD6E2.title: "Призрак в ловушке"
@@ -585,6 +681,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Боевое крещение»&7: Создайте книгу заклинаний ученика."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_gold_book.png width:220 height:110 align:center}"
 	]
 	quest.1A260128C5706CCD.quest_subtitle: "Веха: подмастерье"
 	quest.1A260128C5706CCD.title: "&6Книга ученика"
@@ -599,6 +697,8 @@
 		"&7• Иметь в инвентаре: &f2 × Умный пропеллер"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_navigation.png width:220 height:110 align:center}"
 	]
 	quest.1AB84408FE254AFE.quest_subtitle: "Навигационный стол: курс на Азовское, без пробок"
 	quest.1AB84408FE254AFE.title: "&bНа море в Бердянск"
@@ -609,6 +709,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Голодные воронки»&7: Поймайте коробку, двигающуюся по цепному конвейеру, с помощью квакопорта"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_frogport.png width:220 height:110 align:center}"
 	]
 	quest.1ADCCE23727609FC.quest_subtitle: "Голодные хопперы"
 	quest.1ADCCE23727609FC.title: "Лягушкопорт"
@@ -622,6 +724,8 @@
 		"&7• Иметь в инвентаре: &f2 × Дробильное колесо"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_crushing.png width:220 height:110 align:center}"
 	]
 	quest.1AE32305B2765880.quest_subtitle: "Колёса разрушения"
 	quest.1AE32305B2765880.title: "Дробильные колёса"
@@ -634,6 +738,8 @@
 		"&7• Получить достижение &e«Монстр ауры»&7: Соберите сифон маны, чтобы черпать свою ману"
 		"&7• Получить достижение &e«Промышленные чернила»&7: Смешайте чернила механизмами Create"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_mana_siphon.png width:220 height:110 align:center}"
 	]
 	quest.1AF4CDD0E8D92382.title: "Сифон маны"
 	quest.1C46AB993E38F216.quest_desc: [
@@ -643,6 +749,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fОроситель"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_sprinkler.png width:220 height:110 align:center}"
 	]
 	quest.1C46AB993E38F216.quest_subtitle: "Поливаем механически"
 	quest.1C46AB993E38F216.title: "Дождеватель"
@@ -656,6 +764,8 @@
 		"&7• Иметь в инвентаре: &fПневматический шток"
 		"&7• Иметь в инвентаре: &fЛатунный карданный вал"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_linkage.png width:220 height:110 align:center}"
 	]
 	quest.1CB9755F2C75065E.quest_subtitle: "Transmission & Linkage"
 	quest.1CB9755F2C75065E.title: "Тяги и шарниры"
@@ -667,6 +777,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fice dragon roost"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_ice_roost.png width:220 height:110 align:center}"
 	]
 	quest.1CBA625DD649A9F0.title: "&bЛедяное логово"
 	quest.1CBE79F862F7BF56.quest_desc: [
@@ -678,6 +790,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fМагическая кафедра"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_unraveling.png width:220 height:110 align:center}"
 	]
 	quest.1CBE79F862F7BF56.quest_subtitle: "Как здесь изучают магию"
 	quest.1CBE79F862F7BF56.title: "Магическая кафедра"
@@ -689,6 +803,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f16 × Латунный слиток"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_intro.png width:220 height:110 align:center}"
 	]
 	quest.1CD713A560C27625.quest_subtitle: "Каска, тормозок — и в цех: время больших машин"
 	quest.1CD713A560C27625.title: "&cСмена началась"
@@ -699,6 +815,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Драконоборец»&7: Одолейте адского дракона Эшлорда"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_ashlord.png width:220 height:110 align:center}"
 	]
 	quest.1CF9786AC9E72DFE.title: "&cЭшлорд, Адский дракон"
 	quest.1D50D61A05149C62.quest_desc: [
@@ -712,6 +830,8 @@
 		"&7• Получить достижение &e«Тяга — наше всё»&7: Соберите пропеллерный подшипник для создания ещё большей тяги"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_prop_bearing.png width:220 height:110 align:center}"
 	]
 	quest.1D50D61A05149C62.quest_subtitle: "Больше лопастей — больше тяги"
 	quest.1D50D61A05149C62.title: "Пропеллерный подшипник"
@@ -722,6 +842,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fПепельная печь"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_cinderous_stove.png width:220 height:110 align:center}"
 	]
 	quest.1E29364EC5ED70CF.quest_subtitle: "Зовём Едодухов"
 	quest.1E29364EC5ED70CF.title: "Пепельная плита"
@@ -735,6 +857,8 @@
 		"&7• Иметь в инвентаре: &f4 × Пороховой заряд"
 		"&7• Иметь в инвентаре: &f2 × Тяжёлый снаряд"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_propellant.png width:220 height:110 align:center}"
 	]
 	quest.1E4B8335461177DC.quest_subtitle: "Безопасное заряжание"
 	quest.1E4B8335461177DC.title: "Порох и ядро"
@@ -747,6 +871,8 @@
 		"&7• Иметь в инвентаре: &fМеханический рассадник монстров"
 		"&7• Иметь в инвентаре: &fСборщик добычи"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_spawner.png width:220 height:110 align:center}"
 	]
 	quest.1E8F8C1628C20642.quest_subtitle: "Ферма по расписанию"
 	quest.1E8F8C1628C20642.title: "Механический спавнер"
@@ -758,6 +884,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Контроллер реактора T3»&7: Постройте ядерный реактор 3-го уровня"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_reactor_t3.png width:220 height:110 align:center}"
 	]
 	quest.1FF561A15774945A.quest_subtitle: "Реактор III уровня"
 	quest.1FF561A15774945A.title: "&c&lСердце индустрии"
@@ -769,6 +897,8 @@
 		"&7• Получить достижение &e«Процесс жёлтого кека»&7: Сожмите жидкий уран, чтобы создать жёлтый кек"
 		"&7• Получить достижение &e«Обогащённый жёлтый кек»&7: Используйте вентилятор, чтобы обогатить жёлтый кек и сделать его более мощным"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_yellowcake.png width:220 height:110 align:center}"
 	]
 	quest.20084E5D9E64395C.quest_subtitle: "Обогащение"
 	quest.20084E5D9E64395C.title: "Жёлтый кек"
@@ -781,6 +911,8 @@
 		"&7• Иметь в инвентаре: &fПолупантограф"
 		"&7• Иметь в инвентаре: &f4 × Решётчатая мачта"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_pantograph.png width:220 height:110 align:center}"
 	]
 	quest.203C23345E109228.quest_subtitle: "Контактная сеть"
 	quest.203C23345E109228.title: "Электропоезд"
@@ -790,6 +922,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_polymorph.png width:220 height:110 align:center}"
 	]
 	quest.2083830A2F0D7A7D.quest_subtitle: "Рецепт один, а вариантов — как у тёти Сони внуков"
 	quest.2083830A2F0D7A7D.title: "Две большие разницы"
@@ -802,6 +936,8 @@
 		"&7• Получить достижение &e«Погружение»&7: Скрафтите верстак заклинателя"
 		"&7• Получить достижение &e«Сасуга, они-сама!»&7: Скрафтите железный скорострельный жезл заклинаний (Iron Quickcast Spellgun)"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_spellcaster_workbench.png width:220 height:110 align:center}"
 	]
 	quest.208C6FA5E7654E41.title: "Верстак заклинателя"
 	quest.20A18B00AD29297C.quest_desc: [
@@ -812,6 +948,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Тайное общество»&7: Найдите базу культистов Апофиса"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_cultist_base.png width:220 height:110 align:center}"
 	]
 	quest.20A18B00AD29297C.title: "Тайное общество"
 	quest.213FAD1CF803F982.quest_desc: [
@@ -822,6 +960,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fballoon loot"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_discovery.png width:220 height:110 align:center}"
 	]
 	quest.213FAD1CF803F982.quest_subtitle: "Находки в небе"
 	quest.213FAD1CF803F982.title: "Кто-то уже летал здесь"
@@ -831,6 +971,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fdungeon"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_dungeon_crawl.png width:220 height:110 align:center}"
 	]
 	quest.2190A1F3349F8ABF.title: "Под землёй"
 	quest.21EA27B8BFB337CA.quest_desc: [
@@ -841,6 +983,8 @@
 		"&7• Получить достижение &e«Хватаясь за соломинку»&7: Срежьте траву ножом, чтобы получить солому"
 		"&7• Получить достижение &e«Продвинутое компостирование»&7: Разместите органический компост. Он разлагается лучше с солнцем, водой и грибами!"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_compost.png width:220 height:110 align:center}"
 	]
 	quest.21EA27B8BFB337CA.quest_subtitle: "Ничего не пропадает"
 	quest.21EA27B8BFB337CA.title: "Солома и компост"
@@ -852,6 +996,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Скованный знаниями»&7: Создайте железный фолиант."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_iron_book.png width:220 height:110 align:center}"
 	]
 	quest.22B12316B1940A27.title: "Окованный железом том"
 	quest.2340B4FF9D68AAE1.quest_desc: [
@@ -870,6 +1016,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_welcome.png width:220 height:110 align:center}"
 	]
 	quest.2340B4FF9D68AAE1.quest_subtitle: "Шо вы стоите? Прочитайте и поставьте галочку"
 	quest.2340B4FF9D68AAE1.title: "&eЗаходите, будете гостем!"
@@ -882,6 +1030,8 @@
 		"&7• Получить достижение &e«Почтовое дело»&7: Упакуйте предметы из инвентаря с помощью упаковщика"
 		"&7• Получить достижение &e«Упаковывай и отсылай»&7: Произведите или получите ваш первый картон"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_packager.png width:220 height:110 align:center}"
 	]
 	quest.248EEBF7AF473F4B.quest_subtitle: "Упаковать так, шоб дошло до самой Пересыпи"
 	quest.248EEBF7AF473F4B.title: "Посылка для тёти Сони"
@@ -892,6 +1042,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fКремневый нож"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_gate_farm.png width:220 height:110 align:center}"
 	]
 	quest.24A200CDC8FFE9BC.quest_subtitle: "Открывает раздел «Ферма и кухня»"
 	quest.24A200CDC8FFE9BC.title: "&a→ Ферма и кухня"
@@ -903,6 +1055,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Умелый чародей»&7: Создайте зачарованную книгу заклинаний."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_diamond_book.png width:220 height:110 align:center}"
 	]
 	quest.251987E91EEA6EB7.title: "Зачарованная книга"
 	quest.2581C6E391A074E3.quest_desc: [
@@ -928,6 +1082,8 @@
 		"&7• Получить достижение &e«Затопленный город»&7: Найдите затопленный город"
 		"&7• Получить достижение &e«Межизмеренченский хищник»&7: Пробудите и сразите Левиафана"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_leviathan.png width:220 height:110 align:center}"
 	]
 	quest.2592B9BEFC9EB070.quest_subtitle: "Будете смеяться, но эта рыбка покрупнее"
 	quest.2592B9BEFC9EB070.title: "&9Бычок с лимана"
@@ -940,6 +1096,8 @@
 		"&7• Получить достижение &e«Огненное чародейство»&7: Всполох умеет не только кипятить воду. Заполучите всполоха-чародея"
 		"&7• Получить достижение &e«Пылающее зачарование»&7: Добавьте новые чары к незачарованному предмету с помощью всполоха-чародея"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_cei_enchanter.png width:220 height:110 align:center}"
 	]
 	quest.26D8D643E08DC53C.quest_subtitle: "Ифриты умеют не только кипятить"
 	quest.26D8D643E08DC53C.title: "Пылающий зачарователь"
@@ -952,6 +1110,8 @@
 		"&7• Получить достижение &e«Чёрт...»&7: Вот это роскошь!"
 		"&7• Получить достижение &e«Бог.»&7: Ты убил его."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_azazel_cult.png width:220 height:110 align:center}"
 	]
 	quest.271BFB3D219AFEBD.quest_subtitle: "Можно отложить на потом"
 	quest.271BFB3D219AFEBD.title: "&4Культ Азазеля"
@@ -964,6 +1124,8 @@
 		"&7• Получить достижение &e«Батя драконов»&7: Создайте Посох для управления драконами"
 		"&7• Получить достижение &e«Ушераздирающий рык»&7: Создайте Рог, в котором можно держать дракона"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_command.png width:220 height:110 align:center}"
 	]
 	quest.2736F843F024DB60.title: "Командир драконов"
 	quest.275280688A050DA6.quest_desc: [
@@ -975,6 +1137,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Сладкая зона»&7: Используйте мёдоклей для соединения группы блоков"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_glue.png width:220 height:110 align:center}"
 	]
 	quest.275280688A050DA6.quest_subtitle: "Что склеено — то летит вместе"
 	quest.275280688A050DA6.title: "Медовый клей"
@@ -986,6 +1150,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Куда подует ветер»&7: Соберите ветряную мельницу"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_windmill.png width:220 height:110 align:center}"
 	]
 	quest.286BA5F32DB35F36.quest_subtitle: "Лёгкий ветерок"
 	quest.286BA5F32DB35F36.title: "Ветряк"
@@ -998,6 +1164,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fКрышка для плавки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_foundry.png width:220 height:110 align:center}"
 	]
 	quest.28C4AB3EEE774F55.quest_subtitle: "Пушки не крафтят — их отливают"
 	quest.28C4AB3EEE774F55.title: "&4Литейная"
@@ -1014,6 +1182,8 @@
 		"&7• Иметь в инвентаре: &fТурбина двигателя"
 		"&7• Иметь в инвентаре: &fВыхлопное сопло"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_jet_engine.png width:220 height:110 align:center}"
 	]
 	quest.29A4DFC359E7C2BE.quest_subtitle: "AeroEngine"
 	quest.29A4DFC359E7C2BE.title: "&bТурбинный двигатель"
@@ -1027,6 +1197,8 @@
 		"&7• Иметь в инвентаре: &f32 × Оболочка аэростата"
 		"&7• Иметь в инвентаре: &fГорелка аэростата"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_envelope.png width:220 height:110 align:center}"
 	]
 	quest.2B924371343CA841.quest_subtitle: "Оболочка шара: кулёк надули — и полетели"
 	quest.2B924371343CA841.title: "Кулёк горячего воздуха"
@@ -1041,6 +1213,8 @@
 		"&7• Иметь в инвентаре: &fПустая сфера улучшения"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_arcane_anvil.png width:220 height:110 align:center}"
 	]
 	quest.2BC86BEC819DA3DD.quest_subtitle: "Снаряжение, которое растёт вместе с вами"
 	quest.2BC86BEC819DA3DD.title: "Арканная наковальня"
@@ -1051,6 +1225,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Хогсмидский кайф»&7: Выпейте сливочное пиво"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_butter_beer.png width:220 height:110 align:center}"
 	]
 	quest.2C3ABBF507C39F72.quest_subtitle: "Мана в кружке"
 	quest.2C3ABBF507C39F72.title: "&eСливочное пиво"
@@ -1076,6 +1252,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f8 × Андезитовый листовой металл"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_dndecor.png width:220 height:110 align:center}"
 	]
 	quest.2C4339C9C641D82A.quest_subtitle: "Индустриальный шик"
 	quest.2C4339C9C641D82A.title: "Design n' Decor"
@@ -1090,6 +1268,8 @@
 		"&7• Получить достижение &e«На каждое действие...»&7: Разместите и запустите пропеллер для создания тяги"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_propeller.png width:220 height:110 align:center}"
 	]
 	quest.2CFB279E2900231D.quest_subtitle: "У каждого действия есть противодействие"
 	quest.2CFB279E2900231D.title: "Первый пропеллер"
@@ -1100,6 +1280,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Зверь внизу»&7: Одолейте песчаного червя Сирока"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_sandworm.png width:220 height:110 align:center}"
 	]
 	quest.2CFCAC6FF00BB696.title: "&6Сирок, Песчаный червь"
 	quest.2D5B171BAE7F100B.quest_desc: [
@@ -1110,6 +1292,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_survival_tips.png width:220 height:110 align:center}"
 	]
 	quest.2D5B171BAE7F100B.quest_subtitle: "Тело и путь домой: вернись за добром, не бросай"
 	quest.2D5B171BAE7F100B.title: "Не гони порожняк"
@@ -1136,6 +1320,8 @@
 		"&7• Иметь в инвентаре: &fФильтр целей"
 		"&7• Иметь в инвентаре: &fФильтр опознавания"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_network.png width:220 height:110 align:center}"
 	]
 	quest.2EC6BE48A0B6174D.quest_subtitle: "Свой или чужой?"
 	quest.2EC6BE48A0B6174D.title: "Сеть целей"
@@ -1146,6 +1332,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Освободите Энд»&7: Удачи!"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_ender_dragon.png width:220 height:110 align:center}"
 	]
 	quest.2EC6E0EBA2375DC9.title: "&5Эндер-дракон"
 	quest.2EF627083C9F0B10.quest_desc: [
@@ -1157,6 +1345,8 @@
 		"&7• Иметь в инвентаре: &f16 × любой стальной слиток"
 		"&7• Иметь в инвентаре: &fВыход доменной печи"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_steel.png width:220 height:110 align:center}"
 	]
 	quest.2EF627083C9F0B10.quest_subtitle: "Металл промышленности, сварен по-донецки"
 	quest.2EF627083C9F0B10.title: "&7Как на ДМЗ"
@@ -1166,6 +1356,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fruins atlantis"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_atlantis.png width:220 height:110 align:center}"
 	]
 	quest.2F394EE625128372.quest_subtitle: "Ныряйте глубже — там уже не пляж"
 	quest.2F394EE625128372.title: "Руины за Ланжероном"
@@ -1192,6 +1384,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Полный маны»&7: Скрафтите котёл алхимика для магических рецептов"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_farmers_spell.png width:220 height:110 align:center}"
 	]
 	quest.30BB3CBBABB99509.title: "Магическая кухня"
 	quest.31FB282A42CFB2DB.quest_desc: [
@@ -1202,6 +1396,8 @@
 		"&7• Иметь в инвентаре: &fГироскоп"
 		"&7• Иметь в инвентаре: &fМеханический сервопривод"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_aero_gyro.png width:220 height:110 align:center}"
 	]
 	quest.31FB282A42CFB2DB.quest_subtitle: "Автоматика Aeroworks"
 	quest.31FB282A42CFB2DB.title: "Сервоприводы"
@@ -1211,6 +1407,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fend warship"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_echoes_end.png width:220 height:110 align:center}"
 	]
 	quest.3261D18E1CBDA21E.title: "Эхо Края"
 	quest.328C2DA3CD50EC52.quest_desc: [
@@ -1222,6 +1420,8 @@
 		"&7• Получить достижение &e«Акрополь»&7: Найдите Акрополь"
 		"&7• Получить достижение &e«Затишье после бури»&7: Победите Императрицу Шторма, Сциллу"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_scylla.png width:220 height:110 align:center}"
 	]
 	quest.328C2DA3CD50EC52.title: "&bСцилла, Императрица бури"
 	quest.34178A872E7A8F86.quest_desc: [
@@ -1231,6 +1431,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Хесед»&7: Никакой пощади беспощадным"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_chesed.png width:220 height:110 align:center}"
 	]
 	quest.34178A872E7A8F86.title: "&eХесед"
 	quest.341F4D32A3AF883C.quest_desc: [
@@ -1241,6 +1443,8 @@
 		"&7• Получить достижение &e«Горнило легиона»&7: Войдите в кузницу големов"
 		"&7• Получить достижение &e«Древняя мудрость»&7: Победите звездосветного голема"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_starlight_golem.png width:220 height:110 align:center}"
 	]
 	quest.341F4D32A3AF883C.title: "&eЗвёздный голем"
 	quest.343308A76F60ED3C.quest_desc: [
@@ -1251,6 +1455,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fПутеводный обелиск"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_waystone_craft.png width:220 height:110 align:center}"
 	]
 	quest.343308A76F60ED3C.quest_subtitle: "Свой путевой камень — маршрутка прямо к базе"
 	quest.343308A76F60ED3C.title: "&bСвоя остановка у подъезда"
@@ -1262,6 +1468,8 @@
 		"&7• Получить достижение &e«Разрушенная цитадель»&7: Найдите разрушенную цитадель"
 		"&7• Получить достижение &e«Это точно был шалкер?»&7: Убейте Эндер-хранителя"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_ender_guardian.png width:220 height:110 align:center}"
 	]
 	quest.352D32A919AB07FC.title: "&5Страж Края"
 	quest.35C1A1F1181B2CF3.quest_desc: [
@@ -1274,6 +1482,8 @@
 		"&7• Иметь в инвентаре: &f8 × Шестерня"
 		"&7• Иметь в инвентаре: &f2 × Большая шестерня"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_cogs.png width:220 height:110 align:center}"
 	]
 	quest.35C1A1F1181B2CF3.quest_subtitle: "Вращение — это всё"
 	quest.35C1A1F1181B2CF3.title: "Валы и шестерни"
@@ -1285,6 +1495,8 @@
 		"&7• Иметь в инвентаре: &fПчелодрон"
 		"&7• Иметь в инвентаре: &fПчелопорт"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_mobile_packages.png width:220 height:110 align:center}"
 	]
 	quest.35D533A6E17B25C4.quest_subtitle: "Посылки с крыльями"
 	quest.35D533A6E17B25C4.title: "Пчелиная почта"
@@ -1298,6 +1510,8 @@
 		"&7• Иметь в инвентаре: &f32 × Латунный слиток"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_brass.png width:220 height:110 align:center}"
 	]
 	quest.362167849F41F38A.quest_subtitle: "Настоящие сплавы"
 	quest.362167849F41F38A.title: "&6Латунная эпоха"
@@ -1311,6 +1525,8 @@
 		"&7• Получить достижение &e«Расщепление II»&7: Создайте инструмент из драконьей кости"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dragonbone.png width:220 height:110 align:center}"
 	]
 	quest.362208976B9A86CB.title: "Драконья кость"
 	quest.3639702B6064B806.quest_desc: [
@@ -1322,6 +1538,8 @@
 		"&7• Иметь в инвентаре: &f8 × Серебряный слиток"
 		"&7• Иметь в инвентаре: &fСеребряный меч"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_silver.png width:220 height:110 align:center}"
 	]
 	quest.3639702B6064B806.title: "Серебро"
 	quest.3677ACE90A79F0DF.quest_desc: [
@@ -1334,6 +1552,8 @@
 		"&7• Иметь в инвентаре: &fГорелка всполоха"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_burner.png width:220 height:110 align:center}"
 	]
 	quest.3677ACE90A79F0DF.quest_subtitle: "Камин, который на вас смотрит"
 	quest.3677ACE90A79F0DF.title: "Пылающая горелка"
@@ -1346,6 +1566,8 @@
 		"&7• Найти постройку и зайти в неё: &fgorgon temple"
 		"&7• Получить достижение &e«Битва титанов»&7: Получите голову горгоны - оружие, обращающее в камень всех, кто посмотрит на него."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_gorgon.png width:220 height:110 align:center}"
 	]
 	quest.3740BF364CC86046.title: "&2Голова Горгоны"
 	quest.37C0D7210C316DBA.quest_desc: [
@@ -1355,6 +1577,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«С ноткой винограда»&7: Получите аметистовую свёклу"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_amethyst_beetroot.png width:220 height:110 align:center}"
 	]
 	quest.37C0D7210C316DBA.quest_subtitle: "Магический урожай"
 	quest.37C0D7210C316DBA.title: "Аметистовая свёкла"
@@ -1365,6 +1589,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fУлучшение «Подбор»"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_pickup_upgrade.png width:220 height:110 align:center}"
 	]
 	quest.37F2E77D01A94044.quest_subtitle: "Рюкзак сам собирает добычу"
 	quest.37F2E77D01A94044.title: "Автоподбор"
@@ -1376,6 +1602,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Эхо жестокости»&7: Найти в доме охотника шприц или ножницы"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dc_guild.png width:220 height:110 align:center}"
 	]
 	quest.395DCC2CFAD51FD4.title: "Гильдия охотников на драконов"
 	quest.39824C7BE64F8D05.quest_desc: [
@@ -1385,6 +1613,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Разбей своё отражение»&7: Победите Тёмного двойника во всех трёх фазах"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_doppelganger.png width:220 height:110 align:center}"
 	]
 	quest.39824C7BE64F8D05.title: "&8Тёмный двойник"
 	quest.39AB5036BC45E5D0.quest_desc: [
@@ -1394,6 +1624,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Оттепель»&7: Победите мерзлотника"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_permafrost.png width:220 height:110 align:center}"
 	]
 	quest.39AB5036BC45E5D0.title: "&bПермафрост"
 	quest.3AB2549E50CED683.quest_desc: [
@@ -1418,6 +1650,8 @@
 		"&7• Иметь в инвентаре: &f4 × Металлические траволаторные ступеньки"
 		"&7• Иметь в инвентаре: &f8 × Гипертруба"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_transport.png width:220 height:110 align:center}"
 	]
 	quest.3AB304965CDED153.quest_subtitle: "Будете смеяться, но ступеньки едут сами"
 	quest.3AB304965CDED153.title: "Потёмкинская на эскалаторе"
@@ -1445,6 +1679,8 @@
 		"&7• Получить достижение &e«Все на борт! ...Опять?»&7: Соберите физический поезд — основу Create: Loconautics"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_train.png width:220 height:110 align:center}"
 	]
 	quest.3AC56C81196ADA83.quest_subtitle: "Все на борт! ...Опять?"
 	quest.3AC56C81196ADA83.title: "&bПоезд на физике"
@@ -1455,6 +1691,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Скорбная магия»&7: Создайте ледяной посох."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_school_ice.png width:220 height:110 align:center}"
 	]
 	quest.3B4F100071FFDCB4.title: "&bШкола льда"
 	quest.3C870BBA7DE1615D.quest_desc: [
@@ -1464,6 +1702,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Растительная пища»&7: Оставьте немного органического компоста разлагаться, пока он не превратится в плодородную почву. Грибы могут помочь!"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_rich_soil.png width:220 height:110 align:center}"
 	]
 	quest.3C870BBA7DE1615D.quest_subtitle: "Апгрейд для огорода — бабушка одобряет"
 	quest.3C870BBA7DE1615D.title: "&2Чернозём как на даче"
@@ -1475,6 +1715,8 @@
 		"&7• Иметь в инвентаре: &fЧугунный затвор спаренной автопушки"
 		"&7• Иметь в инвентаре: &f2 × Чугунный ствол спаренной автопушки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_twin.png width:220 height:110 align:center}"
 	]
 	quest.3D087FF0DD8C43C2.quest_subtitle: "CBC Advanced Technologies"
 	quest.3D087FF0DD8C43C2.title: "Спаренная автопушка"
@@ -1485,6 +1727,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_journeymap.png width:220 height:110 align:center}"
 	]
 	quest.3D1555B8287E0C7D.quest_subtitle: "JourneyMap"
 	quest.3D1555B8287E0C7D.title: "&aКарта мира"
@@ -1496,6 +1740,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f4 × Андезитовый сплав"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_gate_create.png width:220 height:110 align:center}"
 	]
 	quest.3D1F1AF46BD6CEBB.quest_subtitle: "Открывает раздел Create"
 	quest.3D1F1AF46BD6CEBB.title: "&6→ Механизмы Create"
@@ -1506,6 +1752,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fЖелезный рюкзак"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_iron_backpack.png width:220 height:110 align:center}"
 	]
 	quest.3F0A1D4DB061963B.quest_subtitle: "Тётя Сара тоже всё носит с собой, и ей хватает"
 	quest.3F0A1D4DB061963B.title: "Шоб всё было"
@@ -1517,6 +1765,8 @@
 		"&7• Получить достижение &e«Проклятая пирамида»&7: Найдите проклятую пирамиду"
 		"&7• Получить достижение &e«Смерть всегда находит способ»&7: Пробудите и сразите Древнего Останки"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_remnant.png width:220 height:110 align:center}"
 	]
 	quest.3F9D6E65A921D267.title: "&6Древний Остаток"
 	quest.3FB3E9E7E2540E94.quest_desc: [
@@ -1527,6 +1777,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Победить: &cМёртвый король"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_dead_king.png width:220 height:110 align:center}"
 	]
 	quest.3FB3E9E7E2540E94.quest_subtitle: "Босс"
 	quest.3FB3E9E7E2540E94.title: "&cМёртвый Король"
@@ -1538,6 +1790,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fМистический манускрипт"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_school_eldritch.png width:220 height:110 align:center}"
 	]
 	quest.4017E7CBAA0A0710.title: "&3Потусторонняя школа"
 	quest.402E28F0561F51C2.quest_desc: [
@@ -1548,6 +1802,8 @@
 		"&7• Получить достижение &e«Поручения Brassworks»&7: Выполняйте поручения для получения наград и ощущения гордости"
 		"&7• Получить достижение &e«Испытательный срок»&7: Выполните 10 поручений"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_missions.png width:220 height:110 align:center}"
 	]
 	quest.402E28F0561F51C2.quest_subtitle: "Латунные контракты каждую неделю, без нервов"
 	quest.402E28F0561F51C2.title: "Имею вам предложить"
@@ -1559,6 +1815,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Борьба с кошмарами»&7: Убейте Кошмарного Сталкера"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_nightmare_stalker.png width:220 height:110 align:center}"
 	]
 	quest.419292A09D35AB40.title: "Тот, кто идёт следом"
 	quest.41D65F60B31BCE81.quest_desc: [
@@ -1570,6 +1828,8 @@
 		"&7• Иметь в инвентаре: &fКинетический накопитель"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_connected.png width:220 height:110 align:center}"
 	]
 	quest.41D65F60B31BCE81.quest_subtitle: "Серьёзная организация"
 	quest.41D65F60B31BCE81.title: "Create: Connected"
@@ -1584,6 +1844,8 @@
 		"&7• Иметь в инвентаре: &fКонтроллер вертикального прицеливания пушки"
 		"&7• Иметь в инвентаре: &fКонтроллер огня"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_battery.png width:220 height:110 align:center}"
 	]
 	quest.41E451962BF48CC8.quest_subtitle: "Радар видит — пушка стреляет"
 	quest.41E451962BF48CC8.title: "&4&lАвтоматическая батарея"
@@ -1596,6 +1858,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Топливная тяга»&7: Создайте двигатель"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_thruster.png width:220 height:110 align:center}"
 	]
 	quest.4247FE8AC3AC9B30.quest_subtitle: "Create Propulsion"
 	quest.4247FE8AC3AC9B30.title: "Реактивная тяга"
@@ -1610,6 +1874,8 @@
 		"&7• Получить достижение &e«Спасибо, я в курсе!»&7: Создать устройство, сообщающее, что стоять в облаке пепла — плохая идея."
 		"&7• Получить достижение &e«Отпускается без рецепта»&7: Создать Загадочные таблетки. Внимание! Побочные эффекты не тестировались."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dc_gadgets.png width:220 height:110 align:center}"
 	]
 	quest.42F91FF35B1D634E.title: "Драконьи гаджеты"
 	quest.4401185BA969E92D.quest_desc: [
@@ -1620,6 +1886,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Море монстров»&7: Победите Левиафана"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_sea_serpent.png width:220 height:110 align:center}"
 	]
 	quest.4401185BA969E92D.quest_subtitle: "Морской змей: а говорили, там одни караси"
 	quest.4401185BA969E92D.title: "Кто живёт в Донецком море"
@@ -1632,6 +1900,8 @@
 		"&7• Получить достижение &e«Да начнутся поиски!»&7: Создайте капризный компас и выясните, куда он вас зовёт..."
 		"&7• Получить достижение &e«Всё глубже в подземелья»&7: Войдите в катакомбы."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_catacombs.png width:220 height:110 align:center}"
 	]
 	quest.44153B6131E416AD.title: "Катакомбы"
 	quest.4459B4CA2E3EDE61.quest_desc: [
@@ -1641,6 +1911,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fДеревянный пропеллер"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_gate_sky.png width:220 height:110 align:center}"
 	]
 	quest.4459B4CA2E3EDE61.quest_subtitle: "Открывает раздел «Небо»"
 	quest.4459B4CA2E3EDE61.title: "&b→ Покорение неба"
@@ -1651,6 +1923,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fУлучшенный связанный контроллер"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_gamepad.png width:220 height:110 align:center}"
 	]
 	quest.449A8594E75AC2A7.quest_subtitle: "Tweaked Controllers"
 	quest.449A8594E75AC2A7.title: "Геймпад в руках"
@@ -1664,6 +1938,8 @@
 		"&7• Найти постройку и зайти в неё: &fhydra cave"
 		"&7• Получить достижение &e«Двенадцать подвигов Геракла»&7: Победите Гидру"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_hydra.png width:220 height:110 align:center}"
 	]
 	quest.44A72F1F8494F00A.quest_subtitle: "Босс"
 	quest.44A72F1F8494F00A.title: "&2Гидра"
@@ -1676,6 +1952,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fРеактивный ранец"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_jetpack.png width:220 height:110 align:center}"
 	]
 	quest.4516994D32C82D02.quest_subtitle: "Реактивный ранец: до базара через посадку за минуту"
 	quest.4516994D32C82D02.title: "Через балку напрямик"
@@ -1688,6 +1966,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Мастер-корабел»&7: Соберите всю необходимую оснастку и палубное оборудование полноценного парусного судна."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_shipwright.png width:220 height:110 align:center}"
 	]
 	quest.4523628A8FE73E75.quest_subtitle: "Полный такелаж"
 	quest.4523628A8FE73E75.title: "Мастер-корабел"
@@ -1701,6 +1981,8 @@
 		"&7• Иметь в инвентаре: &f8 × Латунный корпус"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_brass_casing.png width:220 height:110 align:center}"
 	]
 	quest.4648F475D779E57B.quest_subtitle: "Для умных машин"
 	quest.4648F475D779E57B.title: "Латунный корпус"
@@ -1713,6 +1995,8 @@
 		"&7• Получить достижение &e«Древняя цивилизация»&7: Найдите древнюю фабрику"
 		"&7• Получить достижение &e«Древняя цивилизация»&7: Пробудите и сразите Предвестника"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_harbinger.png width:220 height:110 align:center}"
 	]
 	quest.46994CC5E8B6A7B3.title: "&4Предвестник"
 	quest.476311B5733686A5.quest_desc: [
@@ -1723,6 +2007,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Алхимия 101»&7: Синтезируйте арканную эссенцию из лазурита, аметиста и опыта"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_create_wizardry.png width:220 height:110 align:center}"
 	]
 	quest.476311B5733686A5.title: "&6Механическое колдовство"
 	quest.47F7BD00D140D48D.quest_desc: [
@@ -1734,6 +2020,8 @@
 		"&7• Иметь в инвентаре: &f16 × Железный слиток"
 		"&7• Иметь в инвентаре: &fЖелезная кирка"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_iron_age.png width:220 height:110 align:center}"
 	]
 	quest.47F7BD00D140D48D.quest_subtitle: "Ключ ко всему дальнейшему"
 	quest.47F7BD00D140D48D.title: "&fЖелезный век"
@@ -1746,6 +2034,8 @@
 		"&7• Получить достижение &e«Разочарование»&7: Наблюдайте, как механическое точило разрушает чары на зачарованном предмете"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_cei_grindstone.png width:220 height:110 align:center}"
 	]
 	quest.484CE9C70C2BC299.quest_subtitle: "Шлифуем магию"
 	quest.484CE9C70C2BC299.title: "Жидкий опыт"
@@ -1757,6 +2047,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fЛатунный загрузчик чанков"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_loader_brass.png width:220 height:110 align:center}"
 	]
 	quest.4860F60CE1D90F6D.quest_subtitle: "3×3 чанка вокруг"
 	quest.4860F60CE1D90F6D.title: "Латунный загрузчик"
@@ -1767,6 +2059,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Абсолютный ноль»&7: Смешайте охлаждённый концентрат азота и получите жидкий азот"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_nitrogen.png width:220 height:110 align:center}"
 	]
 	quest.48A1ABCD0D07B705.quest_subtitle: "Жидкий азот"
 	quest.48A1ABCD0D07B705.title: "Абсолютный ноль"
@@ -1778,6 +2072,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Разбей своё отражение»&7: Победите Тёмного двойника во всех трёх фазах"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_doppelganger.png width:220 height:110 align:center}"
 	]
 	quest.494186D81FA8C0A6.title: "&8Тёмный двойник"
 	quest.49EE6102FF79FE43.quest_desc: [
@@ -1790,6 +2086,8 @@
 		"&7• Получить достижение &e«Почувствуй ветер»&7: Создайте прибор и начните работать с атмосферой."
 		"&7• Получить достижение &e«Поймать ветер»&7: Скрафтите специализированный ветроуловитель."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_atmosphere.png width:220 height:110 align:center}"
 	]
 	quest.49EE6102FF79FE43.quest_subtitle: "Атмосфера живая, как одесский дворик"
 	quest.49EE6102FF79FE43.title: "Ветер с лимана"
@@ -1801,6 +2099,8 @@
 		"&7• Иметь в инвентаре: &fКонтейнер с боеприпасами для автопушки"
 		"&7• Иметь в инвентаре: &f16 × Зенитный снаряд для автопушки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_ammo.png width:220 height:110 align:center}"
 	]
 	quest.4A1D1E03A93245BD.quest_subtitle: "Ammo Container"
 	quest.4A1D1E03A93245BD.title: "Патронная лента"
@@ -1813,6 +2113,8 @@
 		"&7• Иметь в инвентаре: &fМешок"
 		"&7• Иметь в инвентаре: &fБаночка"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_supplementaries.png width:220 height:110 align:center}"
 	]
 	quest.4A431E574BE7E0B1.quest_subtitle: "Supplementaries"
 	quest.4A431E574BE7E0B1.title: "Полезные мелочи"
@@ -1825,6 +2127,8 @@
 		"&7• Получить достижение &e«Сжечь всё дотла»&7: Подожгите лунное чудовище, чтобы сделать его уязвимым для вашей атаки"
 		"&7• Получить достижение &e«Через терни»&7: Одолейте лунное чудовище"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_lunar_monstrosity.png width:220 height:110 align:center}"
 	]
 	quest.4A70AB59149231F2.title: "&5Лунное чудовище"
 	quest.4AC950B079EA7C65.quest_desc: [
@@ -1833,6 +2137,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fcreatepillagerblimp"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_blimp.png width:220 height:110 align:center}"
 	]
 	quest.4AC950B079EA7C65.quest_subtitle: "Угроза с неба"
 	quest.4AC950B079EA7C65.title: "&cРазбойничий дирижабль"
@@ -1858,6 +2164,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Урожаи дикой природы»&7: Четыре новых культуры можно найти в дикой природе, в разных климатах... или где-нибудь в сундуках."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_wild_crops.png width:220 height:110 align:center}"
 	]
 	quest.4BF3328225F98408.quest_subtitle: "Шо вы хотите, это же почти Привоз"
 	quest.4BF3328225F98408.title: "&aСиненькие с дикого огорода"
@@ -1869,6 +2177,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fКольцо Едодуха"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_foodgeist_ring.png width:220 height:110 align:center}"
 	]
 	quest.4C2CD8B529B719B9.quest_subtitle: "Сытый маг — сильный маг"
 	quest.4C2CD8B529B719B9.title: "&dКольцо Едодуха"
@@ -1895,6 +2205,8 @@
 		"&7• Получить достижение &e«Пускать корни»&7: Посадите рис в неглубокий водоём"
 		"&7• Получить достижение &e«Шпалера»&7: Повесьте верёвку над томатной лозой, чтобы она росла выше"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_rice_tomato.png width:220 height:110 align:center}"
 	]
 	quest.4C358E6A88277407.quest_subtitle: "Будете смеяться, но свои — таки вкуснее"
 	quest.4C358E6A88277407.title: "Помидоры не хуже привозных"
@@ -1904,6 +2216,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_carryon.png width:220 height:110 align:center}"
 	]
 	quest.4C4D934C93EA9217.quest_subtitle: "Carry On"
 	quest.4C4D934C93EA9217.title: "Ношу с собой"
@@ -1915,6 +2229,8 @@
 		"&7• Получить достижение &e«Свинцовый слиток»&7: Переплавьте рудный свинец для получения слитка"
 		"&7• Получить достижение &e«Береги себя»&7: Наденьте противорадиационную броню"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_armor.png width:220 height:110 align:center}"
 	]
 	quest.4CAA90737704F0D7.quest_subtitle: "Противорадиационный костюм — как велела тётя Соня"
 	quest.4CAA90737704F0D7.title: "Надень, а то простудишься"
@@ -1926,6 +2242,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fПлитка тёмного шоколада"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_chocolate.png width:220 height:110 align:center}"
 	]
 	quest.4D35855E946209C9.quest_subtitle: "Create Confectionery"
 	quest.4D35855E946209C9.title: "&6Шоколадная фабрика"
@@ -1935,6 +2253,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_inventory_profiles.png width:220 height:110 align:center}"
 	]
 	quest.4DDD4153B8CDEEBB.quest_subtitle: "Inventory Profiles Next"
 	quest.4DDD4153B8CDEEBB.title: "Порядок в инвентаре"
@@ -1946,6 +2266,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Полный маны»&7: Скрафтите котёл алхимика для магических рецептов"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_alchemist_pot.png width:220 height:110 align:center}"
 	]
 	quest.4E40545CA7FA0388.quest_subtitle: "Farmer's Spell 'n Spell Book"
 	quest.4E40545CA7FA0388.title: "&dВолшебная кастрюля"
@@ -1958,6 +2280,8 @@
 		"&7• Иметь в инвентаре: &fДетектор рудных жил"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_vein_finder.png width:220 height:110 align:center}"
 	]
 	quest.4E6A1E2A409E0C7E.quest_subtitle: "Искатель жил: старый шахтёр нашёл бы на нюх"
 	quest.4E6A1E2A409E0C7E.title: "Где тут пласт?"
@@ -1971,6 +2295,8 @@
 		"&7• Иметь в инвентаре: &f4 × Механизм точности"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_precision.png width:220 height:110 align:center}"
 	]
 	quest.4ED80EA3AE0A1795.quest_subtitle: "Сложные чудеса"
 	quest.4ED80EA3AE0A1795.title: "&dТочный механизм"
@@ -1982,6 +2308,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Вкусно и питательно»&7: Сытное блюдо подарит вам сытость на длительное время!"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_nourishing.png width:220 height:110 align:center}"
 	]
 	quest.4F2BDB3F0FCB4042.quest_subtitle: "Сытно и тепло — без тормозка в забой не спускаются"
 	quest.4F2BDB3F0FCB4042.title: "&aТормозок"
@@ -1995,6 +2323,8 @@
 		"&7• Иметь в инвентаре: &fСтанция дирижаблей"
 		"&7• Иметь в инвентаре: &fТранспондер транспорта"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_logistics.png width:220 height:110 align:center}"
 	]
 	quest.4F7AFCE6A6F0AC6D.quest_subtitle: "Груз по воздуху — свежее, чем с телеги"
 	quest.4F7AFCE6A6F0AC6D.title: "Рейсы на Привоз"
@@ -2007,6 +2337,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f3 × Эссенция волшебства"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_arcane_essence.png width:220 height:110 align:center}"
 	]
 	quest.4FCED4BB9877E4B8.quest_subtitle: "Первый шаг мага"
 	quest.4FCED4BB9877E4B8.title: "&dАрканная эссенция"
@@ -2017,6 +2349,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fРуна эндера"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_school_ender.png width:220 height:110 align:center}"
 	]
 	quest.4FD9FD8A8BF9762C.title: "&5Школа Края"
 	quest.503497E4BCA08952.quest_desc: [
@@ -2027,6 +2361,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fБестиарий"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_gate_dragons.png width:220 height:110 align:center}"
 	]
 	quest.503497E4BCA08952.quest_subtitle: "Открывает раздел «Драконы»"
 	quest.503497E4BCA08952.title: "&4→ Драконы"
@@ -2040,6 +2376,8 @@
 		"&7• Победить: &cИгнис"
 		"&7• Иметь в инвентаре: &fГорящая рукопись"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_cataclysm_spells.png width:220 height:110 align:center}"
 	]
 	quest.50510A557A896231.title: "&6Магия катаклизма"
 	quest.50BFB97211349EBE.quest_desc: [
@@ -2050,6 +2388,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Оформление опекунства»&7: Запустите таймер приручения. Бюрократия по усыновлению огнедышащих рептилий занимает ровно три минуты, не отходите от кассы."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dc_taming.png width:220 height:110 align:center}"
 	]
 	quest.50BFB97211349EBE.quest_subtitle: "Веха: свой дракон"
 	quest.50BFB97211349EBE.title: "&aПриручение"
@@ -2061,6 +2401,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Ещё один кирпич в стене»&7: Создайте кирпич драконьей кузни"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_forge_brick.png width:220 height:110 align:center}"
 	]
 	quest.50DA5FCD09844CD5.title: "Кирпичи драконьей кузницы"
 	quest.50FB4E14E6F8A140.quest_desc: [
@@ -2070,6 +2412,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f4 × Стальной механизм"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_steel_mechanism.png width:220 height:110 align:center}"
 	]
 	quest.50FB4E14E6F8A140.quest_subtitle: "Следующий уровень сложности"
 	quest.50FB4E14E6F8A140.title: "Стальной механизм"
@@ -2080,6 +2424,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fwindmill"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_wind_magic.png width:220 height:110 align:center}"
 	]
 	quest.512E0BF7A93A02A0.title: "Школа ветра"
 	quest.516D165C1406E34F.quest_desc: [
@@ -2090,6 +2436,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &flightning dragon roost"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_lightning_roost.png width:220 height:110 align:center}"
 	]
 	quest.516D165C1406E34F.title: "&eГрозовое логово"
 	quest.525C708EDF099509.quest_desc: [
@@ -2102,6 +2450,8 @@
 		"&7• Получить достижение &e«Глубокая магия»&7: Получите сферу пророчества, с помощью которой можно открыть портал"
 		"&7• Получить достижение &e«Небо миллиона звёзд»&7: Войдите в Звездосветье"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_starlight_gate.png width:220 height:110 align:center}"
 	]
 	quest.525C708EDF099509.title: "&bВрата Звёздного света"
 	quest.52C31DC8F77FE0A9.quest_desc: [
@@ -2110,6 +2460,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Побывать в биоме: &fpeer lands"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_the_beyond.png width:220 height:110 align:center}"
 	]
 	quest.52C31DC8F77FE0A9.title: "За гранью"
 	quest.543B7E90BB0A3D68.quest_desc: [
@@ -2119,6 +2471,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f2 × Основа улучшения"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_upgrade_base.png width:220 height:110 align:center}"
 	]
 	quest.543B7E90BB0A3D68.quest_subtitle: "Заготовка для всех модулей"
 	quest.543B7E90BB0A3D68.title: "Основа улучшений"
@@ -2131,6 +2485,8 @@
 		"&7• Иметь в инвентаре: &fНавигатор"
 		"&7• Иметь в инвентаре: &f2 × Продвинутое табло"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_navigator.png width:220 height:110 align:center}"
 	]
 	quest.5469F099C2FF2BEF.quest_subtitle: "Навигатор поездов: шоб не проехать свою остановку"
 	quest.5469F099C2FF2BEF.title: "Следующая — Аркадия"
@@ -2140,6 +2496,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fcreatepillageroutpost"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_pillagers_arise.png width:220 height:110 align:center}"
 	]
 	quest.54DB37D6A4E1E781.title: "Механические разбойники"
 	quest.56149F07E98A0EEB.quest_desc: [
@@ -2181,6 +2539,8 @@
 		"&7• Иметь в инвентаре: &fКартонный самолётик"
 		"&7• Иметь в инвентаре: &fПередатчик координат"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_couriers.png width:220 height:110 align:center}"
 	]
 	quest.56B7C3AF47625266.quest_subtitle: "Бумажные самолётики"
 	quest.56B7C3AF47625266.title: "Курьерская служба"
@@ -2206,6 +2566,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Маленький буст для малыша»&7: Дайте фамильяру предмет улучшения"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_familiar_upgrade.png width:220 height:110 align:center}"
 	]
 	quest.579F47264BF60661.quest_subtitle: "Фамильяр подрос — скоро будет делать вам нервы"
 	quest.579F47264BF60661.title: "Маленький, но с Молдаванки"
@@ -2219,6 +2581,8 @@
 		"&7• Иметь в инвентаре: &f9 × Механический сборщик"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_crafter.png width:220 height:110 align:center}"
 	]
 	quest.57E7C1117226D9B4.quest_subtitle: "Автоматическая сборка"
 	quest.57E7C1117226D9B4.title: "Механические крафтеры"
@@ -2231,6 +2595,8 @@
 		"&7• Найти постройку и зайти в неё: &fcyclops cave"
 		"&7• Получить достижение &e«Меня зовут Никто»&7: Победите циклопа"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_cyclops.png width:220 height:110 align:center}"
 	]
 	quest.58433C197C0D8765.title: "Никто"
 	quest.5852272C1B35DE09.quest_desc: [
@@ -2242,6 +2608,8 @@
 		"&7• Иметь в инвентаре: &fЖёрнов"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_millstone.png width:220 height:110 align:center}"
 	]
 	quest.5852272C1B35DE09.quest_subtitle: "Мелем потихоньку"
 	quest.5852272C1B35DE09.title: "Жернова"
@@ -2252,6 +2620,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Готовка на ходу»&7: Сковороды позволяют готовить на ходу. Встаньте возле огня, и держите еду в другой руке!"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_skillet.png width:220 height:110 align:center}"
 	]
 	quest.58E727C1B3FABF96.quest_subtitle: "Кухня в руке"
 	quest.58E727C1B3FABF96.title: "Сковорода в дорогу"
@@ -2263,6 +2633,8 @@
 		"&7• Иметь в инвентаре: &fКоксовая печь"
 		"&7• Иметь в инвентаре: &f16 × Коксовый уголь"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_coke.png width:220 height:110 align:center}"
 	]
 	quest.5908796751225CA3.quest_subtitle: "Уголь — хлеб промышленности, а кокс — её пирожок"
 	quest.5908796751225CA3.title: "Свой коксохим"
@@ -2274,6 +2646,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Это как бы невежливо»&7: Поймайте пикси в банку, чтобы собирать пыльцу"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_pixie.png width:220 height:110 align:center}"
 	]
 	quest.59DA822BE1353AB0.quest_subtitle: "Закатали на зиму, шоб было"
 	quest.59DA822BE1353AB0.title: "Феи в банке, как тюлька"
@@ -2302,6 +2676,8 @@
 		"&7• Иметь в инвентаре: &fКлапан балласта"
 		"&7• Иметь в инвентаре: &fВодный винт"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_submarine.png width:220 height:110 align:center}"
 	]
 	quest.5B3333E374084646.quest_subtitle: "Под воду, капитан: глубина — по щиколотку"
 	quest.5B3333E374084646.title: "&9Переплыть макеевский родничок"
@@ -2316,6 +2692,8 @@
 		"&7• Получить достижение &e«Я только подровнять кончики»&7: Создайте обсидианово-алмазные ножницы"
 		"&7• Получить достижение &e«Такой большой, а боишься!»&7: Создайте Обезболивающее"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dc_tools.png width:220 height:110 align:center}"
 	]
 	quest.5BD891451FA53D02.title: "Ветеринарный набор"
 	quest.5C517B9621561D3D.quest_desc: [
@@ -2328,6 +2706,8 @@
 		"&7• Получить достижение &e«Контроллер ядра»&7: Создайте контроллер реактора для управления и регулирования вашего реактора"
 		"&7• Получить достижение &e«Чертёж для мощности»&7: Создайте чертёж реактора, чтобы спроектировать расположение стержней в вашем реакторе"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_reactor_build.png width:220 height:110 align:center}"
 	]
 	quest.5C517B9621561D3D.quest_subtitle: "Чертежи силы"
 	quest.5C517B9621561D3D.title: "Каркас реактора"
@@ -2339,6 +2719,8 @@
 		"&7• Иметь в инвентаре: &f4 × Заполняемый склон"
 		"&7• Иметь в инвентаре: &f4 × Заполняемая пластина"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_copycats.png width:220 height:110 align:center}"
 	]
 	quest.5C98457EF1A02618.quest_subtitle: "Любая форма"
 	quest.5C98457EF1A02618.title: "Копикеты"
@@ -2350,6 +2732,8 @@
 		"&7• Получить достижение &e«Двигатель?»&7: Я почти не знаю ее"
 		"&7• Получить достижение &e«Точность гарантирована»&7: Как мне тогда это использовать?"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_gizmos.png width:220 height:110 align:center}"
 	]
 	quest.5CE0EF02F0ABA6EC.quest_subtitle: "Gadgets & Gizmos"
 	quest.5CE0EF02F0ABA6EC.title: "Гаджеты и штуковины"
@@ -2359,6 +2743,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fsmall plains dungeon"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_epic_dungeon.png width:220 height:110 align:center}"
 	]
 	quest.5D431F53ECBAEBD2.title: "Эпические катакомбы равнин"
 	quest.5E249F85E2704F8B.quest_desc: [
@@ -2368,6 +2754,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fАвиарадар"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_plane_radar.png width:220 height:110 align:center}"
 	]
 	quest.5E249F85E2704F8B.quest_subtitle: "Для воздушных кораблей"
 	quest.5E249F85E2704F8B.title: "Радар на борту"
@@ -2382,6 +2770,8 @@
 		"&7• Иметь в инвентаре: &fМодуль джойстика"
 		"&7• Иметь в инвентаре: &fСектор газа"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_controls.png width:220 height:110 align:center}"
 	]
 	quest.5E6F52F3AC492F6A.quest_subtitle: "Джойстик, штурвал, педали"
 	quest.5E6F52F3AC492F6A.title: "Пульт управления"
@@ -2396,6 +2786,8 @@
 		"&7• Получить достижение &e«Охлаждение реактора»&7: Создайте реактор для охлаждения вашего реактора"
 		"&7• Получить достижение &e«Безграничная мощь»&7: Скрафтите выход реактора, чтобы забирать энергию"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_reactor_io.png width:220 height:110 align:center}"
 	]
 	quest.5F001531B9D7E83F.quest_subtitle: "Кормим реактор"
 	quest.5F001531B9D7E83F.title: "Входы и выходы"
@@ -2408,6 +2800,8 @@
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fcitadel"
 		"&7• Победить: &cЭхо Тироса, Первого Огненосца"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_tyros.png width:220 height:110 align:center}"
 	]
 	quest.5F7F22F6A0A041FD.quest_subtitle: "Босс"
 	quest.5F7F22F6A0A041FD.title: "&cЭхо Тироса"
@@ -2420,6 +2814,8 @@
 		"&7• Получить достижение &e«Можно, а зачем?»&7: Закрепите гироскопический механизм внутри латунного корпуса"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_linear.png width:220 height:110 align:center}"
 	]
 	quest.5FF116D2464A9FF8.quest_subtitle: "Мелочь, которая держит равновесие"
 	quest.5FF116D2464A9FF8.title: "Линейный подшипник"
@@ -2431,6 +2827,8 @@
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fevoker fort"
 		"&7• Победить: &cАрхизаклинатель"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_school_evocation.png width:220 height:110 align:center}"
 	]
 	quest.5FF1D7807D23A3F2.title: "&aШкола вызова"
 	quest.602CCEDD17B3B153.quest_desc: [
@@ -2439,6 +2837,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_metalwork.png width:220 height:110 align:center}"
 	]
 	quest.602CCEDD17B3B153.quest_subtitle: "Расплавленное и измельчённое"
 	quest.602CCEDD17B3B153.title: "Металлообработка"
@@ -2450,6 +2850,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Клювокрыл»&7: Приручите гиппогрифа, бросив около него кроличьи лапки"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_hippogryph.png width:220 height:110 align:center}"
 	]
 	quest.6047C4ADE51D2924.title: "Гиппогриф"
 	quest.60523685CBD5E3E9.quest_desc: [
@@ -2462,6 +2864,8 @@
 		"&7• Получить достижение &e«Я когда-то правил миром...»&7: Найдите замок падшего королевства."
 		"&7• Получить достижение &e«Долой короля»&7: Победите Короля"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_antarchy_king.png width:220 height:110 align:center}"
 	]
 	quest.60523685CBD5E3E9.title: "&6Король Элитии"
 	quest.6081AF8FBDD7FF6E.quest_desc: [
@@ -2473,6 +2877,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Книга о чудовищах»&7: Создайте бестиарий из трёх манускриптов, найденных в данжах"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_bestiary.png width:220 height:110 align:center}"
 	]
 	quest.6081AF8FBDD7FF6E.quest_subtitle: "Знай своего врага"
 	quest.6081AF8FBDD7FF6E.title: "&cБестиарий"
@@ -2484,6 +2890,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fРуна света"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_school_holy.png width:220 height:110 align:center}"
 	]
 	quest.613605CB7F15C3FD.title: "&fШкола святости"
 	quest.61BA75B4E41B54D4.quest_desc: [
@@ -2495,6 +2903,8 @@
 		"&7• Получить достижение &e«Смешать, но не взбалтывать»&7: Смешайте ингредиенты в чаше с помощью механического смешивателя"
 		"&7• Получить достижение &e«Компактификация»&7: Используйте механический пресс и чашу, чтобы спрессовать или сжать предметы"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_mixer.png width:220 height:110 align:center}"
 	]
 	quest.61BA75B4E41B54D4.quest_subtitle: "Смешать и взболтать — это две большие разницы"
 	quest.61BA75B4E41B54D4.title: "Шо вы там мешаете?"
@@ -2508,6 +2918,8 @@
 		"&7• Иметь в инвентаре: &fКрепление пушки"
 		"&7• Иметь в инвентаре: &fКонтроллер поворота пушки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_mount.png width:220 height:110 align:center}"
 	]
 	quest.61C1DB7EB772BFB6.quest_subtitle: "Пушка на своём месте"
 	quest.61C1DB7EB772BFB6.title: "&4Лафет"
@@ -2520,6 +2932,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Связать азы»&7: Соедините крепление или лебёдку с верёвкой"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_ropes.png width:220 height:110 align:center}"
 	]
 	quest.61E34F9E9B9D3C61.quest_subtitle: "Буксир, якорь, груз"
 	quest.61E34F9E9B9D3C61.title: "Учимся вязать"
@@ -2532,6 +2946,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fКазённая часть чугунной пушки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_breech.png width:220 height:110 align:center}"
 	]
 	quest.620EB23EF0022E18.quest_subtitle: "Заряжание с казённой части"
 	quest.620EB23EF0022E18.title: "Казённик"
@@ -2544,6 +2960,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Неопознанный летающий объект»&7: Кристаллизуйте левититовую смесь в левитит"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_levitite.png width:220 height:110 align:center}"
 	]
 	quest.62581372ECF1DAA9.quest_subtitle: "Кристалл, который не любит землю — и шахту тоже"
 	quest.62581372ECF1DAA9.title: "НЛО над терриконом"
@@ -2557,6 +2975,8 @@
 		"&7• Получить достижение &e«Повелитель стихий»&7: Приручить огненного, ледяного и грозового дракона."
 		"&7• Получить достижение &e«Приоделись»&7: Получите драконью броню"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dragon_lord.png width:220 height:110 align:center}"
 	]
 	quest.635C7BBA8C050B36.quest_subtitle: "Финал ветки"
 	quest.635C7BBA8C050B36.title: "&c&lПовелитель драконов"
@@ -2568,6 +2988,8 @@
 		"&7• Иметь в инвентаре: &fТерминал хранилища"
 		"&7• Иметь в инвентаре: &fИнвентарный коннектор"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_toms.png width:220 height:110 align:center}"
 	]
 	quest.640BC96554A7B451.quest_subtitle: "Всё в одном терминале — не то что у деда в гараже"
 	quest.640BC96554A7B451.title: "Склад как дедов гараж"
@@ -2579,6 +3001,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fОбычный двигатель"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_tfmg_engine.png width:220 height:110 align:center}"
 	]
 	quest.6444F0B03ECF26CA.quest_subtitle: "Собирается вручную"
 	quest.6444F0B03ECF26CA.title: "Двигатель внутреннего сгорания"
@@ -2591,6 +3015,8 @@
 		"&7• Получить достижение &e«Сырая мощь»&7: Добудьте рудный уран для дальнейшей переработки"
 		"&7• Получить достижение &e«Урановый порошок»&7: Измельчите сырой уран в порошок для подготовки к дальнейшей очистке"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_uranium.png width:220 height:110 align:center}"
 	]
 	quest.64F3131289255869.quest_subtitle: "Уран и измельчение"
 	quest.64F3131289255869.title: "&aСырая сила"
@@ -2602,6 +3028,8 @@
 		"&7• Иметь в инвентаре: &fлюбая фуражка кондуктора"
 		"&7• Иметь в инвентаре: &fЖелезнодорожный семафор"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_railways.png width:220 height:110 align:center}"
 	]
 	quest.6512D081809937DC.quest_subtitle: "Steam 'n' Rails"
 	quest.6512D081809937DC.title: "Пар и рельсы"
@@ -2616,6 +3044,8 @@
 		"&7• Иметь в инвентаре: &fТяговый рычаг"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_steering.png width:220 height:110 align:center}"
 	]
 	quest.651F79699E8F283D.quest_subtitle: "Кто рулит — тот и капитан, остальные советуют"
 	quest.651F79699E8F283D.title: "Вам шашечки или ехать?"
@@ -2629,6 +3059,8 @@
 		"&7• Иметь в инвентаре: &fОснова насоса"
 		"&7• Иметь в инвентаре: &fСтальной контроллер дистилляции"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_tfmg_oil.png width:220 height:110 align:center}"
 	]
 	quest.6531D3BD5992C3D8.quest_subtitle: "Чёрное золото"
 	quest.6531D3BD5992C3D8.title: "Нефтяная вышка"
@@ -2640,6 +3072,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Первый сорт!»&7: Получите легендарные чернила."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_legendary_ink.png width:220 height:110 align:center}"
 	]
 	quest.659A5524AE93F2A1.title: "&6Легендарные чернила"
 	quest.65E69964CB3E798C.quest_desc: [
@@ -2652,6 +3086,8 @@
 		"&7• Иметь в инвентаре: &f2 × Автономный активатор"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_deployer.png width:220 height:110 align:center}"
 	]
 	quest.65E69964CB3E798C.quest_subtitle: "Искусственная рука"
 	quest.65E69964CB3E798C.title: "Развёртыватель"
@@ -2665,6 +3101,8 @@
 		"&7• Иметь в инвентаре: &f2 × Непросверленное дуло чугунной пушки"
 		"&7• Иметь в инвентаре: &fНепросверленный ствол чугунной пушки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_casting.png width:220 height:110 align:center}"
 	]
 	quest.665930E1B22FEC8C.quest_subtitle: "Форма + металл = заготовка"
 	quest.665930E1B22FEC8C.title: "Литьё стволов"
@@ -2676,6 +3114,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fИскатель драконов"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_seeker.png width:220 height:110 align:center}"
 	]
 	quest.6668BAFAE121361A.title: "Искатель драконов"
 	quest.66D96E394AB780AA.quest_desc: [
@@ -2688,6 +3128,8 @@
 		"&7• Иметь в инвентаре: &f8 × Андезитовый корпус"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_andesite_casing.png width:220 height:110 align:center}"
 	]
 	quest.66D96E394AB780AA.quest_subtitle: "Корпуса для механизмов"
 	quest.66D96E394AB780AA.title: "Андезитовая эпоха"
@@ -2699,6 +3141,8 @@
 		"&7• Иметь в инвентаре: &fКрасное кресло"
 		"&7• Иметь в инвентаре: &fЛатунная лампа"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_furniture.png width:220 height:110 align:center}"
 	]
 	quest.66E63CD82E600B6C.quest_subtitle: "Посидеть после смены и обсудить всех, кто проходит мимо"
 	quest.66E63CD82E600B6C.title: "Лавочка у подъезда"
@@ -2723,6 +3167,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Малхут»&7: Гневом поглощенный и обманутый жизнью, король наконец обрел вечный покой"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_malkuth.png width:220 height:110 align:center}"
 	]
 	quest.672B81A883D00EBE.title: "&6Малькут"
 	quest.680731B53D270D83.quest_desc: [
@@ -2731,6 +3177,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_more_automation.png width:220 height:110 align:center}"
 	]
 	quest.680731B53D270D83.quest_subtitle: "Катализатор и лом"
 	quest.680731B53D270D83.title: "Больше автоматизации"
@@ -2743,6 +3191,8 @@
 		"&7• Иметь в инвентаре: &f16 × любые брёвна"
 		"&7• Иметь в инвентаре: &fКаменная кирка"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_stone_tools.png width:220 height:110 align:center}"
 	]
 	quest.6809571439B09C2C.quest_subtitle: "Дерево, камень, кирка — и ты уже почти шахтёр"
 	quest.6809571439B09C2C.title: "Своя копанка"
@@ -2757,6 +3207,8 @@
 		"&7• Иметь в инвентаре: &fБронебойный снаряд"
 		"&7• Иметь в инвентаре: &fВзрыватель с таймером"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_shells.png width:220 height:110 align:center}"
 	]
 	quest.682D235251E94312.quest_subtitle: "Для каждой цели — свой"
 	quest.682D235251E94312.title: "Арсенал снарядов"
@@ -2767,6 +3219,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fСканер нефти"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_oil_scanner.png width:220 height:110 align:center}"
 	]
 	quest.6855D4BFC5EEA351.quest_subtitle: "Под землёй что-то есть"
 	quest.6855D4BFC5EEA351.title: "Поиск нефти"
@@ -2779,6 +3233,8 @@
 		"&7• Иметь в инвентаре: &fЖелезный меч"
 		"&7• Иметь в инвентаре: &fЩит"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_gate_dungeons.png width:220 height:110 align:center}"
 	]
 	quest.68D48BCE80C2A833.quest_subtitle: "Открывает раздел «Подземелья»"
 	quest.68D48BCE80C2A833.title: "&c→ Подземелья"
@@ -2790,6 +3246,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fЛомтерезка"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_slicer.png width:220 height:110 align:center}"
 	]
 	quest.6977723D490B1E2B.quest_subtitle: "Create Slice & Dice"
 	quest.6977723D490B1E2B.title: "&6Механическая шинковка"
@@ -2804,6 +3262,8 @@
 		"&7• Иметь в инвентаре: &f16 × Андезитовый сплав"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_andesite_alloy.png width:220 height:110 align:center}"
 	]
 	quest.69A03F2BAF1F02DC.quest_subtitle: "Камень, который умеет крутиться"
 	quest.69A03F2BAF1F02DC.title: "&6Андезитовый сплав"
@@ -2815,6 +3275,8 @@
 		"&7• Получить достижение &e«Кузня душ»&7: Получите кузню душ"
 		"&7• Получить достижение &e«Сломанная машина войны Незера»&7: Убейте Незеритовое чудище"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_monstrosity.png width:220 height:110 align:center}"
 	]
 	quest.69B44EE1EB93FD1C.title: "&4Незеритовое чудовище"
 	quest.69C285C30A2C7DCA.quest_desc: [
@@ -2825,6 +3287,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Гебура»&7: Вечный судья ставший беспощадным тираном"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_geburah.png width:220 height:110 align:center}"
 	]
 	quest.69C285C30A2C7DCA.title: "&cГебура, Судья"
 	quest.6A246F18C142F326.quest_desc: [
@@ -2835,6 +3299,8 @@
 		"&7• Иметь в инвентаре: &fКонтроллер дистилляции"
 		"&7• Иметь в инвентаре: &fВедро с дизельным топливом"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_distillation.png width:220 height:110 align:center}"
 	]
 	quest.6A246F18C142F326.quest_subtitle: "Нефть → дизель"
 	quest.6A246F18C142F326.title: "Дистилляция"
@@ -2847,6 +3313,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fФизический сборщик"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_assembler.png width:220 height:110 align:center}"
 	]
 	quest.6A426927103971ED.quest_subtitle: "Сердце каждой физической конструкции"
 	quest.6A426927103971ED.title: "&bФизический сборщик"
@@ -2871,6 +3339,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Гавань путника»&7: Найдите таверну"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_tavern.png width:220 height:110 align:center}"
 	]
 	quest.6B0E6DB002FFE6CD.quest_subtitle: "Зайдите, вам нальют и расскажут, где опасно"
 	quest.6B0E6DB002FFE6CD.title: "Таверна, как на Пересыпи"
@@ -2882,6 +3352,8 @@
 		"&7• Иметь в инвентаре: &fШлем пилота"
 		"&7• Иметь в инвентаре: &fБланк координат"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_pilot_hud.png width:220 height:110 align:center}"
 	]
 	quest.6B842D6ABABC10B7.quest_subtitle: "Цель на стекле"
 	quest.6B842D6ABABC10B7.title: "Шлем пилота"
@@ -2893,6 +3365,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Кто тут хороший мальчик?»&7: Создайте Исключительный драконий корм"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dc_meal.png width:220 height:110 align:center}"
 	]
 	quest.6BF2C00D00B8E970.title: "&aDragon Care: исключительная еда"
 	quest.6C08BBC539AC2D78.quest_desc: [
@@ -2902,6 +3376,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Единение с природой»&7: Получите рукопись друидов."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_school_nature.png width:220 height:110 align:center}"
 	]
 	quest.6C08BBC539AC2D78.quest_subtitle: "Магия огорода: абрикосы сами падают в руки"
 	quest.6C08BBC539AC2D78.title: "&2Школа природы и абрикосов"
@@ -2913,6 +3389,8 @@
 		"&7• Иметь в инвентаре: &fЧугунная направляющая ракетницы"
 		"&7• Иметь в инвентаре: &fЧугунный казённик ракетницы"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_rocket_pod.png width:220 height:110 align:center}"
 	]
 	quest.6C1B80174BA421EA.quest_subtitle: "Ракетный залп"
 	quest.6C1B80174BA421EA.title: "Ракетный блок"
@@ -2922,6 +3400,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Победить: &cВизер"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_wither.png width:220 height:110 align:center}"
 	]
 	quest.6C4F88766C57FB4E.quest_subtitle: "Врата в позднюю игру"
 	quest.6C4F88766C57FB4E.title: "&8Иссушитель, переосмысленный"
@@ -2933,6 +3413,8 @@
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &flieutenant castle lieutenant castle"
 		"&7• Победить: &cЛейтенант"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_acolyte.png width:220 height:110 align:center}"
 	]
 	quest.6C89BD6883D2BF90.title: "Демоны и аколиты"
 	quest.6D6FD3EE8371B7F0.quest_desc: [
@@ -2943,6 +3425,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fНачертательный стол"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_gate_magic.png width:220 height:110 align:center}"
 	]
 	quest.6D6FD3EE8371B7F0.quest_subtitle: "Открывает раздел «Магия»"
 	quest.6D6FD3EE8371B7F0.title: "&d→ Магия"
@@ -2954,6 +3438,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fШлем ледяного боевого мага"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_stars_aligned.png width:220 height:110 align:center}"
 	]
 	quest.6DD023F00CD102C3.title: "Звёзды сошлись"
 	quest.6DED8FE2B1C76F53.quest_desc: [
@@ -2964,6 +3450,8 @@
 		"&7• Получить достижение &e«Рождённый в огне талант»&7: А он в этом хорош. Заполучите всполоха-кузнеца"
 		"&7• Получить достижение &e«Пылающее слияние»&7: Объедините два одинаковых предмета с помощью всполоха-кузнеца"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_cei_forger.png width:220 height:110 align:center}"
 	]
 	quest.6DED8FE2B1C76F53.quest_subtitle: "Слияние и разделение"
 	quest.6DED8FE2B1C76F53.title: "Пылающий кузнец"
@@ -2974,6 +3462,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fКухонная плита"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_stove.png width:220 height:110 align:center}"
 	]
 	quest.6E7DC3890D76A670.quest_subtitle: "Огонь не гаснет, пока форшмак не готов"
 	quest.6E7DC3890D76A670.title: "&6Плита тёти Сары"
@@ -2984,6 +3474,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Заблудший в снегах»&7: Одолейте йети Скора"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_yeti.png width:220 height:110 align:center}"
 	]
 	quest.6F3E1BD3698CCF80.title: "&bСкор, Йети"
 	quest.6FC12C912400573B.quest_desc: [
@@ -2995,6 +3487,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Теперь на 100% без пара!»&7: Разместите и заведите портативный двигатель"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_portable_engine.png width:220 height:110 align:center}"
 	]
 	quest.6FC12C912400573B.quest_subtitle: "Вращение без пара"
 	quest.6FC12C912400573B.title: "Портативный двигатель"
@@ -3005,6 +3499,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &fКуриный насест"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_roost.png width:220 height:110 align:center}"
 	]
 	quest.705A3038BDA9158F.quest_subtitle: "Яйца на конвейере — дед бы гордился"
 	quest.705A3038BDA9158F.title: "Курятник у деда"
@@ -3014,6 +3510,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_trade_cycling.png width:220 height:110 align:center}"
 	]
 	quest.7070FA22D82EEA5D.quest_subtitle: "Не нравится цена? Это же Привоз — приходите завтра"
 	quest.7070FA22D82EEA5D.title: "Торг уместен"
@@ -3025,6 +3523,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Выкованный в Пламени»&7: Создайте слиток драконьей стали из крови дракона и железа"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_dragonsteel.png width:220 height:110 align:center}"
 	]
 	quest.7107D705FCD22626.title: "&cДраконья сталь"
 	quest.724FE167FED1A581.quest_desc: [
@@ -3037,6 +3537,8 @@
 		"&7• Иметь в инвентаре: &fЩёточный узел электрогенератора"
 		"&7• Иметь в инвентаре: &f2 × Электрический предохранитель"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_alternator.png width:220 height:110 align:center}"
 	]
 	quest.724FE167FED1A581.quest_subtitle: "Вращение → ток"
 	quest.724FE167FED1A581.title: "Генератор"
@@ -3047,6 +3549,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Шокирующее открытие»&7: Превратите громоотвод в жезл молний... и переживите процесс."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_school_lightning.png width:220 height:110 align:center}"
 	]
 	quest.72FDF748FDE49D87.title: "&eШкола молнии"
 	quest.731223997A4AED46.quest_desc: [
@@ -3058,6 +3562,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«А конец ли?»&7: Вы достигли конца Катаклизма"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_cataclysmfarer.png width:220 height:110 align:center}"
 	]
 	quest.731223997A4AED46.quest_subtitle: "Финал главы"
 	quest.731223997A4AED46.title: "&6&lСтранник Катаклизма"
@@ -3069,6 +3575,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Пустынные пловцы»&7: Убейте плотоядного червя. Подсказочка: они обожают вкус динамита!"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dragons_deathworm.png width:220 height:110 align:center}"
 	]
 	quest.742A37477527D181.title: "Пустынные пловцы"
 	quest.747C1BE9BE0EDB63.quest_desc: [
@@ -3080,6 +3588,8 @@
 		"&7• Получить достижение &e«Берегите пальцы»&7: Держа инструмент в руках, используйте его на разделочной доске, чтобы разделать некоторые предметы"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_farm_cutting_board.png width:220 height:110 align:center}"
 	]
 	quest.747C1BE9BE0EDB63.quest_subtitle: "Нож + доска = ингредиенты"
 	quest.747C1BE9BE0EDB63.title: "Разделочная доска"
@@ -3090,6 +3600,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Часть самого себя»&7: Создайте апокриф вампира"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_school_blood.png width:220 height:110 align:center}"
 	]
 	quest.74FEF2CC51096FB5.title: "&4Школа крови"
 	quest.764777CD56E10B41.quest_desc: [
@@ -3101,6 +3613,8 @@
 		"&7• Получить достижение &e«Проклятая земля»&7: Войдите в Проклятую крепость"
 		"&7• Получить достижение &e«Полководец пал»&7: Победите полководца крепости"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_keep_warlord.png width:220 height:110 align:center}"
 	]
 	quest.764777CD56E10B41.quest_subtitle: "Первый босс главы"
 	quest.764777CD56E10B41.title: "&cВоевода Проклятой крепости"
@@ -3126,6 +3640,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Сила старейшин»&7: Создайте драконий кодекс."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_archmage.png width:220 height:110 align:center}"
 	]
 	quest.77A351726D49E5EC.quest_subtitle: "Шо вы говорите — сам Архимаг Арканы!"
 	quest.77A351726D49E5EC.title: "&d&lАрхимаг всей Одессы"
@@ -3136,6 +3652,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Высокая мода»&7: Получите авиаторские очки"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_goggles.png width:220 height:110 align:center}"
 	]
 	quest.7802DF674AB16FC3.quest_subtitle: "Стиль превыше всего"
 	quest.7802DF674AB16FC3.title: "Очки авиатора"
@@ -3146,6 +3664,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_corpse.png width:220 height:110 align:center}"
 	]
 	quest.782601FA7037BD1E.quest_subtitle: "Не беда: вещи лежат и ждут хозяина"
 	quest.782601FA7037BD1E.title: "&7Шо, опять помер?"
@@ -3158,6 +3678,8 @@
 		"&7• Иметь в инвентаре: &fРасписание поезда"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_signals.png width:220 height:110 align:center}"
 	]
 	quest.7846A066A2CA69D7.quest_subtitle: "Без аварий"
 	quest.7846A066A2CA69D7.title: "Сигналы и расписание"
@@ -3170,6 +3692,8 @@
 		"&7• Иметь в инвентаре: &fРазливочная машина"
 		"&7• Иметь в инвентаре: &fФабричный жидкостный контроллер"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_factory_logistics.png width:220 height:110 align:center}"
 	]
 	quest.7863C4B1F198C7D6.quest_subtitle: "Жидкости тоже в посылках"
 	quest.7863C4B1F198C7D6.title: "Заводская логистика"
@@ -3181,6 +3705,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«С мёртвой точки!»&7: Используйте паровой двигатель для создания силы вращения"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_steam.png width:220 height:110 align:center}"
 	]
 	quest.789B6DD7B6E2B1D7.quest_subtitle: "Электростанция (почти)"
 	quest.789B6DD7B6E2B1D7.title: "Паровой двигатель"
@@ -3209,6 +3735,8 @@
 		"&7• Иметь в инвентаре: &f2 × Складской передатчик"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_stock_ticker.png width:220 height:110 align:center}"
 	]
 	quest.79E92A54134E74B8.quest_subtitle: "Биржевой тикер: тут торгуются даже шестерёнки"
 	quest.79E92A54134E74B8.title: "&eЗа сколько?"
@@ -3220,6 +3748,8 @@
 		"&6&lКак выполнить:"
 		"&7• Получить достижение &e«Магия без магии»&7: Скрафтите Кодекс исследователя"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_apprentice_codex.png width:220 height:110 align:center}"
 	]
 	quest.7B02D1CC83CCEF33.title: "Кодекс ученика"
 	quest.7B78F33885FE4BC7.quest_desc: [
@@ -3228,6 +3758,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Найти постройку и зайти в неё: &fcreatepillageroutpost"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_outpost.png width:220 height:110 align:center}"
 	]
 	quest.7B78F33885FE4BC7.quest_subtitle: "Знай врага"
 	quest.7B78F33885FE4BC7.title: "&cРазбойники с механизмами"
@@ -3241,6 +3773,8 @@
 		"&7• Получить достижение &e«Как вы яхту назовёте...»&7: Назовите физическую штуковину с помощью именной таблички"
 		"&7• Получить достижение &e«Вдали от дома»&7: Установите цель навигационного стола на расстоянии более 5000 блоков (Секретное достижение)"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_sky_flagship.png width:220 height:110 align:center}"
 	]
 	quest.7C3321418153E3FA.quest_subtitle: "Дайте кораблю имя — Одесса-мама одобрит"
 	quest.7C3321418153E3FA.title: "&b&lДо Ланжерона и обратно"
@@ -3251,6 +3785,8 @@
 		"&6&lКак выполнить:"
 		"&7• Иметь в инвентаре: &f8 × Андезитовый мостик"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_deco.png width:220 height:110 align:center}"
 	]
 	quest.7CE77B187F87D5AD.quest_subtitle: "Завод тоже должен быть красивым"
 	quest.7CE77B187F87D5AD.title: "Create Deco"
@@ -3263,6 +3799,8 @@
 		"&7• Получить достижение &e«Сила атома»&7: Создайте свой первый урановый стержень, используя обогащённый жёлтый кек в механическом сборщике"
 		"&7• Получить достижение &e«И комочек не забудь»&7: Объедините графен и стальные слитки в механическом сборщике, чтобы сделать графитовые стержни"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_industry_rods.png width:220 height:110 align:center}"
 	]
 	quest.7D2CD2179AA7A10B.quest_subtitle: "Сила атома"
 	quest.7D2CD2179AA7A10B.title: "Стержни"
@@ -3276,6 +3814,8 @@
 		"&7• Иметь в инвентаре: &f2 × Дуло чугунной пушки"
 		"&7• Иметь в инвентаре: &fСтвол чугунной пушки"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_weapons_drill.png width:220 height:110 align:center}"
 	]
 	quest.7D6A1DAEEAEEC73F.quest_subtitle: "Без дырки не стреляет"
 	quest.7D6A1DAEEAEEC73F.title: "Сверлим канал"
@@ -3288,6 +3828,8 @@
 		"&7• Получить достижение &e«Всё глубже в подземелья»&7: Войдите в катакомбы."
 		"&7• Победить: &cМёртвый король"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_dungeons_dead_king.png width:220 height:110 align:center}"
 	]
 	quest.7E3EB6EAEDE38566.title: "&5Мёртвый Король"
 	quest.7E514BB4CDA65984.quest_desc: [
@@ -3310,6 +3852,8 @@
 		""
 		"&6&lКак выполнить:"
 		"&7• Прочитайте и нажмите на &aгалочку&7 в окне задачи"
+		""
+		"{image:aeroarcana:textures/quests/quests/q_start_voice_chat.png width:220 height:110 align:center}"
 	]
 	quest.7E71F792DBEDE7E7.quest_subtitle: "Как бабушка с балкона, только в наушниках"
 	quest.7E71F792DBEDE7E7.title: "&bИмеете сказать — говорите"
@@ -3323,6 +3867,8 @@
 		"&7• Получить достижение &e«Привычные инструменты»&7: Получите любые чернила."
 		"&7• Получить достижение &e«Библиотекарь новой эры»&7: Создайте кузницу свитков."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_scroll_forge.png width:220 height:110 align:center}"
 	]
 	quest.7EC6227F9A127CC9.title: "Чернила и Кузница свитков"
 	quest.7EE3DE5FADF17026.quest_desc: [
@@ -3334,6 +3880,8 @@
 		"&7• Найти постройку и зайти в неё: &fpyromancer tower"
 		"&7• Иметь в инвентаре: &fРуна огня"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_magic_school_fire.png width:220 height:110 align:center}"
 	]
 	quest.7EE3DE5FADF17026.title: "&cШкола огня"
 	quest.7FECFB3A14EAF9A8.quest_desc: [
@@ -3346,6 +3894,8 @@
 		"&7• Иметь в инвентаре: &f4 × Фабричный контроллер"
 		"&8Предметы засчитываются сами (раз в секунду). Если не засчиталось — нажмите на иконку задачи."
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_factory_gauge.png width:220 height:110 align:center}"
 	]
 	quest.7FECFB3A14EAF9A8.quest_subtitle: "Высокая логистика"
 	quest.7FECFB3A14EAF9A8.title: "&6&lЗавод мечты"
@@ -3358,6 +3908,8 @@
 		"&7• Получить достижение &e«Липкая зона»&7: Объедините несколько блоков в группу с помощью суперклея"
 		"&7• Получить достижение &e«Движение с целью»&7: Создайте штуковину с буром, пилой или комбайном на борту"
 		"&8Достижения — это события модов; их список открывается клавишей &7L&8."
+		""
+		"{image:aeroarcana:textures/quests/quests/q_create_contraptions.png width:220 height:110 align:center}"
 	]
 	quest.7FFAE65D6CF97058.quest_subtitle: "Клей и движение"
 	quest.7FFAE65D6CF97058.title: "Подвижные конструкции"

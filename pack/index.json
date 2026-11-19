@@ -1,7 +1,7 @@
 {
  "formatVersion": 1,
  "name": "Aero Arcana",
- "version": "2026.11.19-2208",
+ "version": "2026.11.20-0112",
  "minecraft": "1.21.1",
  "neoforge": "21.1.266",
  "server": {
@@ -269,8 +269,8 @@
   {
    "path": "mods/aeroarcana-quests-art.jar",
    "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/files/aeroarcana-quests-art.jar",
-   "sha1": "569bb451170cbcab6d36f90387ef53bd575ca16d",
-   "size": 18509133,
+   "sha1": "890815719cd276e35d25a25faf3d9d75fba1537f",
+   "size": 30326141,
    "kind": "mod",
    "policy": "force"
   },
@@ -2821,144 +2821,144 @@
   {
    "path": "config/ftbquests/quests/chapter_groups.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapter_groups.snbt",
-   "sha1": "afc928fe1a474b0768ceabf2d27ac8367d2996f5",
-   "size": 379,
+   "sha1": "9f9e6eb567be07af195b3fe1786a2f77b97f540e",
+   "size": 544,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/chapters/create.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/create.snbt",
-   "sha1": "740f7751cd1e8d95421887b9aab061b73067f353",
-   "size": 28055,
+   "sha1": "cd4e946b87b66a2e2c35e571324303cde17eefd2",
+   "size": 29662,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/chapters/dragons.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/dragons.snbt",
-   "sha1": "87b94b3018189e74497297a8788827e577a1e2a7",
-   "size": 19647,
+   "sha1": "f6168ccd07569f6dffafbed4b75c153577746e3c",
+   "size": 20444,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/chapters/dungeons.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/dungeons.snbt",
-   "sha1": "2ee41e4838f0bc013b200828eaec52ea2f201c58",
-   "size": 26820,
+   "sha1": "f23ce210fc113f264e328ae353d9b52c8dba60b6",
+   "size": 27659,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/chapters/farm.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/farm.snbt",
-   "sha1": "5cc5fe237300a01813da26118de32a44b46648ae",
-   "size": 16405,
+   "sha1": "7915ca69e2ae1ebdee742fede4fe78ba839818c5",
+   "size": 17229,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/chapters/industry.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/industry.snbt",
-   "sha1": "b0c4ecea100c873047dd01b0cbc6f3608abfd64d",
-   "size": 22971,
+   "sha1": "5dccece15a74d938e01400608fbc16898fb8f438",
+   "size": 24720,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/chapters/magic.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/magic.snbt",
-   "sha1": "d34a7c7af75b6df0af1782c872b3c67e0c934494",
-   "size": 28815,
+   "sha1": "025b9f0473f4c026962c447cdb9e891e7d8734e3",
+   "size": 28086,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/chapters/sky.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/sky.snbt",
-   "sha1": "409f70afaed2bc13cb5c11488ed98df3f5c4b521",
-   "size": 23502,
+   "sha1": "fb2993308be5fd0c9f9a1f67af5fb0be3905600f",
+   "size": 24314,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/chapters/start.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/start.snbt",
-   "sha1": "e38cc32af496c2dbc8fab8299b30616b847a7c93",
-   "size": 15378,
+   "sha1": "ac323d7be6e8ad732c7e97665623c70493ec950e",
+   "size": 16401,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/chapters/weapons.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/chapters/weapons.snbt",
-   "sha1": "4dc5e8e0cde90c63c187224b29ea6600c1d75ca1",
-   "size": 16596,
+   "sha1": "2a284d17949f225bb0c54804662eb66c76d38e8f",
+   "size": 17414,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/data.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/data.snbt",
-   "sha1": "d5f3ca34a19c55a0d6fc479bfa49e3d5608c1a07",
-   "size": 789,
+   "sha1": "a0da609ab74442b284e06ac4a958db70dd18b80d",
+   "size": 526,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/lang/en_us.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/lang/en_us.snbt",
-   "sha1": "f1603c72eb737814a302979eb6ee0a92092e2e40",
-   "size": 290246,
+   "sha1": "1c177a4dcc71d414034d58d8d161e929ea459344",
+   "size": 320755,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/lang/ru_ru.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/lang/ru_ru.snbt",
-   "sha1": "f1603c72eb737814a302979eb6ee0a92092e2e40",
-   "size": 290246,
+   "sha1": "1c177a4dcc71d414034d58d8d161e929ea459344",
+   "size": 320755,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/lang/uk_ua.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/lang/uk_ua.snbt",
-   "sha1": "f1603c72eb737814a302979eb6ee0a92092e2e40",
-   "size": 290246,
+   "sha1": "1c177a4dcc71d414034d58d8d161e929ea459344",
+   "size": 320755,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/reward_tables/common.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/reward_tables/common.snbt",
-   "sha1": "d8471e7b36c1374e315a4da42546de6f27fbe661",
-   "size": 1702,
+   "sha1": "a65632e01692ad48bbd7b9ae5a4b48bd28aec67e",
+   "size": 1717,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/reward_tables/epic.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/reward_tables/epic.snbt",
-   "sha1": "cbc7cef640dfa896501cbf50d7658b04db13706e",
-   "size": 1186,
+   "sha1": "5a0f7447202c31c70435a0d9ac3475dbc2930187",
+   "size": 1257,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/reward_tables/rare.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/reward_tables/rare.snbt",
-   "sha1": "1b8ef9e8358a5aa2b230aaf160f19d243fa4a686",
-   "size": 1417,
+   "sha1": "f0d1a6421447a340d8bd047f5c4a9d0c78d3d2fa",
+   "size": 1488,
    "kind": "config",
    "policy": "force"
   },
   {
    "path": "config/ftbquests/quests/reward_tables/uncommon.snbt",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/ftbquests/quests/reward_tables/uncommon.snbt",
-   "sha1": "4daaf277d545f69ed35924f878ec5e85042536ee",
-   "size": 1690,
+   "sha1": "4d42ea256190dcdb7d97906e6b4734c0d901ecde",
+   "size": 1728,
    "kind": "config",
    "policy": "force"
   },
