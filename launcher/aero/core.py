@@ -29,7 +29,7 @@ INDEX_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/
 NEWS_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/NEWS.md"
 RELEASE_API = "https://api.github.com/repos/Nikogrelis/aero-arcana/releases/latest"
 UA = "AeroArcanaLauncher/1.0 (+https://github.com/Nikogrelis/aero-arcana)"
-LAUNCHER_VERSION = "1.0.7"
+LAUNCHER_VERSION = "1.0.8"
 
 ROOT = pathlib.Path(os.environ.get("AERO_ROOT") or pathlib.Path(os.environ["APPDATA"]) / ".aeroarcana")
 GAME = ROOT / "game"
@@ -301,32 +301,71 @@ def sync_pack(state: State, progress) -> dict:
 
 
 # ---------------------------------------------------------------- game install + launch
-def ensure_neoforge_bundle(idx: dict, progress) -> None:
-    """Place NeoForge's own files (installer + libraries normally fetched from maven.neoforged.net) before PortableMC
-    runs. Some players' ISPs cannot connect to maven.neoforged.net at all (tcp connect timed out); GitHub works."""
+NL, TAB = chr(10), chr(9)
+
+
+def _vanilla_and_java(idx: dict, progress) -> pathlib.Path:
+    """Install vanilla Minecraft + Mojang's Java via PortableMC (Mojang servers only), return java.exe."""
+    cmd = [str(portablemc_exe(progress)), "--main-dir", str(ROOT), "--output", "machine", "start", "--dry",
+           "--mc-dir", str(GAME), "--jvm-policy", "mojang-then-system", idx["minecraft"]]
+    GAME.mkdir(parents=True, exist_ok=True)
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=ROOT,
+                            creationflags=NO_WINDOW, text=True, encoding="utf-8", errors="replace")
+    errors = []
+    with open(ROOT / "logs" / "portablemc-vanilla.log", "w", encoding="utf-8") as lg:
+        for line in proc.stdout:
+            lg.write(line)
+            parts = line.rstrip(NL).split(TAB)
+            if parts[0] == "download" and len(parts) >= 3 and "/" in parts[2]:
+                try:
+                    cur, tot = (float(x) for x in parts[2].split("/"))
+                    progress("install", cur / tot if tot else 0, f"Установка Minecraft: {cur / 2**20:.0f} / {tot / 2**20:.0f} МБ")
+                except ValueError:
+                    pass
+            elif parts[0].startswith("error_"):
+                errors.append(line.strip())
+    if proc.wait() != 0:
+        raise RuntimeError("Не удалось установить Minecraft: " + " | ".join(errors[-5:]))
+    javas = sorted((ROOT / "jvm").glob("*/bin/java.exe"), key=lambda p: ("delta" not in str(p), str(p)))
+    if not javas:
+        raise RuntimeError("Не найдена Java после установки Minecraft")
+    return javas[0]
+
+
+def ensure_neoforge(idx: dict, progress) -> None:
+    """Install NeoForge without maven.neoforged.net (some players' ISPs cannot connect to it at all):
+    its installer + libraries come from our GitHub release, the official installer runs with --offline."""
     b = idx.get("neoforge_bundle")
     ver = idx["neoforge"]
     if not b or (ROOT / "versions" / f"neoforge-{ver}" / f"neoforge-{ver}.json").exists():
         return
-    import io, tempfile, zipfile
+    import io, zipfile
     progress("install", None, "Загрузка NeoForge…")
     data = http_get(b["url"], timeout=300)
     if hashlib.sha256(data).hexdigest() != b["sha256"]:
         raise RuntimeError("Пакет NeoForge скачался повреждённым, попробуйте ещё раз.")
+    installer = ROOT / "tools" / f"neoforge-{ver}-installer.jar"
+    installer.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(io.BytesIO(data)) as z:
         for n in z.namelist():
             if n.endswith("/"):
                 continue
-            if n == "installer.jar":
-                dst = pathlib.Path(tempfile.gettempdir()) / f"neoforge-{ver}" / "installer.jar"
-            elif n.startswith("libraries/") and is_safe_rel(n):
-                dst = ROOT / n
-            else:
-                continue
-            if not dst.exists():
+            dst = installer if n == "installer.jar" else (ROOT / n if n.startswith("libraries/") and is_safe_rel(n) else None)
+            if dst and not dst.exists():
                 dst.parent.mkdir(parents=True, exist_ok=True)
                 dst.write_bytes(z.read(n))
-    log.info("neoforge bundle placed (%d MB)", len(data) // 2**20)
+    java = _vanilla_and_java(idx, progress)
+    prof = ROOT / "launcher_profiles.json"
+    if not prof.exists():
+        prof.write_text('{"profiles": {}}', encoding="utf-8")
+    progress("install", None, "Установка NeoForge… (только в первый раз, около минуты)")
+    r = subprocess.run([str(java), "-jar", str(installer), "--install-client", str(ROOT), "--offline"],
+                       cwd=installer.parent, capture_output=True, text=True, encoding="utf-8", errors="replace",
+                       creationflags=NO_WINDOW, timeout=900)
+    (ROOT / "logs" / "neoforge-installer.log").write_text(r.stdout + r.stderr, encoding="utf-8")
+    if not (ROOT / "versions" / f"neoforge-{ver}" / f"neoforge-{ver}.json").exists():
+        raise RuntimeError("Установщик NeoForge завершился с ошибкой, подробности: logs/neoforge-installer.log")
+    log.info("neoforge %s installed offline", ver)
 
 
 PMC_URL ="https://github.com/theorzr/portablemc/releases/download/v5.0.6/portablemc-5.0.6-windows-x86_64-msvc.zip"
@@ -357,9 +396,9 @@ def start_game(idx: dict, nick: str, ram_gb: int, progress, on_started, join_ser
     jvm_args = [f"-Xmx{ram_gb}G", f"-Xms{min(ram_gb, 4)}G", "-XX:+UseG1GC", "-XX:+UnlockExperimentalVMOptions",
                 "-XX:G1NewSizePercent=20", "-XX:G1ReservePercent=20", "-XX:MaxGCPauseMillis=50"]
     try:
-        ensure_neoforge_bundle(idx, progress)
+        ensure_neoforge(idx, progress)
     except Exception as e:   # not fatal: PortableMC still tries maven.neoforged.net itself
-        log.warning("neoforge bundle failed: %s", e)
+        log.warning("offline neoforge install failed: %s", e)
     cmd = [str(portablemc_exe(progress)), "--main-dir", str(ROOT), "--output", "machine", "start",
            "--mc-dir", str(GAME), "--jvm-policy", "mojang-then-system",
            "-u", nick, "-i", offline_uuid(nick), "--jvm-arg=" + ",".join(jvm_args), version]

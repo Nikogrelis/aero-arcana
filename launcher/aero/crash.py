@@ -22,7 +22,13 @@ USER_RE = re.compile(r"(?i)([A-Z]:[\\/]+Users[\\/]+)([^\\/\s\"']+)")
 HINTS = [
     (re.compile(r"OceanWaveRenderer", re.I),
      "Вылет рендера волн Create: Atmospherics. Волны отключены исправлением сборки — просто запустите игру снова."),
-    (re.compile(r"Creating pipeline for dimension|iris.*shader|ShaderCompile|glsl", re.I),
+    (re.compile(r"No space left on device|Errno 28|There is not enough space on the disk", re.I),
+     "Закончилось место на диске C:. Освободите 15+ ГБ и запустите снова."),
+    (re.compile(r"insufficient memory for the Java Runtime|Native memory allocation .*failed", re.I),
+     "Windows не хватило памяти (оперативной и файла подкачки). Освободите 15+ ГБ на диске C:, закройте браузер и "
+     "Discord; файл подкачки — «размер по выбору системы»."),
+    (re.compile(r"^(?:[Jj] |\s+at ).*(?:net\.irisshaders|IrisRenderingPipeline)|Creating pipeline for dimension[^\n]*\s*\Z",
+                re.I | re.M),
      "Похоже на шейдеры (Iris). Выключите шейдеры: Настройки → Графика → Пакеты шейдеров."),
     (re.compile(r"OutOfMemoryError|Java heap space|Could not reserve enough space", re.I),
      "Не хватило памяти Java. Добавьте память в лаунчере (ползунок «Память»)."),
@@ -78,10 +84,13 @@ def upload(text: str) -> str:
 
 
 def diagnose(texts: list[str]) -> str:
-    joined = "\n".join(t[-400_000:] for t in texts)
-    for rx, hint in HINTS:
-        if rx.search(joined):
-            return hint
+    """texts[0..] in priority order: crash report / JVM crash first, then logs. Only the crash files and the
+    *end* of the logs are searched: normal startup lines (e.g. Iris 'Creating pipeline') gave false hints."""
+    for t in texts:
+        part = t[:200_000] if t.lstrip().startswith(("#", "---- Minecraft Crash")) else t[-30_000:]
+        for rx, hint in HINTS:
+            if rx.search(part):
+                return hint
     return "Причина пока не ясна — отчёт отправлен владельцу сервера."
 
 
