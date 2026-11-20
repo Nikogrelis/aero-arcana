@@ -111,8 +111,7 @@ class Api:
         try:
             r = crash.report_pending(self._state)
             if r:
-                self._emit("error", {"text": "Прошлая игра вылетела. " + r["hint"] + ("
-Отчёт отправлен владельцу." if r["sent"] else "")})
+                self._emit("error", {"text": "Прошлая игра вылетела. " + r["hint"] + ("\nОтчёт отправлен владельцу." if r["sent"] else "")})
         except Exception as e:
             core.log.warning("pending crash report failed: %s", e)
 

@@ -110,6 +110,14 @@ def self_update(idx: dict, progress) -> bool:
     new = exe + ".new"
     with open(new, "wb") as f:
         f.write(data)
+    try:   # never install a build that cannot start
+        rc = subprocess.run([new, "--selftest"], timeout=120, creationflags=0x08000000).returncode
+    except Exception as e:
+        rc = repr(e)
+    if rc != 0:
+        core.log.warning("launcher update %s failed self-test (%s), skipped", info["version"], rc)
+        os.remove(new)
+        return False
     os.replace(exe, exe + ".old")      # a running exe can be renamed on Windows
     os.replace(new, exe)
     core.log.info("launcher updated to %s, restarting", info["version"])
