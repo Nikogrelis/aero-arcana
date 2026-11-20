@@ -88,6 +88,9 @@ def main(ref_zip):
         "files": files,
         "fixes": json.loads((ROOT / "pack" / "fixes.json").read_text(encoding="utf-8")),
     }
+    bundle = ROOT / "build" / "neoforge-21.1.266-bundle.zip"
+    if bundle.exists():
+        index["neoforge_bundle"] = {"url": REL + bundle.name, "sha256": hashlib.sha256(bundle.read_bytes()).hexdigest()}
     exe = ROOT / "launcher" / "dist" / "AeroArcana.exe"
     ver = re.search(r'LAUNCHER_VERSION = "([^"]+)"', (ROOT / "launcher" / "aero" / "core.py").read_text(encoding="utf-8")).group(1)
     if exe.exists():

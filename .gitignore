@@ -7,3 +7,4 @@ launcher/.venv/
 *.log
 launcher/aero/report_channel.py
 launcher/vendor/
+build/

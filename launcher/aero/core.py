@@ -301,7 +301,35 @@ def sync_pack(state: State, progress) -> dict:
 
 
 # ---------------------------------------------------------------- game install + launch
-PMC_URL = "https://github.com/theorzr/portablemc/releases/download/v5.0.6/portablemc-5.0.6-windows-x86_64-msvc.zip"
+def ensure_neoforge_bundle(idx: dict, progress) -> None:
+    """Place NeoForge's own files (installer + libraries normally fetched from maven.neoforged.net) before PortableMC
+    runs. Some players' ISPs cannot connect to maven.neoforged.net at all (tcp connect timed out); GitHub works."""
+    b = idx.get("neoforge_bundle")
+    ver = idx["neoforge"]
+    if not b or (ROOT / "versions" / f"neoforge-{ver}" / f"neoforge-{ver}.json").exists():
+        return
+    import io, tempfile, zipfile
+    progress("install", None, "Загрузка NeoForge…")
+    data = http_get(b["url"], timeout=300)
+    if hashlib.sha256(data).hexdigest() != b["sha256"]:
+        raise RuntimeError("Пакет NeoForge скачался повреждённым, попробуйте ещё раз.")
+    with zipfile.ZipFile(io.BytesIO(data)) as z:
+        for n in z.namelist():
+            if n.endswith("/"):
+                continue
+            if n == "installer.jar":
+                dst = pathlib.Path(tempfile.gettempdir()) / f"neoforge-{ver}" / "installer.jar"
+            elif n.startswith("libraries/") and is_safe_rel(n):
+                dst = ROOT / n
+            else:
+                continue
+            if not dst.exists():
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                dst.write_bytes(z.read(n))
+    log.info("neoforge bundle placed (%d MB)", len(data) // 2**20)
+
+
+PMC_URL ="https://github.com/theorzr/portablemc/releases/download/v5.0.6/portablemc-5.0.6-windows-x86_64-msvc.zip"
 PMC_SHA256 = "e693a0d05bbf87411ae5c0967e04c2f461ec2005cbbdf6536e4195ff3fafac89"
 
 
@@ -328,6 +356,10 @@ def start_game(idx: dict, nick: str, ram_gb: int, progress, on_started, join_ser
     version = f"neoforge::{idx['neoforge']}"
     jvm_args = [f"-Xmx{ram_gb}G", f"-Xms{min(ram_gb, 4)}G", "-XX:+UseG1GC", "-XX:+UnlockExperimentalVMOptions",
                 "-XX:G1NewSizePercent=20", "-XX:G1ReservePercent=20", "-XX:MaxGCPauseMillis=50"]
+    try:
+        ensure_neoforge_bundle(idx, progress)
+    except Exception as e:   # not fatal: PortableMC still tries maven.neoforged.net itself
+        log.warning("neoforge bundle failed: %s", e)
     cmd = [str(portablemc_exe(progress)), "--main-dir", str(ROOT), "--output", "machine", "start",
            "--mc-dir", str(GAME), "--jvm-policy", "mojang-then-system",
            "-u", nick, "-i", offline_uuid(nick), "--jvm-arg=" + ",".join(jvm_args), version]
