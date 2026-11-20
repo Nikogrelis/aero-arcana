@@ -25,7 +25,7 @@ def main(version, notes):
     venv_py = ROOT / "launcher" / ".venv" / "Scripts" / "python.exe"
     # 1) every module must compile and import (PyInstaller silently drops modules with syntax errors)
     run(str(venv_py), "-c", "import py_compile, glob; [py_compile.compile(f, doraise=True) for f in glob.glob('aero/*.py') + ['main.py']]; "
-        "import aero.core, aero.app, aero.crash, aero.remote; print('modules ok')", cwd=ROOT / "launcher")
+        "import aero.core, aero.app, aero.crash, aero.remote, truststore, certifi; print('modules ok')", cwd=ROOT / "launcher")
     run("powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", str(ROOT / "launcher" / "build.ps1"))
     exe = ROOT / "launcher" / "dist" / "AeroArcana.exe"
     # 2) the built exe must start and import itself

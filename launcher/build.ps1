@@ -2,4 +2,4 @@
 $ErrorActionPreference = "Stop"
 Set-Location $PSScriptRoot
 & .\.venv\Scripts\pyinstaller.exe --noconfirm --clean --onefile --windowed --name AeroArcana --icon icon.ico `
-  --add-data "ui;ui" --collect-submodules webview main.py
+  --add-data "ui;ui" --collect-submodules webview --collect-data certifi --hidden-import truststore main.py

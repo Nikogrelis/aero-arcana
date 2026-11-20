@@ -16,6 +16,7 @@ def _rollback_if_broken(exc):
 
 try:
     from aero import core, crash, remote  # noqa: F401  (import everything up front: catches broken builds)
+    import truststore, certifi  # noqa: F401
     from aero.app import main, cli
 except Exception as e:  # noqa: BLE001
     if "--selftest" in sys.argv:
@@ -24,5 +25,9 @@ except Exception as e:  # noqa: BLE001
 
 if __name__ == "__main__":
     if "--selftest" in sys.argv:
+        try:   # the built exe must also reach the pack over HTTPS (TLS stack, certifi data bundled)
+            core.http_get(core.INDEX_URL, timeout=30)
+        except Exception:
+            sys.exit(4)
         sys.exit(0)
     cli() if "--cli" in sys.argv else main()

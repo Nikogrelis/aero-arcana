@@ -29,12 +29,48 @@ INDEX_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/
 NEWS_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/NEWS.md"
 RELEASE_API = "https://api.github.com/repos/Nikogrelis/aero-arcana/releases/latest"
 UA = "AeroArcanaLauncher/1.0 (+https://github.com/Nikogrelis/aero-arcana)"
-LAUNCHER_VERSION = "1.0.6"
+LAUNCHER_VERSION = "1.0.7"
 
 ROOT = pathlib.Path(os.environ.get("AERO_ROOT") or pathlib.Path(os.environ["APPDATA"]) / ".aeroarcana")
 GAME = ROOT / "game"
 STATE_FILE = ROOT / "launcher.json"
 NO_WINDOW = 0x08000000 if sys.platform == "win32" else 0
+
+def _install_tls():
+    """Verify HTTPS like the browser does (Windows trust store via truststore: fetches missing roots, works with
+    antivirus HTTPS scanning); if that still fails, retry with Mozilla's bundle (certifi).
+    A player's Windows without the root of cdn.modrinth.com failed every mod download with Python's default store."""
+    import ssl
+    try:
+        import truststore
+        primary = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+    except Exception:
+        primary = ssl.create_default_context()
+    try:
+        import certifi
+        fallback = ssl.create_default_context(cafile=certifi.where())
+    except Exception:
+        fallback = None
+
+    class Handler(urllib.request.HTTPSHandler):
+        def https_open(self, req):
+            try:
+                return self.do_open(self.http_class_with(primary), req)
+            except urllib.error.URLError as e:
+                if fallback is None or not isinstance(getattr(e, "reason", None), ssl.SSLError):
+                    raise
+                return self.do_open(self.http_class_with(fallback), req)
+
+        @staticmethod
+        def http_class_with(ctx):
+            import http.client
+            return lambda host, **kw: http.client.HTTPSConnection(host, context=ctx, **{k: v for k, v in kw.items() if k != "context"})
+
+    urllib.request.install_opener(urllib.request.build_opener(Handler()))
+
+
+import urllib.error  # noqa: E402
+_install_tls()
 
 ROOT.mkdir(parents=True, exist_ok=True)
 (ROOT / "logs").mkdir(exist_ok=True)
