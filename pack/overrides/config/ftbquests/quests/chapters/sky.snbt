@@ -1004,15 +1004,6 @@
 					}
 					type: "item"
 				}
-				{
-					count: 4L
-					id: "3165F6245A48A024"
-					item: {
-						count: 1
-						id: "create_walking_steel:leg_foot"
-					}
-					type: "item"
-				}
 			]
 			x: 1.5d
 			y: 3.0d
