@@ -29,7 +29,7 @@ INDEX_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/
 NEWS_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/NEWS.md"
 RELEASE_API = "https://api.github.com/repos/Nikogrelis/aero-arcana/releases/latest"
 UA = "AeroArcanaLauncher/1.0 (+https://github.com/Nikogrelis/aero-arcana)"
-LAUNCHER_VERSION = "1.0.9"
+LAUNCHER_VERSION = "1.0.10"
 
 ROOT = pathlib.Path(os.environ.get("AERO_ROOT") or pathlib.Path(os.environ["APPDATA"]) / ".aeroarcana")
 GAME = ROOT / "game"
@@ -115,10 +115,23 @@ def default_ram() -> int:
     return int(max(6, min(10, t * 0.5)))
 
 
-def http_get(url: str, timeout=60) -> bytes:
-    req = urllib.request.Request(urllib.parse.quote(url, safe=":/%?=&"), headers={"User-Agent": UA})
+def http_get(url: str, timeout=60, headers=None) -> bytes:
+    req = urllib.request.Request(urllib.parse.quote(url, safe=":/%?=&"), headers={"User-Agent": UA, **(headers or {})})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
+
+
+INDEX_API = "https://api.github.com/repos/Nikogrelis/aero-arcana/contents/pack/index.json?ref=main"
+
+
+def _fresh_index_bytes() -> bytes:
+    """GitHub API returns the current file at once; raw.githubusercontent.com caches up to ~5 min after a push
+    (a stale manifest pointed at an updated NeoForge bundle -> 'checksum mismatch'). Raw URL stays as fallback."""
+    try:
+        return http_get(INDEX_API, timeout=30, headers={"Accept": "application/vnd.github.raw"})
+    except Exception as e:
+        log.warning("index via API failed (%s), using raw URL", e)
+        return http_get(INDEX_URL + f"?t={int(time.time())}", timeout=30)
 
 
 def sha1_file(p: pathlib.Path) -> str:
@@ -177,7 +190,7 @@ class State:
 def fetch_index(state: State) -> dict:
     cache = ROOT / "index.cache.json"
     try:
-        data = http_get(INDEX_URL + f"?t={int(time.time())}", timeout=30)
+        data = _fresh_index_bytes()
         idx = json.loads(data)
         cache.write_bytes(data)
         return idx
