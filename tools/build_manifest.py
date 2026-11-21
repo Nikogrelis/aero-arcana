@@ -23,6 +23,7 @@ CF = {
     "ftb-teams-neoforge-2101.1.12.jar": 9434081,
     "ftb-filter-system-neoforge-21.1.4.jar": 7429011,
     "loconautics-0.1.3BETA.jar": 9627028,
+    "let_it_walk-0.1.5.jar": 9540966,      # Let it Walk! (ARR: never re-hosted, downloaded from CurseForge)
 }
 SERVER_ONLY = {"aero_creeper_guard-1.0.0.jar"}
 DROP = {"automodpack-mc1.21.1-neoforge-4.0.7.jar"}  # replaced by this launcher
@@ -72,6 +73,17 @@ def main(ref_zip):
             url = REL + name
             own.append(name)
         files.append({"path": f"mods/{name}", "url": url, "sha1": sha1, "size": size, "kind": "mod", "policy": "force"})
+    # CurseForge mods added after the reference client archive was built
+    for name, fid in CF.items():
+        if name in jars:
+            continue
+        src = SRC / "local-cf" / name
+        if not src.exists():
+            problems.append(f"missing {src}")
+            continue
+        data = src.read_bytes()
+        files.append({"path": f"mods/{name}", "url": cf_url(fid, name), "sha1": hashlib.sha1(data).hexdigest(),
+                      "size": len(data), "kind": "mod", "policy": "force"})
     ov = ROOT / "pack" / "overrides"
     for f in sorted(p for p in ov.rglob("*") if p.is_file()):
         rel = f.relative_to(ov).as_posix()

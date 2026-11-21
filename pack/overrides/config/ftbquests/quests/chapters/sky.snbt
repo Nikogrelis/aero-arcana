@@ -971,6 +971,10 @@
 			dependencies: [
 				"0C6B7E69750DD029"
 			]
+			icon: {
+				count: 1
+				id: "let_it_walk:walker_core"
+			}
 			id: "306928D1D2A1AD9C"
 			rewards: [
 				{
@@ -996,11 +1000,28 @@
 			size: 1.5d
 			tasks: [
 				{
-					count: 4L
 					id: "35C2FB3848862E53"
 					item: {
 						count: 1
-						id: "create_walking_steel:leg_base"
+						id: "let_it_walk:walker_core"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3165F6245A48A024"
+					item: {
+						count: 1
+						id: "let_it_walk:leg_hinge"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "24553DE77BFAB3CB"
+					item: {
+						count: 1
+						id: "let_it_walk:leg_foot"
 					}
 					type: "item"
 				}
