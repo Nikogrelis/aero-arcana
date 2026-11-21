@@ -29,7 +29,7 @@ INDEX_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/
 NEWS_URL = "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/NEWS.md"
 RELEASE_API = "https://api.github.com/repos/Nikogrelis/aero-arcana/releases/latest"
 UA = "AeroArcanaLauncher/1.0 (+https://github.com/Nikogrelis/aero-arcana)"
-LAUNCHER_VERSION = "1.0.8"
+LAUNCHER_VERSION = "1.0.9"
 
 ROOT = pathlib.Path(os.environ.get("AERO_ROOT") or pathlib.Path(os.environ["APPDATA"]) / ".aeroarcana")
 GAME = ROOT / "game"
@@ -226,7 +226,7 @@ def download_files(todo: list, state: State, progress) -> None:
         dst.parent.mkdir(parents=True, exist_ok=True)
         tmp = dst.with_name(dst.name + ".part")
         last_err = None
-        for attempt in range(3):
+        for attempt in range(5):   # slow/unstable connections time out now and then
             try:
                 req = urllib.request.Request(urllib.parse.quote(f["url"], safe=":/%?=&"), headers={"User-Agent": UA})
                 h = hashlib.sha1()
@@ -247,7 +247,7 @@ def download_files(todo: list, state: State, progress) -> None:
             except Exception as e:
                 last_err = e
                 log.warning("download %s attempt %d: %s", rel, attempt + 1, e)
-                time.sleep(1 + attempt * 2)
+                time.sleep(2 + attempt * 3)
         raise RuntimeError(f"Не удалось скачать {rel}: {last_err}")
 
     stop = threading.Event()
@@ -337,7 +337,10 @@ def ensure_neoforge(idx: dict, progress) -> None:
     its installer + libraries come from our GitHub release, the official installer runs with --offline."""
     b = idx.get("neoforge_bundle")
     ver = idx["neoforge"]
-    if not b or (ROOT / "versions" / f"neoforge-{ver}" / f"neoforge-{ver}.json").exists():
+    version_json = ROOT / "versions" / f"neoforge-{ver}" / f"neoforge-{ver}.json"
+    # PortableMC also needs the client patched by the installer; a half-finished install has the json but not this
+    patched = ROOT / "libraries" / "net" / "neoforged" / "neoforge" / ver / f"neoforge-{ver}-client.jar"
+    if not b or (version_json.exists() and patched.exists()):
         return
     import io, zipfile
     progress("install", None, "Загрузка NeoForge…")
@@ -358,14 +361,21 @@ def ensure_neoforge(idx: dict, progress) -> None:
     prof = ROOT / "launcher_profiles.json"
     if not prof.exists():
         prof.write_text('{"profiles": {}}', encoding="utf-8")
-    progress("install", None, "Установка NeoForge… (только в первый раз, около минуты)")
-    r = subprocess.run([str(java), "-jar", str(installer), "--install-client", str(ROOT), "--offline"],
-                       cwd=installer.parent, capture_output=True, text=True, encoding="utf-8", errors="replace",
-                       creationflags=NO_WINDOW, timeout=900)
-    (ROOT / "logs" / "neoforge-installer.log").write_text(r.stdout + r.stderr, encoding="utf-8")
-    if not (ROOT / "versions" / f"neoforge-{ver}" / f"neoforge-{ver}.json").exists():
-        raise RuntimeError("Установщик NeoForge завершился с ошибкой, подробности: logs/neoforge-installer.log")
-    log.info("neoforge %s installed offline", ver)
+    out = []
+    for attempt in (1, 2):
+        progress("install", None, "Установка NeoForge… (только в первый раз, около минуты)")
+        r = subprocess.run([str(java), "-jar", str(installer), "--install-client", str(ROOT), "--offline"],
+                           cwd=installer.parent, capture_output=True, text=True, encoding="utf-8", errors="replace",
+                           creationflags=NO_WINDOW, timeout=900)
+        out.append(f"--- attempt {attempt}, exit {r.returncode}\n{r.stdout}{r.stderr}")
+        (ROOT / "logs" / "neoforge-installer.log").write_text("\n".join(out), encoding="utf-8")
+        if version_json.exists() and patched.exists():
+            log.info("neoforge %s installed offline (attempt %d)", ver, attempt)
+            return
+        log.warning("neoforge installer attempt %d incomplete (json=%s patched=%s)", attempt, version_json.exists(), patched.exists())
+        version_json.unlink(missing_ok=True)      # make the next attempt start clean
+        java = _vanilla_and_java(idx, progress)    # re-verify vanilla files (a broken download breaks the patcher)
+    raise RuntimeError("Установщик NeoForge завершился с ошибкой, подробности: logs/neoforge-installer.log")
 
 
 PMC_URL ="https://github.com/theorzr/portablemc/releases/download/v5.0.6/portablemc-5.0.6-windows-x86_64-msvc.zip"

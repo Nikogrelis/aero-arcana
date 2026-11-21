@@ -62,7 +62,9 @@ def collect(started_at: float) -> dict[str, pathlib.Path]:
     if hs:
         files["jvm-crash"] = max(hs, key=lambda p: p.stat().st_mtime)
     for name, p in (("latest.log", g / "logs" / "latest.log"), ("debug.log", g / "logs" / "debug.log"),
-                    ("portablemc.log", core.ROOT / "logs" / "portablemc.log"), ("launcher.log", core.ROOT / "logs" / "launcher.log")):
+                    ("portablemc.log", core.ROOT / "logs" / "portablemc.log"), ("launcher.log", core.ROOT / "logs" / "launcher.log"),
+                    ("neoforge-installer.log", core.ROOT / "logs" / "neoforge-installer.log"),
+                    ("portablemc-vanilla.log", core.ROOT / "logs" / "portablemc-vanilla.log")):
         if p.exists():
             files[name] = p
     return files
@@ -97,7 +99,7 @@ def diagnose(texts: list[str]) -> str:
 def report(nick: str, code: int, started_at: float, pack_version: str, error: str = "") -> dict:
     files = collect(started_at)
     links, texts = {}, []
-    for key in ("crash-report", "jvm-crash", "latest.log", "debug.log", "portablemc.log", "launcher.log"):
+    for key in ("crash-report", "jvm-crash", "latest.log", "debug.log", "portablemc.log", "launcher.log", "neoforge-installer.log", "portablemc-vanilla.log"):
         if key not in files:
             continue
         t = _read_tail(files[key])
