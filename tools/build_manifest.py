@@ -74,6 +74,15 @@ def main(ref_zip):
             url = REL + name
             own.append(name)
         files.append({"path": f"mods/{name}", "url": url, "sha1": sha1, "size": size, "kind": "mod", "policy": "force"})
+    # Modrinth mods added after the reference archive (pack-src/extra_modrinth.json, files in pack-src/extra-mods)
+    for e in json.loads((SRC / "extra_modrinth.json").read_text(encoding="utf-8")) if (SRC / "extra_modrinth.json").exists() else []:
+        if e["file"] in jars:
+            continue
+        data = (SRC / "extra-mods" / e["file"]).read_bytes()
+        if hashlib.sha512(data).hexdigest() != e["sha512"]:
+            problems.append(f"sha512 mismatch for {e['file']}")
+        files.append({"path": f"mods/{e['file']}", "url": e["url"], "sha1": hashlib.sha1(data).hexdigest(),
+                      "size": len(data), "kind": "mod", "policy": "force"})
     # CurseForge mods added after the reference client archive was built
     for name, fid in CF.items():
         if name in jars:

@@ -1,7 +1,7 @@
 {
  "formatVersion": 1,
  "name": "Aero Arcana",
- "version": "2026.11.21-1400",
+ "version": "2026.11.21-1601",
  "minecraft": "1.21.1",
  "neoforge": "21.1.266",
  "server": {
@@ -1615,6 +1615,22 @@
    "url": "https://cdn.modrinth.com/data/YDc8cRWF/versions/6d4I4VPO/witherreincarnated-1.21.1-1.0.5.jar",
    "sha1": "7d5b44a8ec9e6c4f4624382e3a804b32160450de",
    "size": 12616597,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/emi-1.1.24+1.21.1+neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/5sIPA1To/emi-1.1.24%2B1.21.1%2Bneoforge.jar",
+   "sha1": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a",
+   "size": 1111538,
+   "kind": "mod",
+   "policy": "force"
+  },
+  {
+   "path": "mods/emi_create_schematics-1.1.0.jar",
+   "url": "https://cdn.modrinth.com/data/5bgqgixq/versions/opyfkMHl/emi_create_schematics-1.1.0.jar",
+   "sha1": "a34c4df9c1a39c553ac7cef28bb78132e4185cb6",
+   "size": 848445,
    "kind": "mod",
    "policy": "force"
   },
