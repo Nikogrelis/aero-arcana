@@ -1,7 +1,7 @@
 {
  "formatVersion": 1,
  "name": "Aero Arcana",
- "version": "2026.11.21-1359",
+ "version": "2026.11.21-1400",
  "minecraft": "1.21.1",
  "neoforge": "21.1.266",
  "server": {
@@ -679,14 +679,6 @@
    "url": "https://cdn.modrinth.com/data/H6bJ8Ju4/versions/csCe2v7f/create_tweaked_controllers-1.21.1-1.2.7.jar",
    "sha1": "6358da213d0eff982c3431a8d004a3e912f7957a",
    "size": 303343,
-   "kind": "mod",
-   "policy": "force"
-  },
-  {
-   "path": "mods/create_walking_steel-1.0.0.jar",
-   "url": "https://cdn.modrinth.com/data/YDfSQUPe/versions/QcrDonC0/create_walking_steel-1.0.0.jar",
-   "sha1": "a5a12f55ef41e8e9259a50d25f868c7452d44b4c",
-   "size": 86191,
    "kind": "mod",
    "policy": "force"
   },

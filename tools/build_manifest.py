@@ -26,7 +26,8 @@ CF = {
     "let_it_walk-0.1.5.jar": 9540966,      # Let it Walk! (ARR: never re-hosted, downloaded from CurseForge)
 }
 SERVER_ONLY = {"aero_creeper_guard-1.0.0.jar"}
-DROP = {"automodpack-mc1.21.1-neoforge-4.0.7.jar"}  # replaced by this launcher
+DROP = {"automodpack-mc1.21.1-neoforge-4.0.7.jar",   # replaced by this launcher
+        "create_walking_steel-1.0.0.jar"}            # replaced by Let it Walk! (21.11)
 
 # Configs the pack owns: always overwritten (gameplay must match the server / our fixes).
 FORCE_PREFIX = ("config/ftbquests/", "config/coldsweat/world.toml", "config/coldsweat/main.toml",
