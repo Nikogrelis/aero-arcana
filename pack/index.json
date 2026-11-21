@@ -1,7 +1,7 @@
 {
  "formatVersion": 1,
  "name": "Aero Arcana",
- "version": "2026.11.21-1742",
+ "version": "2026.11.21-1912",
  "minecraft": "1.21.1",
  "neoforge": "21.1.266",
  "server": {
@@ -4027,6 +4027,18 @@
    "path": "config/aeronauticswinds-client.toml",
    "values": {
     "waterWaves": false
+   }
+  },
+  {
+   "id": "hidan-sable-tcp-2026-11-21",
+   "nicks": [
+    "Hidan"
+   ],
+   "comment": "Sub-levels (walkers/ships) rendered stuck in the air only for Hidan: Sable movement over UDP through the MajorCore proxy is lossy. Fall back to the game TCP connection.",
+   "op": "set",
+   "path": "config/sable-client.toml",
+   "values": {
+    "attempt_udp_networking": false
    }
   }
  ],

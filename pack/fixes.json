@@ -1,5 +1,23 @@
 [
- {"id": "atmospherics-wave-render-off-2026-11-19",
+ {
+  "id": "atmospherics-wave-render-off-2026-11-19",
   "comment": "Create Atmospherics 2.0.0 OceanWaveRenderer.updateCoarse crashes the GL driver (EXCEPTION_ACCESS_VIOLATION in glTexSubImage2D, AMD Radeon 760M). Turn the visual waves off; players may turn them back on in the mod config.",
-  "op": "set", "path": "config/aeronauticswinds-client.toml", "values": {"waterWaves": false}}
+  "op": "set",
+  "path": "config/aeronauticswinds-client.toml",
+  "values": {
+   "waterWaves": false
+  }
+ },
+ {
+  "id": "hidan-sable-tcp-2026-11-21",
+  "nicks": [
+   "Hidan"
+  ],
+  "comment": "Sub-levels (walkers/ships) rendered stuck in the air only for Hidan: Sable movement over UDP through the MajorCore proxy is lossy. Fall back to the game TCP connection.",
+  "op": "set",
+  "path": "config/sable-client.toml",
+  "values": {
+   "attempt_udp_networking": false
+  }
+ }
 ]
