@@ -1,7 +1,7 @@
 {
  "formatVersion": 1,
  "name": "Aero Arcana",
- "version": "2026.11.21-1733",
+ "version": "2026.11.21-1735",
  "minecraft": "1.21.1",
  "neoforge": "21.1.266",
  "server": {
@@ -4031,7 +4031,7 @@
   }
  ],
  "neoforge_bundle": {
-  "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/files/neoforge-21.1.266-bundle.zip",
+  "url": "https://github.com/Nikogrelis/aero-arcana/releases/download/files/neoforge-21.1.266-bundle-4383cde85377.zip",
   "sha256": "4383cde8537759c067ee978985d580e1968e577618320932057e2a32b644616c"
  },
  "launcher": {

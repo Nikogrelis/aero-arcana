@@ -110,7 +110,9 @@ def main(ref_zip):
         "files": files,
         "fixes": json.loads((ROOT / "pack" / "fixes.json").read_text(encoding="utf-8")),
     }
-    bundle = ROOT / "build" / "neoforge-21.1.266-bundle.zip"
+    # immutable, content-addressed name: re-uploading under the same name is served stale by GitHub's CDN
+    bundles = sorted((ROOT / "build").glob("neoforge-21.1.266-bundle-*.zip"), key=lambda p: p.stat().st_mtime)
+    bundle = bundles[-1] if bundles else ROOT / "build" / "none.zip"
     if bundle.exists():
         index["neoforge_bundle"] = {"url": REL + bundle.name, "sha256": hashlib.sha256(bundle.read_bytes()).hexdigest()}
     exe = ROOT / "launcher" / "dist" / "AeroArcana.exe"
