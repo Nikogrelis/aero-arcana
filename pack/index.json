@@ -1,7 +1,7 @@
 {
  "formatVersion": 1,
  "name": "Aero Arcana",
- "version": "2026.11.21-1912",
+ "version": "2026.11.26-0042",
  "minecraft": "1.21.1",
  "neoforge": "21.1.266",
  "server": {
@@ -2013,8 +2013,8 @@
   {
    "path": "config/coldsweat/world.toml",
    "url": "https://raw.githubusercontent.com/Nikogrelis/aero-arcana/main/pack/overrides/config/coldsweat/world.toml",
-   "sha1": "5c06c9ce683e9243def167c9b320406b38008c08",
-   "size": 25814,
+   "sha1": "9b0c5efaa29f15810cc558cd65e6a03e8b1a0907",
+   "size": 26140,
    "kind": "config",
    "policy": "force"
   },
